@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+# reports/ is generated each run; uncomment to keep it out of git history:
+# reports/
