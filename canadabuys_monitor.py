@@ -294,7 +294,18 @@ def load_rows() -> tuple[list[dict], list[str]]:
             text = fh.read()
     else:
         import requests  # imported lazily so --help works without the dep
-        resp = requests.get(OPEN_TENDERS_URL, timeout=120)
+        # CanadaBuys' CDN returns 403 to requests with a default/library
+        # user-agent, so present a normal browser UA and accept headers.
+        headers = {
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/124.0.0.0 Safari/537.36"
+            ),
+            "Accept": "text/csv,application/octet-stream,text/plain,*/*",
+            "Accept-Language": "en-CA,en;q=0.9",
+        }
+        resp = requests.get(OPEN_TENDERS_URL, headers=headers, timeout=120)
         resp.raise_for_status()
         resp.encoding = "utf-8-sig"
         text = resp.text
