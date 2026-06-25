@@ -3,8 +3,8 @@
 A daily GitHub Actions job that pulls the Government of Canada's official
 **CanadaBuys** open-tender feed, filters it down to **IT / informatics**
 opportunities, flags the ones realistically **doable with an AI assistant like
-Claude**, extracts **technical and business requirements**, and emails you a
-formatted report.
+Claude**, extracts **technical and business requirements**, and publishes a
+static HTML report.
 
 It runs entirely on a GitHub-hosted runner, so it needs no server of your own
 and no paid data subscription. The data is the federal government's own open
@@ -14,17 +14,19 @@ data, published under the Open Government Licence – Canada.
 
 ## What it produces
 
-Every run writes three files into `reports/`:
+Every run writes dated report files plus "latest" website files into `reports/`:
 
 | File | Purpose |
 |------|---------|
-| `canadabuys_it_<date>.html` | Styled report — used as the email body and viewable on its own |
+| `index.html` | Dashboard with the latest report plus links to all dated reports |
+| `latest.md` / `latest.csv` | Latest Markdown and CSV outputs |
+| `canadabuys_it_<date>.html` | Dated styled report for history |
 | `canadabuys_it_<date>.md`   | Same content in Markdown |
 | `canadabuys_it_<date>.csv`  | Flat shortlist for sorting/tracking in a spreadsheet |
 
-Each opportunity card shows the buyer, closing date, GSIN/UNSPSC codes, contact,
-a link to the full notice, **why it was tagged as IT**, the **Claude-fit signals**,
-and the **extracted technical + business requirements**.
+Each opportunity card is grouped by IT category and shows the buyer, closing date,
+GSIN/UNSPSC codes, contact, a link to the full notice, **why it was tagged as IT**,
+the **Claude-fit signals**, and the **extracted technical + business requirements**.
 
 Opportunities are ranked **Strong fit → Possible fit → Unlikely** for Claude, then
 by closing date.
@@ -40,7 +42,7 @@ CanadaBuys open-tenders CSV  ──►  filter to IT  ──►  flag Claude-fit
                                                                               │
                                             HTML + Markdown + CSV  ◄──────────┘
                                                      │
-                                          email (optional) + workflow artifact
+                                          S3 static site + workflow artifact
 ```
 
 Source feed: `https://canadabuys.canada.ca/opendata/pub/openTenderNotice-ouvertAvisAppelOffres.csv`
@@ -66,9 +68,34 @@ On GitHub: **Settings → Actions → General →** allow workflows to run. The 
 (`cron: "0 14 * * *"`, ~9–10am Eastern) is already set in the workflow. You can also
 trigger it any time from the **Actions** tab via **Run workflow** (workflow_dispatch).
 
-### 3. (Optional) Enable email
-The report is always saved as a downloadable **artifact** on each run, so email is
-optional. To also receive it by email, add these repository secrets under
+### 3. Publish to `canadabuysitmonitor.rsdevops.click`
+
+The lowest-cost version is a public S3 static website:
+
+1. Create an S3 bucket named exactly `canadabuysitmonitor.rsdevops.click`.
+2. Enable static website hosting with `index.html` as the index document.
+3. Allow public read for the generated report files.
+4. In Route 53 hosted zone `rsdevops.click`, create a CNAME:
+   `canadabuysitmonitor.rsdevops.click` →
+   `canadabuysitmonitor.rsdevops.click.s3-website-us-east-1.amazonaws.com`
+   if the bucket is in `us-east-1`.
+5. Create a GitHub Actions deploy role that can sync to that bucket.
+6. Add these GitHub repository settings:
+
+| Type | Name | Example |
+|------|------|---------|
+| Variable | `S3_BUCKET` | `canadabuysitmonitor.rsdevops.click` |
+| Variable | `AWS_REGION` | `us-east-1` |
+| Secret | `AWS_ROLE_TO_ASSUME` | `arn:aws:iam::310655363801:role/canadabuys-it-monitor-s3-publisher` |
+
+S3 website endpoints are HTTP-only. If you want HTTPS at the custom domain, put
+CloudFront in front of the bucket and point Route 53 at the CloudFront distribution
+instead.
+
+### 4. (Optional) Enable email
+The report is always saved as a downloadable **artifact** on each run and can be
+published to S3, so email is optional. To also receive it by email, set
+`SEND_EMAIL` to `true` in the workflow and add these repository secrets under
 **Settings → Secrets and variables → Actions → New repository secret**:
 
 | Secret | Example | Notes |
@@ -84,8 +111,7 @@ optional. To also receive it by email, add these repository secrets under
 > (Google Account → Security → App passwords) and use that 16-character value as
 > `SMTP_PASS`. You enter it directly into GitHub — it is never stored in the code.
 
-If the SMTP secrets are missing, the email step is skipped automatically and the
-job still succeeds.
+If `SEND_EMAIL` is `false`, email is skipped.
 
 ---
 
@@ -99,6 +125,7 @@ Set as workflow env vars (or locally as environment variables):
 | `MAX_DESC_CHARS` | `1200` | Truncate long notice summaries in the report. |
 | `OUTPUT_DIR` | `reports` | Where the files are written. |
 | `CANADABUYS_LOCAL_CSV` | *(unset)* | Path to a local CSV instead of downloading — used for testing. |
+| `SEND_EMAIL` | `false` | Set to `true` to send the report over SMTP as well as publishing it. |
 
 To change the cadence, edit the `cron` line in the workflow
 (e.g. weekly Mondays = `0 14 * * 1`). Cron is in **UTC**.
@@ -122,13 +149,19 @@ CANADABUYS_LOCAL_CSV=sample_open_tenders.csv DAYS_BACK=3 python canadabuys_monit
 
 ## Tuning the filters
 
-All keyword lists live at the top of `canadabuys_monitor.py`:
+The category and scoring lists live at the top of `canadabuys_monitor.py`:
 
-- `IT_KEYWORDS`, `IT_UNSPSC_PREFIXES`, `IT_GSIN_PREFIXES` — what counts as IT.
+- `IT_CATEGORIES`, `IT_UNSPSC_PREFIXES`, `IT_GSIN_PREFIXES` — what counts as IT
+  and which category it belongs to.
+- `NON_IT_EXCLUSION_TERMS`, `STAFFING_EXCLUSION_TERMS` — broad false-positive
+  blockers for healthcare, construction, generic admin/staffing, and similar notices.
 - `CLAUDE_POSITIVE` / `CLAUDE_NEGATIVE` — what makes something a good/bad Claude fit.
 - `TECHNICAL_HINTS` / `BUSINESS_HINTS` — how requirement sentences are sorted.
 
-Edit those lists to make the report stricter or broader.
+Edit those lists to make the report stricter or broader. If a notice is being
+included only because of a generic word such as "website", "application", or
+"information management", add a concrete category signal or an exclusion term
+rather than broadening the global filter.
 
 ---
 

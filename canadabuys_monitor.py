@@ -15,6 +15,7 @@ Environment variables (all optional):
   CANADABUYS_LOCAL_CSV Path to a local CSV instead of downloading (for testing)
   OUTPUT_DIR           Where to write reports (default: ./reports)
   MAX_DESC_CHARS       Truncate long descriptions in the report (default: 1200)
+  SEND_EMAIL           Send SMTP email when set to true/1/yes (default: false)
 """
 
 from __future__ import annotations
@@ -37,22 +38,50 @@ OPEN_TENDERS_URL = (
 # Keyword dictionaries
 # --------------------------------------------------------------------------- #
 
-# Terms that indicate an IT / informatics opportunity.
-IT_KEYWORDS = [
-    "information technology", "informatics", "software", "application",
-    "cloud", "saas", "paas", "iaas", "database", "data analytics", "analytics",
-    "data management", "data migration", "cyber", "cybersecurity",
-    "network", "server", "computer", "digital", "website", "web portal",
-    "web application", "system integration", "systems integration", "api ",
-    "machine learning", "artificial intelligence", "data science",
-    "geographic information system", " gis ", "erp", "crm", "devops",
-    "programming", "developer", "development services", "it services",
-    "it support", "service desk", "help desk", "helpdesk", "it security",
-    "information management", " im/it", "im / it", "telecommunication",
-    "data centre", "data center", "dashboard", "business intelligence",
-    "etl", "automation", "robotic process", "modernization of",
-    "software licence", "software license", "licensing", "platform",
-]
+# Category-specific signals. Broad words like "website", "application", and
+# "information management" are intentionally excluded unless paired with a more
+# concrete IT delivery signal.
+IT_CATEGORIES = {
+    "Software and application development": [
+        "custom software", "software development", "application development",
+        "application services", "web application", "web portal", "developer",
+        "programmer", "programming", "api ", "system integration",
+        "systems integration", "modernization of application",
+        "technology research and development",
+    ],
+    "Cloud, data and analytics": [
+        "cloud", "saas", "paas", "iaas", "database", "data analytics",
+        "data analysis", "data management platform", "data migration",
+        "data science", "dashboard", "business intelligence", "etl",
+        "machine learning", "artificial intelligence",
+    ],
+    "Cybersecurity and identity": [
+        "cyber", "cybersecurity", "it security", "security information",
+        "identity management", "single sign-on", "sso", "encryption",
+        "antivirus", "threat", "vulnerability",
+    ],
+    "IT infrastructure and operations": [
+        "network infrastructure", "network", "server", "storage",
+        "data centre", "data center", "telecommunication", "service desk",
+        "help desk", "helpdesk", "it support", "system administration",
+        "computer services", "computer application support",
+    ],
+    "Enterprise platforms": [
+        "erp", "crm", "fiori", "abap", "workflow development",
+        "enterprise platform", "platform configuration",
+    ],
+    "Digital records and information management": [
+        "digital collection", "metadata", "records management",
+        "controlled metadata schema", "information management system",
+        "document management system",
+    ],
+    "Software licensing": [
+        "software licence", "software license", "software licensing",
+        "licence keys", "license keys", "adp software",
+    ],
+}
+
+IT_KEYWORDS = sorted({kw for kws in IT_CATEGORIES.values() for kw in kws})
 
 # UNSPSC family prefixes that map to IT goods/services.
 IT_UNSPSC_PREFIXES = ("43", "8111")
@@ -60,6 +89,29 @@ IT_UNSPSC_PREFIXES = ("43", "8111")
 # GSIN prefixes commonly used for IT/telecom on CanadaBuys.
 # D = Information processing & related telecom services; N70/N71 = ADP equip/software.
 IT_GSIN_PREFIXES = ("D", "N70", "N71", "7010", "7030", "7035", "7042")
+
+IT_UNSPSC_TERMS = [
+    "computer services", "information technology", "software",
+    "application or technology", "data services",
+]
+
+NON_IT_EXCLUSION_TERMS = [
+    "psychiatry", "psychiatric", "healthcare provider", "health administration",
+    "medical", "nursing", "dental", "construction", "runway", "airfield",
+    "furniture", "office furniture", "janitorial", "food service",
+    "vehicle", "fleet", "security guard",
+]
+
+STAFFING_EXCLUSION_TERMS = [
+    "temporary help services", "temporary personnel services",
+    "staff augmentation", "resource augmentation", "per diem",
+]
+
+STAFFING_IT_ALLOW_TERMS = [
+    "programmer", "software developer", "developer", "technical analyst",
+    "systems analyst", "business analyst", "application support",
+    "database administrator", "network analyst", "cybersecurity analyst",
+]
 
 # Positive signals: work an AI assistant can substantially help deliver remotely.
 CLAUDE_POSITIVE = [
@@ -202,6 +254,8 @@ class Opportunity:
     row: dict
     f: Fields
     it_reasons: list[str] = field(default_factory=list)
+    it_category: str = ""
+    exclusion_reasons: list[str] = field(default_factory=list)
     claude_tier: str = ""
     claude_score: int = 0
     claude_signals: list[str] = field(default_factory=list)
@@ -222,24 +276,72 @@ class Opportunity:
     @property
     def haystack(self) -> str:
         parts = [self.g(self.f.title), self.g(self.f.description),
-                 self.g(self.f.gsin_desc)]
+                 self.g(self.f.gsin_desc), self.g(self.f.unspsc),
+                 self.g(self.f.category), self.g(self.f.notice_type)]
         return " ".join(parts).lower()
+
+
+def category_hits(text: str) -> dict[str, list[str]]:
+    hits = {}
+    for category, keywords in IT_CATEGORIES.items():
+        matched = sorted({k.strip() for k in keywords if match_kw(text, k)})
+        if matched:
+            hits[category] = matched
+    return hits
+
+
+def dominant_category(hits: dict[str, list[str]]) -> str:
+    if not hits:
+        return "Other IT"
+    return sorted(hits.items(), key=lambda item: (-len(item[1]), item[0]))[0][0]
+
+
+def rejection_reasons(opp: Opportunity) -> list[str]:
+    hay = opp.haystack
+    reasons = []
+    non_it = [t for t in NON_IT_EXCLUSION_TERMS if match_kw(hay, t)]
+    staffing = [t for t in STAFFING_EXCLUSION_TERMS if match_kw(hay, t)]
+    staffing_allowed = any(match_kw(hay, t) for t in STAFFING_IT_ALLOW_TERMS)
+    if non_it:
+        reasons.append("non-IT domain: " + ", ".join(non_it[:3]))
+    if staffing and not staffing_allowed:
+        reasons.append("generic staffing/admin: " + ", ".join(staffing[:3]))
+    return reasons
 
 
 def is_it(opp: Opportunity) -> bool:
     reasons = []
     hay = opp.haystack
-    hits = [k.strip() for k in IT_KEYWORDS if match_kw(hay, k)]
-    if hits:
-        reasons.append("keywords: " + ", ".join(sorted(set(hits))[:6]))
+    hits_by_category = category_hits(hay)
+    if hits_by_category:
+        opp.it_category = dominant_category(hits_by_category)
+        hits = hits_by_category[opp.it_category]
+        reasons.append(f"{opp.it_category}: " + ", ".join(hits[:6]))
+
     unspsc = opp.g(opp.f.unspsc)
-    if unspsc and unspsc.lstrip().startswith(IT_UNSPSC_PREFIXES):
-        reasons.append(f"UNSPSC {unspsc[:4]}…")
+    unspsc_norm = unspsc.lstrip("* ").lower()
+    if unspsc_norm.startswith(IT_UNSPSC_PREFIXES):
+        reasons.append(f"UNSPSC {unspsc[:4]}...")
+    elif unspsc and any(term in unspsc_norm for term in IT_UNSPSC_TERMS):
+        reasons.append(f"UNSPSC/category {unspsc.strip()[:80]}")
+
     gsin = opp.g(opp.f.gsin).upper()
-    if gsin and gsin.startswith(IT_GSIN_PREFIXES):
+    if gsin.lstrip("* ").startswith(IT_GSIN_PREFIXES):
         reasons.append(f"GSIN {gsin}")
+
+    if not reasons:
+        opp.exclusion_reasons = ["no strong IT category, UNSPSC, or GSIN signal"]
+        return False
+
+    rejects = rejection_reasons(opp)
+    if rejects:
+        opp.exclusion_reasons = rejects
+        return False
+
+    if not opp.it_category:
+        opp.it_category = "Other IT"
     opp.it_reasons = reasons
-    return bool(reasons)
+    return True
 
 
 def score_claude(opp: Opportunity) -> None:
@@ -337,11 +439,12 @@ def build(days_back: int) -> tuple[list[Opportunity], Fields, dict]:
     today = dt.date.today()
     cutoff = today - dt.timedelta(days=days_back)
 
-    stats = {"total_rows": len(rows), "it_total": 0, "in_window": 0}
+    stats = {"total_rows": len(rows), "it_total": 0, "in_window": 0, "rejected": 0}
     opps: list[Opportunity] = []
     for row in rows:
         opp = Opportunity(row=row, f=f)
         if not is_it(opp):
+            stats["rejected"] += 1
             continue
         stats["it_total"] += 1
         pub = parse_date(opp.g(f.pub_date))
@@ -354,7 +457,8 @@ def build(days_back: int) -> tuple[list[Opportunity], Fields, dict]:
 
     tier_rank = {"Strong fit": 0, "Possible fit": 1,
                  "Possible fit (with caveats)": 2, "Unlikely": 3}
-    opps.sort(key=lambda o: (tier_rank.get(o.claude_tier, 9),
+    opps.sort(key=lambda o: (o.it_category,
+                             tier_rank.get(o.claude_tier, 9),
                              parse_date(o.g(f.close_date)) or dt.date.max))
     return opps, f, stats
 
@@ -367,79 +471,175 @@ def _esc(s: str) -> str:
     return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def render_html(opps, f, stats, days_back) -> str:
-    maxc = int(os.environ.get("MAX_DESC_CHARS", "1200"))
-    today = dt.date.today().isoformat()
-    strong = sum(1 for o in opps if o.claude_tier == "Strong fit")
-    possible = sum(1 for o in opps if o.claude_tier.startswith("Possible"))
+def grouped_by_category(opps: list[Opportunity]) -> list[tuple[str, list[Opportunity]]]:
+    grouped: dict[str, list[Opportunity]] = {}
+    for opp in opps:
+        grouped.setdefault(opp.it_category or "Other IT", []).append(opp)
+    return [(category, grouped[category]) for category in sorted(grouped)]
 
+
+REPORT_RE = re.compile(r"^canadabuys_it_(\d{4}-\d{2}-\d{2})\.(html|md|csv)$")
+
+
+def report_archive(out_dir: str) -> list[tuple[str, dict[str, str]]]:
+    archive: dict[str, dict[str, str]] = {}
+    try:
+        names = os.listdir(out_dir)
+    except FileNotFoundError:
+        names = []
+    for name in names:
+        m = REPORT_RE.match(name)
+        if not m:
+            continue
+        date, ext = m.groups()
+        archive.setdefault(date, {})[ext] = name
+    return sorted(archive.items(), reverse=True)
+
+
+def render_archive(archive: list[tuple[str, dict[str, str]]]) -> str:
+    if not archive:
+        return "<p>No archived reports yet.</p>"
+    rows = []
+    for date, files in archive:
+        links = []
+        for ext, label in [("html", "HTML"), ("csv", "CSV"), ("md", "Markdown")]:
+            if ext in files:
+                links.append(f'<a href="{_esc(files[ext])}">{label}</a>')
+        rows.append(
+            f"<tr><td>{_esc(date)}</td><td>{' · '.join(links) or '—'}</td></tr>"
+        )
+    return f"""
+    <table class="archive-table">
+      <thead><tr><th>Date</th><th>Files</th></tr></thead>
+      <tbody>{''.join(rows)}</tbody>
+    </table>"""
+
+
+def render_report_body(opps, f, stats, days_back) -> str:
+    maxc = int(os.environ.get("MAX_DESC_CHARS", "1200"))
     badge = {
         "Strong fit": "#0a7d28", "Possible fit": "#b8860b",
         "Possible fit (with caveats)": "#b8860b", "Unlikely": "#777",
     }
-    cards = []
-    for o in opps:
-        url = o.g(f.notice_url)
-        title_html = f'<a href="{_esc(url)}">{_esc(o.title)}</a>' if url else _esc(o.title)
-        desc = o.description
-        if len(desc) > maxc:
-            desc = desc[:maxc].rsplit(" ", 1)[0] + " …"
-        tech = "".join(f"<li>{_esc(t)}</li>" for t in o.technical_reqs) or "<li><em>See full notice / attachments.</em></li>"
-        biz = "".join(f"<li>{_esc(b)}</li>" for b in o.business_reqs) or "<li><em>See full notice / attachments.</em></li>"
-        attach = o.g(f.attachments)
-        meta = []
-        for label, val in [
-            ("Closes", o.g(f.close_date)), ("Published", o.g(f.pub_date)),
-            ("Buyer", o.g(f.entity)), ("GSIN", o.g(f.gsin)),
-            ("UNSPSC", o.g(f.unspsc)), ("Category", o.g(f.category)),
-            ("Notice type", o.g(f.notice_type)), ("Delivery", o.g(f.regions_delivery)),
-            ("Contact", o.g(f.contact_email) or o.g(f.contact_name)),
-            ("Reference", o.g(f.reference)),
-        ]:
-            if val:
-                meta.append(f"<tr><td class='k'>{label}</td><td>{_esc(val)}</td></tr>")
-        signals = ", ".join(_esc(s) for s in o.claude_signals) or "—"
-        cards.append(f"""
-        <div class="card">
-          <div class="tier" style="background:{badge.get(o.claude_tier,'#777')}">{_esc(o.claude_tier)}</div>
-          <h3>{title_html}</h3>
-          <table class="meta">{''.join(meta)}</table>
-          <p class="why"><strong>Why IT:</strong> {_esc('; '.join(o.it_reasons))}<br>
-             <strong>Claude-fit signals:</strong> {signals}</p>
-          <details open><summary>Technical requirements (extracted)</summary><ul>{tech}</ul></details>
-          <details open><summary>Business requirements (extracted)</summary><ul>{biz}</ul></details>
-          <details><summary>Summary / scope</summary><p>{_esc(desc) or '<em>No description provided.</em>'}</p></details>
-          {f'<p class="attach"><strong>Attachments:</strong> {_esc(attach)}</p>' if attach else ''}
-        </div>""")
+    sections = []
+    for category, category_opps in grouped_by_category(opps):
+        cards = []
+        for o in category_opps:
+            url = o.g(f.notice_url)
+            title_html = f'<a href="{_esc(url)}">{_esc(o.title)}</a>' if url else _esc(o.title)
+            desc = o.description
+            if len(desc) > maxc:
+                desc = desc[:maxc].rsplit(" ", 1)[0] + " …"
+            tech = "".join(f"<li>{_esc(t)}</li>" for t in o.technical_reqs) or "<li><em>See full notice / attachments.</em></li>"
+            biz = "".join(f"<li>{_esc(b)}</li>" for b in o.business_reqs) or "<li><em>See full notice / attachments.</em></li>"
+            attach = o.g(f.attachments)
+            meta = []
+            for label, val in [
+                ("Closes", o.g(f.close_date)), ("Published", o.g(f.pub_date)),
+                ("Buyer", o.g(f.entity)), ("GSIN", o.g(f.gsin)),
+                ("UNSPSC", o.g(f.unspsc)), ("Category", o.g(f.category)),
+                ("Notice type", o.g(f.notice_type)), ("Delivery", o.g(f.regions_delivery)),
+                ("Contact", o.g(f.contact_email) or o.g(f.contact_name)),
+                ("Reference", o.g(f.reference)),
+            ]:
+                if val:
+                    meta.append(f"<tr><td class='k'>{label}</td><td>{_esc(val)}</td></tr>")
+            signals = ", ".join(_esc(s) for s in o.claude_signals) or "—"
+            cards.append(f"""
+            <div class="card">
+              <div class="tier" style="background:{badge.get(o.claude_tier,'#777')}">{_esc(o.claude_tier)}</div>
+              <h3>{title_html}</h3>
+              <table class="meta">{''.join(meta)}</table>
+              <p class="why"><strong>Why IT:</strong> {_esc('; '.join(o.it_reasons))}<br>
+                 <strong>Claude-fit signals:</strong> {signals}</p>
+              <details open><summary>Technical requirements (extracted)</summary><ul>{tech}</ul></details>
+              <details open><summary>Business requirements (extracted)</summary><ul>{biz}</ul></details>
+              <details><summary>Summary / scope</summary><p>{_esc(desc) or '<em>No description provided.</em>'}</p></details>
+              {f'<p class="attach"><strong>Attachments:</strong> {_esc(attach)}</p>' if attach else ''}
+            </div>""")
+        sections.append(f"""
+        <section class="category">
+          <h2>{_esc(category)} <span>{len(category_opps)}</span></h2>
+          {''.join(cards)}
+        </section>""")
+    return ''.join(sections) if sections else '<p>No new IT opportunities in this window today.</p>'
+
+
+def page_style() -> str:
+    return """
+<style>
+ body{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#1a1a1a;max-width:920px;margin:0 auto;padding:16px;}
+ h1{font-size:20px;margin-bottom:2px} .sub{color:#555;font-size:13px;margin-top:0}
+ .summary{background:#f3f6fb;border:1px solid #d8e0ee;border-radius:8px;padding:10px 14px;font-size:14px}
+ .archive{margin:20px 0 28px}
+ .archive h2{font-size:16px;margin:0 0 8px}
+ .archive-table{border-collapse:collapse;width:100%;font-size:13px}
+ .archive-table th,.archive-table td{border-bottom:1px solid #e5e5e5;padding:7px 8px;text-align:left}
+ .archive-table th{color:#555;font-weight:700;background:#fafafa}
+ .archive-table a{color:#1155cc;text-decoration:none;font-weight:600}
+ .category{margin:20px 0 24px} .category h2{font-size:15px;border-bottom:1px solid #ddd;padding-bottom:5px;margin:0 0 10px}
+ .category h2 span{color:#666;font-weight:500;font-size:12px;margin-left:4px}
+ .card{border:1px solid #e2e2e2;border-radius:10px;padding:14px 16px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+ .card h3{margin:6px 0 8px;font-size:16px} .card a{color:#1155cc;text-decoration:none}
+ .tier{display:inline-block;color:#fff;font-size:11px;font-weight:700;padding:2px 8px;border-radius:10px;letter-spacing:.3px}
+ table.meta{border-collapse:collapse;font-size:13px;margin:4px 0} table.meta td{padding:1px 8px 1px 0;vertical-align:top}
+ td.k{color:#666;white-space:nowrap;font-weight:600}
+ .why{font-size:12.5px;color:#444;background:#fafafa;border-left:3px solid #ccc;padding:6px 10px;margin:8px 0}
+ details{margin:6px 0;font-size:13px} summary{cursor:pointer;font-weight:600;color:#333}
+ ul{margin:6px 0 6px 0;padding-left:20px} li{margin:3px 0}
+ .attach{font-size:12px;color:#555;word-break:break-all}
+ .foot{color:#888;font-size:11px;margin-top:24px;border-top:1px solid #eee;padding-top:8px}
+</style>"""
+
+
+def render_html(opps, f, stats, days_back) -> str:
+    today = dt.date.today().isoformat()
+    strong = sum(1 for o in opps if o.claude_tier == "Strong fit")
+    possible = sum(1 for o in opps if o.claude_tier.startswith("Possible"))
+    body = render_report_body(opps, f, stats, days_back)
 
     return f"""<!doctype html><html><head><meta charset="utf-8">
-<style>
- body{{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#1a1a1a;max-width:860px;margin:0 auto;padding:16px;}}
- h1{{font-size:20px;margin-bottom:2px}} .sub{{color:#555;font-size:13px;margin-top:0}}
- .summary{{background:#f3f6fb;border:1px solid #d8e0ee;border-radius:8px;padding:10px 14px;font-size:14px}}
- .card{{border:1px solid #e2e2e2;border-radius:10px;padding:14px 16px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}}
- .card h3{{margin:6px 0 8px;font-size:16px}} .card a{{color:#1155cc;text-decoration:none}}
- .tier{{display:inline-block;color:#fff;font-size:11px;font-weight:700;padding:2px 8px;border-radius:10px;letter-spacing:.3px}}
- table.meta{{border-collapse:collapse;font-size:13px;margin:4px 0}} table.meta td{{padding:1px 8px 1px 0;vertical-align:top}}
- td.k{{color:#666;white-space:nowrap;font-weight:600}}
- .why{{font-size:12.5px;color:#444;background:#fafafa;border-left:3px solid #ccc;padding:6px 10px;margin:8px 0}}
- details{{margin:6px 0;font-size:13px}} summary{{cursor:pointer;font-weight:600;color:#333}}
- ul{{margin:6px 0 6px 0;padding-left:20px}} li{{margin:3px 0}}
- .attach{{font-size:12px;color:#555;word-break:break-all}}
- .foot{{color:#888;font-size:11px;margin-top:24px;border-top:1px solid #eee;padding-top:8px}}
-</style></head><body>
+{page_style()}</head><body>
 <h1>Government of Canada — daily IT bid opportunities</h1>
 <p class="sub">CanadaBuys open tender notices · generated {today}</p>
 <div class="summary">
  <strong>{len(opps)}</strong> open IT opportunities published in the last {days_back} day(s).
  <strong>{strong}</strong> flagged a strong fit for Claude, <strong>{possible}</strong> a possible fit.<br>
- Scanned {stats['total_rows']:,} open notices · {stats['it_total']:,} IT-related total.
- Ordered by Claude-fit, then closing date.
+ Scanned {stats['total_rows']:,} open notices · {stats['it_total']:,} strict IT matches.
+ Grouped by IT category, then ordered by Claude-fit and closing date.
 </div>
-{''.join(cards) if cards else '<p>No new IT opportunities in this window today.</p>'}
+{body}
 <p class="foot">Source: CanadaBuys open tender notices (Open Government Licence – Canada).
  Requirements shown are auto-extracted from the notice summary and are a starting point only —
  always confirm against the full notice and its attached solicitation documents before bidding.
+ Claude-fit flags are heuristic.</p>
+</body></html>"""
+
+
+def render_dashboard(opps, f, stats, days_back, archive) -> str:
+    today = dt.date.today().isoformat()
+    strong = sum(1 for o in opps if o.claude_tier == "Strong fit")
+    possible = sum(1 for o in opps if o.claude_tier.startswith("Possible"))
+    body = render_report_body(opps, f, stats, days_back)
+    archive_html = render_archive(archive)
+
+    return f"""<!doctype html><html><head><meta charset="utf-8">
+{page_style()}</head><body>
+<h1>CanadaBuys IT monitor</h1>
+<p class="sub">Latest report generated {today}</p>
+<div class="summary">
+ <strong>{len(opps)}</strong> open IT opportunities published in the last {days_back} day(s).
+ <strong>{strong}</strong> strong Claude fits, <strong>{possible}</strong> possible fits.<br>
+ Scanned {stats['total_rows']:,} open notices · {stats['it_total']:,} strict IT matches.
+</div>
+<section class="archive">
+  <h2>Report archive</h2>
+  {archive_html}
+</section>
+<h2>Latest report</h2>
+{body}
+<p class="foot">Source: CanadaBuys open tender notices (Open Government Licence – Canada).
+ Requirements shown are auto-extracted from the notice summary and are a starting point only.
  Claude-fit flags are heuristic.</p>
 </body></html>"""
 
@@ -449,28 +649,31 @@ def render_markdown(opps, f, stats, days_back) -> str:
     out = [f"# Government of Canada — daily IT bid opportunities",
            f"_CanadaBuys open tender notices · generated {today}_\n",
            f"**{len(opps)}** open IT opportunities published in the last {days_back} day(s). "
-           f"Scanned {stats['total_rows']:,} open notices ({stats['it_total']:,} IT-related total).\n"]
-    for o in opps:
-        url = o.g(f.notice_url)
-        head = f"## {o.title}  —  _{o.claude_tier}_"
-        out.append(head)
-        if url:
-            out.append(f"[Full notice]({url})")
-        rows = []
-        for label, val in [("Closes", o.g(f.close_date)), ("Published", o.g(f.pub_date)),
-                           ("Buyer", o.g(f.entity)), ("GSIN", o.g(f.gsin)),
-                           ("UNSPSC", o.g(f.unspsc)), ("Category", o.g(f.category)),
-                           ("Contact", o.g(f.contact_email) or o.g(f.contact_name)),
-                           ("Reference", o.g(f.reference))]:
-            if val:
-                rows.append(f"- **{label}:** {val}")
-        out.extend(rows)
-        out.append(f"- **Why IT:** {'; '.join(o.it_reasons)}")
-        out.append(f"- **Claude-fit signals:** {', '.join(o.claude_signals) or '—'}")
-        out.append("\n**Technical requirements (extracted):**")
-        out.extend([f"  - {t}" for t in o.technical_reqs] or ["  - _See full notice / attachments._"])
-        out.append("\n**Business requirements (extracted):**")
-        out.extend([f"  - {b}" for b in o.business_reqs] or ["  - _See full notice / attachments._"])
+           f"Scanned {stats['total_rows']:,} open notices ({stats['it_total']:,} strict IT matches).\n"]
+    for category, category_opps in grouped_by_category(opps):
+        out.append(f"## {category}")
+        for o in category_opps:
+            url = o.g(f.notice_url)
+            head = f"### {o.title}  —  _{o.claude_tier}_"
+            out.append(head)
+            if url:
+                out.append(f"[Full notice]({url})")
+            rows = []
+            for label, val in [("Closes", o.g(f.close_date)), ("Published", o.g(f.pub_date)),
+                               ("Buyer", o.g(f.entity)), ("GSIN", o.g(f.gsin)),
+                               ("UNSPSC", o.g(f.unspsc)), ("Category", o.g(f.category)),
+                               ("Contact", o.g(f.contact_email) or o.g(f.contact_name)),
+                               ("Reference", o.g(f.reference))]:
+                if val:
+                    rows.append(f"- **{label}:** {val}")
+            out.extend(rows)
+            out.append(f"- **Why IT:** {'; '.join(o.it_reasons)}")
+            out.append(f"- **Claude-fit signals:** {', '.join(o.claude_signals) or '—'}")
+            out.append("\n**Technical requirements (extracted):**")
+            out.extend([f"  - {t}" for t in o.technical_reqs] or ["  - _See full notice / attachments._"])
+            out.append("\n**Business requirements (extracted):**")
+            out.extend([f"  - {b}" for b in o.business_reqs] or ["  - _See full notice / attachments._"])
+            out.append("")
         out.append("")
     out.append("\n---\n_Requirements are auto-extracted from the notice summary; confirm against "
                "the full solicitation. Claude-fit flags are heuristic._")
@@ -478,13 +681,13 @@ def render_markdown(opps, f, stats, days_back) -> str:
 
 
 def write_csv(path, opps, f):
-    cols = ["claude_tier", "title", "close_date", "pub_date", "buyer", "gsin",
+    cols = ["it_category", "claude_tier", "title", "close_date", "pub_date", "buyer", "gsin",
             "unspsc", "category", "contact_email", "notice_url", "why_it"]
     with open(path, "w", encoding="utf-8", newline="") as fh:
         w = csv.writer(fh)
         w.writerow(cols)
         for o in opps:
-            w.writerow([o.claude_tier, o.title, o.g(f.close_date), o.g(f.pub_date),
+            w.writerow([o.it_category, o.claude_tier, o.title, o.g(f.close_date), o.g(f.pub_date),
                         o.g(f.entity), o.g(f.gsin), o.g(f.unspsc), o.g(f.category),
                         o.g(f.contact_email), o.g(f.notice_url), "; ".join(o.it_reasons)])
 
@@ -501,38 +704,51 @@ def main() -> int:
     opps, f, stats = build(days_back)
     today = dt.date.today().isoformat()
 
-    html = render_html(opps, f, stats, days_back)
     md = render_markdown(opps, f, stats, days_back)
     html_path = os.path.join(out_dir, f"canadabuys_it_{today}.html")
     md_path = os.path.join(out_dir, f"canadabuys_it_{today}.md")
     csv_path = os.path.join(out_dir, f"canadabuys_it_{today}.csv")
+    index_path = os.path.join(out_dir, "index.html")
+    latest_md_path = os.path.join(out_dir, "latest.md")
+    latest_csv_path = os.path.join(out_dir, "latest.csv")
+    html = render_html(opps, f, stats, days_back)
     with open(html_path, "w", encoding="utf-8") as fh:
         fh.write(html)
     with open(md_path, "w", encoding="utf-8") as fh:
         fh.write(md)
     write_csv(csv_path, opps, f)
+    archive = report_archive(out_dir)
+    dashboard = render_dashboard(opps, f, stats, days_back, archive)
+    with open(index_path, "w", encoding="utf-8") as fh:
+        fh.write(dashboard)
+    with open(latest_md_path, "w", encoding="utf-8") as fh:
+        fh.write(md)
+    write_csv(latest_csv_path, opps, f)
 
     # Expose paths/counts to the GitHub Actions runner.
     summary = (f"{len(opps)} IT opportunities (last {days_back}d) · "
                f"{sum(1 for o in opps if o.claude_tier=='Strong fit')} strong Claude fits")
     print(summary)
-    print(f"Wrote: {html_path}\n       {md_path}\n       {csv_path}")
+    print(f"Wrote: {html_path}\n       {md_path}\n       {csv_path}\n       {index_path}")
     gh_out = os.environ.get("GITHUB_OUTPUT")
     if gh_out:
         with open(gh_out, "a") as fh:
             fh.write(f"html_path={html_path}\n")
             fh.write(f"md_path={md_path}\n")
             fh.write(f"csv_path={csv_path}\n")
+            fh.write(f"index_path={index_path}\n")
             fh.write(f"count={len(opps)}\n")
             fh.write(f"summary={summary}\n")
 
-    # Optional email (true SMTP send). Skipped automatically if secrets absent.
-    try:
-        from send_email import maybe_send
-        maybe_send(subject=f"[CanadaBuys] {summary} — {today}",
-                   html_body=html, attachments=[md_path, csv_path])
-    except Exception as e:  # never fail the job on email problems
-        print(f"[email] skipped/failed: {e}", file=sys.stderr)
+    send_email = os.environ.get("SEND_EMAIL", "").strip().lower() in {"1", "true", "yes"}
+    if send_email:
+        # Optional email (true SMTP send). Skipped automatically if secrets absent.
+        try:
+            from send_email import maybe_send
+            maybe_send(subject=f"[CanadaBuys] {summary} — {today}",
+                       html_body=html, attachments=[md_path, csv_path])
+        except Exception as e:  # never fail the job on email problems
+            print(f"[email] skipped/failed: {e}", file=sys.stderr)
 
     return 0
 

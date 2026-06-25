@@ -14,10 +14,15 @@ on:
 
 permissions:
   contents: write   # allows committing the report back into the repo (optional)
+  id-token: write    # allows OIDC auth to AWS for optional S3 publishing
 
 jobs:
   report:
     runs-on: ubuntu-latest
+    env:
+      AWS_ROLE_TO_ASSUME: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+      AWS_REGION: ${{ vars.AWS_REGION || 'us-east-1' }}
+      S3_BUCKET: ${{ vars.S3_BUCKET }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -35,8 +40,8 @@ jobs:
         env:
           DAYS_BACK: ${{ github.event.inputs.days_back || '1' }}
           OUTPUT_DIR: reports
-          # Email secrets — set these in repo Settings → Secrets and variables → Actions.
-          # If left unset, the email step is skipped and the report is still uploaded.
+          SEND_EMAIL: "false"
+          # Optional email. Leave SEND_EMAIL false for web-only publishing.
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
@@ -44,6 +49,17 @@ jobs:
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: python canadabuys_monitor.py
+
+      - name: Configure AWS credentials
+        if: ${{ env.S3_BUCKET != '' && env.AWS_ROLE_TO_ASSUME != '' }}
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ env.AWS_ROLE_TO_ASSUME }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Publish static site to S3
+        if: ${{ env.S3_BUCKET != '' && env.AWS_ROLE_TO_ASSUME != '' }}
+        run: aws s3 sync reports/ "s3://${S3_BUCKET}/" --cache-control "no-cache"
 
       - name: Upload report artifact
         uses: actions/upload-artifact@v4
