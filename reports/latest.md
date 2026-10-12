@@ -1,7 +1,7 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-10-11_
+_CanadaBuys open tender notices · generated 2026-10-12_
 
-**9** open IT opportunities published in the last 1 day(s). Scanned 907 open notices (160 strict IT matches).
+**9** open IT opportunities published in the last 1 day(s). Scanned 908 open notices (160 strict IT matches).
 
 ## IT infrastructure and operations
 ### RFQ -Synology Hardware, or equivalent, for DND  —  _Strong fit_
