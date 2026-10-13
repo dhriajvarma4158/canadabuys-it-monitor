@@ -1,7 +1,7 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-10-12_
+_CanadaBuys open tender notices · generated 2026-10-13_
 
-**9** open IT opportunities published in the last 1 day(s). Scanned 908 open notices (160 strict IT matches).
+**9** open IT opportunities published in the last 1 day(s). Scanned 901 open notices (159 strict IT matches).
 
 ## IT infrastructure and operations
 ### RFQ -Synology Hardware, or equivalent, for DND  —  _Strong fit_
@@ -21,26 +21,6 @@ _CanadaBuys open tender notices · generated 2026-10-12_
 **Business requirements (extracted):**
   - The term of the contract will be for a period of one (1) year following Contract Award.
   - This solicitation of bids is open to Canadian Suppliers and Suppliers of an applicable trading partner.A bid must comply with all requirements of the bid solicitation to be declared responsive.
-  - The responsive bid with the lowest evaluated subtotal price will be recommended for award of a contract.The Bidder must submit pricing in accordance with Annex A – List of Deliverables and Pricing.Please refer to the Request for Quotations document for the complete details regarding this requirement including the mandatory criteria, evaluation criteria and basis of selection.Bidders can register in the SSC P2P portal in order to:a.
-  - submit a response to a solicitation;c.
-  - be awarded contracts and receive contract amendments;
-  - submit invoices and receive payment status updates.To register, please go to https://supplier-fournisseur-sscp2pspc.ssc-spc.gc.ca/page.aspx/en/usr/login and click Register Now.
-
-### RFQ – HPE Hardware and Software Maintenance and Support renewal for DND  —  _Strong fit_
-- **Closes:** 2026-10-19T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *JX7025EA
-- **Category:** *SRVTGD
-- **Contact:** Ryma,Brahiti
-- **Reference:** SSC-26-00035044:T
-- **Why IT:** IT infrastructure and operations: network
-- **Claude-fit signals:** + document, + evaluation
-
-**Technical requirements (extracted):**
-  - Notice of Proposed ProcurementThis solicitation is for the HPE hardware maintenance and support and HPE software maintenance and support, for the Department of National Defence.A bid must comply with all requirements of the bid solicitation to be declared responsive.
-  - SSC RFQ – HPE Hardware and Software Maintenance and Support renewal for DND- Amendment 000
-
-**Business requirements (extracted):**
   - The responsive bid with the lowest evaluated subtotal price will be recommended for award of a contract.The Bidder must submit pricing in accordance with Annex A – List of Deliverables and Pricing.Please refer to the Request for Quotations document for the complete details regarding this requirement including the mandatory criteria, evaluation criteria and basis of selection.Bidders can register in the SSC P2P portal in order to:a.
   - submit a response to a solicitation;c.
   - be awarded contracts and receive contract amendments;
@@ -82,6 +62,26 @@ _CanadaBuys open tender notices · generated 2026-10-12_
 **Technical requirements (extracted):**
   - Notice of Proposed ProcurementThis solicitation is for the purchase of Preinstalled Extra Large Database Server Science Logic Support for Shared Services Canada.&nbsp;A bid must comply with all requirements of the bid solicitation to be declared responsive.
   - Preinstalled Extra Large Database ServerScience Logic Support or equivalent for SSC- Amendment 000
+
+**Business requirements (extracted):**
+  - The responsive bid with the lowest evaluated subtotal price will be recommended for award of a contract.The Bidder must submit pricing in accordance with Annex A – List of Deliverables and Pricing.Please refer to the Request for Quotations document for the complete details regarding this requirement including the mandatory criteria, evaluation criteria and basis of selection.Bidders can register in the SSC P2P portal in order to:a.
+  - submit a response to a solicitation;c.
+  - be awarded contracts and receive contract amendments;
+  - submit invoices and receive payment status updates.To register, please go to https://supplier-fournisseur-sscp2pspc.ssc-spc.gc.ca/page.aspx/en/usr/login and click Register Now.
+
+### RFQ – HPE Hardware and Software Maintenance and Support renewal for DND  —  _Strong fit_
+- **Closes:** 2026-10-19T14:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *JX7025EA
+- **Category:** *SRVTGD
+- **Contact:** Ryma,Brahiti
+- **Reference:** SSC-26-00035044:T
+- **Why IT:** IT infrastructure and operations: network
+- **Claude-fit signals:** + document, + evaluation
+
+**Technical requirements (extracted):**
+  - Notice of Proposed ProcurementThis solicitation is for the HPE hardware maintenance and support and HPE software maintenance and support, for the Department of National Defence.A bid must comply with all requirements of the bid solicitation to be declared responsive.
+  - SSC RFQ – HPE Hardware and Software Maintenance and Support renewal for DND- Amendment 000
 
 **Business requirements (extracted):**
   - The responsive bid with the lowest evaluated subtotal price will be recommended for award of a contract.The Bidder must submit pricing in accordance with Annex A – List of Deliverables and Pricing.Please refer to the Request for Quotations document for the complete details regarding this requirement including the mandatory criteria, evaluation criteria and basis of selection.Bidders can register in the SSC P2P portal in order to:a.
