@@ -1,26 +1,46 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-10-13_
+_CanadaBuys open tender notices · generated 2026-10-14_
 
-**9** open IT opportunities published in the last 1 day(s). Scanned 901 open notices (159 strict IT matches).
+**12** open IT opportunities published in the last 1 day(s). Scanned 894 open notices (155 strict IT matches).
+
+## Cloud, data and analytics
+### W7701-268123 Multimodal Data Exploitation for Multi-Domain C4ISR  —  _Strong fit_
+[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110028245?anId=ANONYMOUS)
+- **Closes:** 2026-11-17T14:00:00
+- **Published:** 2026-10-13
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Application or technology research and development service
+- **Category:** *SRV
+- **Contact:** alexandra.parent@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5903365206-Doc5908115321
+- **Why IT:** Cloud, data and analytics: artificial intelligence, machine learning; UNSPSC/category *Application or technology research and development service
+- **Claude-fit signals:** + analysis, + framework, + research
+
+**Technical requirements (extracted):**
+  - PWGSC, on behalf of Defence Research and Development Canada – Valcartier Research Center, is issuing this Solicitation of offer for the acquisition of Research and Development (R&D) services to develop next-generation C4ISR capabilities to enhance situational awareness and decision-making in multi-domain military operations (land, air, maritime, space, cyber, and information domains).
+  - The work will address the integration and exploitation of data from diverse sources using artificial intelligence, machine learning, and multimodal data fusion.
+  - Activities will include the development of C4ISR conceptual frameworks, the creation of data integration, analysis, and visualization tools, research into AI-based sensor fusion, the adaptation of analytical capabilities for multi-domain operations, and the assessment of emerging technologies to address future operational requirements.
+
+**Business requirements (extracted):**
+  - _See full notice / attachments._
+
 
 ## IT infrastructure and operations
-### RFQ -Synology Hardware, or equivalent, for DND  —  _Strong fit_
+### RFQ – HPE Hardware and Software Maintenance and Support renewal for DND  —  _Strong fit_
 - **Closes:** 2026-10-19T14:00:00
 - **Buyer:** Shared Services Canada
-- **GSIN:** *AJ212512
-- **Category:** *SRV
+- **GSIN:** *JX7025EA
+- **Category:** *SRVTGD
 - **Contact:** Ryma,Brahiti
-- **Reference:** SSC-26-00034509:T
+- **Reference:** SSC-26-00035044:T
 - **Why IT:** IT infrastructure and operations: network
 - **Claude-fit signals:** + document, + evaluation
 
 **Technical requirements (extracted):**
-  - Notice of Proposed ProcurementThis solicitation is for the purchase of Synology Hardware, or equivalent for the Department of National Defence (DND), in Montr&#233;al, Qu&#233;bec.&nbsp;This process is intended to result in the award of one contract for the delivery of the hardware to DND.
-  - SSC RFQ -Synology Hardware, or equivalent, for DND- Amendment 000
+  - Notice of Proposed ProcurementThis solicitation is for the HPE hardware maintenance and support and HPE software maintenance and support, for the Department of National Defence.A bid must comply with all requirements of the bid solicitation to be declared responsive.
+  - SSC RFQ – HPE Hardware and Software Maintenance and Support renewal for DND- Amendment 000
 
 **Business requirements (extracted):**
-  - The term of the contract will be for a period of one (1) year following Contract Award.
-  - This solicitation of bids is open to Canadian Suppliers and Suppliers of an applicable trading partner.A bid must comply with all requirements of the bid solicitation to be declared responsive.
   - The responsive bid with the lowest evaluated subtotal price will be recommended for award of a contract.The Bidder must submit pricing in accordance with Annex A – List of Deliverables and Pricing.Please refer to the Request for Quotations document for the complete details regarding this requirement including the mandatory criteria, evaluation criteria and basis of selection.Bidders can register in the SSC P2P portal in order to:a.
   - submit a response to a solicitation;c.
   - be awarded contracts and receive contract amendments;
@@ -69,26 +89,6 @@ _CanadaBuys open tender notices · generated 2026-10-13_
   - be awarded contracts and receive contract amendments;
   - submit invoices and receive payment status updates.To register, please go to https://supplier-fournisseur-sscp2pspc.ssc-spc.gc.ca/page.aspx/en/usr/login and click Register Now.
 
-### RFQ – HPE Hardware and Software Maintenance and Support renewal for DND  —  _Strong fit_
-- **Closes:** 2026-10-19T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *JX7025EA
-- **Category:** *SRVTGD
-- **Contact:** Ryma,Brahiti
-- **Reference:** SSC-26-00035044:T
-- **Why IT:** IT infrastructure and operations: network
-- **Claude-fit signals:** + document, + evaluation
-
-**Technical requirements (extracted):**
-  - Notice of Proposed ProcurementThis solicitation is for the HPE hardware maintenance and support and HPE software maintenance and support, for the Department of National Defence.A bid must comply with all requirements of the bid solicitation to be declared responsive.
-  - SSC RFQ – HPE Hardware and Software Maintenance and Support renewal for DND- Amendment 000
-
-**Business requirements (extracted):**
-  - The responsive bid with the lowest evaluated subtotal price will be recommended for award of a contract.The Bidder must submit pricing in accordance with Annex A – List of Deliverables and Pricing.Please refer to the Request for Quotations document for the complete details regarding this requirement including the mandatory criteria, evaluation criteria and basis of selection.Bidders can register in the SSC P2P portal in order to:a.
-  - submit a response to a solicitation;c.
-  - be awarded contracts and receive contract amendments;
-  - submit invoices and receive payment status updates.To register, please go to https://supplier-fournisseur-sscp2pspc.ssc-spc.gc.ca/page.aspx/en/usr/login and click Register Now.
-
 ### Synology Server Storage Devices, or equivalent, for DND  —  _Strong fit_
 - **Closes:** 2026-10-20T14:00:00
 - **Buyer:** Shared Services Canada
@@ -112,6 +112,44 @@ _CanadaBuys open tender notices · generated 2026-10-13_
   - Canada retains the right to negotiate with suppliers on any procurement.Please refer to the Request for Quotations document for the complete details regarding this requirement including the mandatory criteria, evaluation criteria and basis of selection.
   - Documents may be submitted in either official language of Canada.Suppliers are required to submit bids electronically using the Contracting Authority’s email.
   - Faxed and hard copy bids (submitted in person or via mail/courier) will not be accepted, except in exceptional circumstances, for the subject bid solicitation.
+
+### RFQ -Synology Hardware, or equivalent, for DND  —  _Possible fit_
+- **Closes:** 2026-10-19T14:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *AJ212512
+- **Category:** *SRV
+- **Contact:** Ryma,Brahiti
+- **Reference:** SSC-26-00034509:T
+- **Why IT:** IT infrastructure and operations: network
+- **Claude-fit signals:** + document
+
+**Technical requirements (extracted):**
+  - SSC RFQ -Synology Hardware, or equivalent, for DND- Amendment 001
+
+**Business requirements (extracted):**
+  - All other terms and conditions of this solicitation remain the same.&nbsp;
+
+### E-Waste Destruction and Recycling Services  —  _Unlikely_
+- **Closes:** 2026-11-06T14:00:00
+- **Published:** 2026-10-13
+- **Buyer:** Department of National Defence (DND)
+- **UNSPSC:** *Printed circuits and integrated circuits and microassemblies
+*Discrete semiconductor devices
+*Passive discrete components
+*Electronic hardware and component parts and accessories
+*Electron tube devices and accessories
+*Automation control devices and components and accessories
+- **Category:** *SRVTGD
+- **Contact:** lyudmyla.pauk@forces.gc.ca
+- **Reference:** cb-788-29153326
+- **Why IT:** IT infrastructure and operations: telecommunication
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - Information Technology (IT) and telecommunications equipment to Department of National
+
+**Business requirements (extracted):**
+  - _See full notice / attachments._
 
 
 ## Other IT
@@ -150,6 +188,32 @@ _CanadaBuys open tender notices · generated 2026-10-13_
   - 30 federal government working days from contract award.
   - N/AThe Crown retains the right to negotiate with suppliers on any procurement.The responsive bid with the lowest evaluated price will be recommended for award of a contract.To access the solicitation and submit your bid click the following link:
   - https://supplier-fournisseur-sscp2pspc.ssc-spc.gc.ca/page.aspx/en/usr/login&nbsp;Documents may be submitted in either official language of Canada.All enquiries related to this solicitation must be addressed in writing to:Michael BoualavongSenior Procurement Officer Shared Services Canada 270 Albert Street, 9th FloorOttawa, ON K1P 5G8Telephone:
+
+### ACAN-NRCan Nuvis Techonologies Inc. Support  —  _Possible fit_
+- **Closes:** 2026-10-28T14:00:00
+- **Published:** 2026-10-13
+- **Buyer:** Department of Natural Resources (NRCan)
+- **UNSPSC:** *Software maintenance and support
+*Information Technology Service Delivery
+- **Category:** *SRV
+- **Contact:** samantha.tavernese@nrcan-rncan.gc.ca
+- **Reference:** cb-596-58542580
+- **Why IT:** UNSPSC/category *Software maintenance and support
+*Information Technology Service Delivery
+- **Claude-fit signals:** + research
+
+**Technical requirements (extracted):**
+  - NRCan was able to replace the existing fire detection system in 2022 by way of installing two optical camera sensor systems with fire detection monitoring software by Nuvis Technologies Inc.
+  - The objective of this requirement is to renew hardware and software support for the existing wildfire camera detection system.
+  - Support for Wildfire Guardian Software:
+  - Support and maintenance of the existing software environment
+  - Diagnostics and troubleshooting of bugs or software issues
+  - Software upgrades as they are available
+  - Hardware Support for all equipment:
+
+**Business requirements (extracted):**
+  - The land, which the PRF is on, is owned by the Canadian Department of National Defence (DND), Garrison Petawawa, however, under a joint memorandum of understanding (MOU) the PRF is staffed and operated by Natural Resources Canada (NRCan).
+  - To date, fire detection on the property has been conducted using two fire towers with cupola’s (27.5 and 38.5 metres tall) staffed with personnel who visually detect fires/smoke and biangulate the location.
 
 
 ## Software licensing
