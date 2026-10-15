@@ -1,25 +1,22 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-10-14_
+_CanadaBuys open tender notices · generated 2026-10-15_
 
-**12** open IT opportunities published in the last 1 day(s). Scanned 894 open notices (155 strict IT matches).
+**15** open IT opportunities published in the last 1 day(s). Scanned 906 open notices (156 strict IT matches).
 
-## Cloud, data and analytics
-### W7701-268123 Multimodal Data Exploitation for Multi-Domain C4ISR  —  _Strong fit_
-[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110028245?anId=ANONYMOUS)
-- **Closes:** 2026-11-17T14:00:00
-- **Published:** 2026-10-13
-- **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Application or technology research and development service
+## Cybersecurity and identity
+### Control of invasive alien plant species  —  _Unlikely_
+- **Closes:** 2026-11-23T14:00:00
+- **Published:** 2026-10-14
+- **Buyer:** Department of the Environment (ECCC )
+- **UNSPSC:** *Weed control services
 - **Category:** *SRV
-- **Contact:** alexandra.parent@tpsgc-pwgsc.gc.ca
-- **Reference:** WS5903365206-Doc5908115321
-- **Why IT:** Cloud, data and analytics: artificial intelligence, machine learning; UNSPSC/category *Application or technology research and development service
-- **Claude-fit signals:** + analysis, + framework, + research
+- **Contact:** annie.emard@ec.gc.ca
+- **Reference:** cb-811-34971855
+- **Why IT:** Cybersecurity and identity: threat
+- **Claude-fit signals:** —
 
 **Technical requirements (extracted):**
-  - PWGSC, on behalf of Defence Research and Development Canada – Valcartier Research Center, is issuing this Solicitation of offer for the acquisition of Research and Development (R&D) services to develop next-generation C4ISR capabilities to enhance situational awareness and decision-making in multi-domain military operations (land, air, maritime, space, cyber, and information domains).
-  - The work will address the integration and exploitation of data from diverse sources using artificial intelligence, machine learning, and multimodal data fusion.
-  - Activities will include the development of C4ISR conceptual frameworks, the creation of data integration, analysis, and visualization tools, research into AI-based sensor fusion, the adaptation of analytical capabilities for multi-domain operations, and the assessment of emerging technologies to address future operational requirements.
+  - _See full notice / attachments._
 
 **Business requirements (extracted):**
   - _See full notice / attachments._
@@ -129,24 +126,105 @@ _CanadaBuys open tender notices · generated 2026-10-14_
 **Business requirements (extracted):**
   - All other terms and conditions of this solicitation remain the same.&nbsp;
 
-### E-Waste Destruction and Recycling Services  —  _Unlikely_
-- **Closes:** 2026-11-06T14:00:00
-- **Published:** 2026-10-13
+### Simulation Hardware & Peripherals  —  _Possible fit_
+- **Closes:** 2026-11-23T14:00:00
+- **Published:** 2026-10-14
 - **Buyer:** Department of National Defence (DND)
-- **UNSPSC:** *Printed circuits and integrated circuits and microassemblies
-*Discrete semiconductor devices
-*Passive discrete components
+- **UNSPSC:** *Network cable
 *Electronic hardware and component parts and accessories
-*Electron tube devices and accessories
-*Automation control devices and components and accessories
-- **Category:** *SRVTGD
-- **Contact:** lyudmyla.pauk@forces.gc.ca
-- **Reference:** cb-788-29153326
-- **Why IT:** IT infrastructure and operations: telecommunication
+*Communications Devices and Accessories
+*Phone headsets
+*Components for information technology or broadcasting or telecommunications
+*Media storage devices
+*Computer peripheral kit
+*Computer displays
+*Computer display accessories
+*Monitor arms or stands
+*Network switches
+- **Category:** *GD
+- **Contact:** jean-pierre.bedard@forces.gc.ca
+- **Reference:** cb-327-26516930
+- **Why IT:** IT infrastructure and operations: network, storage, telecommunication; UNSPSC/category *Network cable
+*Electronic hardware and component parts and accessories
+*Communi
+- **Claude-fit signals:** + writing
+
+**Technical requirements (extracted):**
+  - _See full notice / attachments._
+
+**Business requirements (extracted):**
+  - All the deliverables must be received within 30 calendar days of contract award.
+  - Bidders proposing an Equivalent or a Substitute Product must indicate the brand name and model and/or Part Number and the NSCM/CAGE they are offering.
+  - Documents may be submitted in either official language of Canada.
+  - Bidders may request a debriefing on the results of the bid solicitation process.
+  - Bidders should make the request to the Contracting Authority within fifteen (15) working days from receipt of the results of the bid solicitation process.
+  - Electronic Submission of Bids
+  - This requirement uses electronic bid submission by e-mail only.
+  - Bids must be submitted to:
+
+### T2062-260010 Aviation Firefighting Foam Concentrate  —  _Possible fit (with caveats)_
+[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110028372?anId=ANONYMOUS)
+- **Closes:** 2026-10-29T14:00:00
+- **Published:** 2026-10-14
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Aircraft fire control or extinguishing systems
+- **Category:** *GD
+- **Contact:** lucas.shave@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5919992491-Doc5932467940
+- **Why IT:** IT infrastructure and operations: network
+- **Claude-fit signals:** + content, - supply and deliver
+
+**Technical requirements (extracted):**
+  - The event messages tab and/or the event contents section in the SAP Business Network event.
+  - Do not use the Q&A section appearing on the SAP Business Network Discovery website.
+
+**Business requirements (extracted):**
+  - The response time deadline is 14:00 EST Transport Canada Requires supply and delivery of Aviation Firefighting Foam Concentrate to Wabush Airport in Newfoundland and Labrador on or before March 31 2027.
+  - Bidders may request a debriefing on the results of the bid solicitation.
+  - Bidders should make the request to the Contracting Authority within fifteen (15) working days from receipt of notification that their bid was unsuccessful.
+  - Reference the solicitation for further details.
+  - Documents may be submitted in either official language of Canada.
+  - Where to submit questions about the tender document:
+
+### NPP – S6132030 - THS SA – One (1) 5.1 Computer, application support. Temporary Help Services against the Supply Arrangement for the National Capital Region(NCR).  —  _Unlikely_
+- **Closes:** 2026-10-28T15:00:00
+- **Published:** 2026-10-14
+- **Buyer:** Department of National Defence (DND)
+- **UNSPSC:** *Temporary personnel services
+- **Category:** *SRV
+- **Contact:** CFSGO-GTemporaryHelp-GSFCO-Gdaidetemporaire@forces.gc.ca
+- **Reference:** cb-598-71734233
+- **Why IT:** IT infrastructure and operations: computer services, network
 - **Claude-fit signals:** —
 
 **Technical requirements (extracted):**
-  - Information Technology (IT) and telecommunications equipment to Department of National
+  - Integra Networks Corporation	
+  - OLAV CONSULTING CORP., MOSHWA ABORIGINAL INFORMATION
+  - Level of Security Requirement:
+  - Resource(s) Minimum Security Level Required is:
+
+**Business requirements (extracted):**
+  - This list will not be updated if additional suppliers request copies of the bid solicitation.
+  - The following SA Holders have been invited to submit a proposal:
+  - Department of National Defense (DND) has a requirement for Temporary Help Services and has issued a Request for Proposal to suppliers generated from CPSS who are qualified under the streams and categories listed above.
+
+### Network Cisco Nexus Equipement on the Colocation Data Centre (CDC)  —  _Unlikely_
+- **Closes:** 2026-10-29T14:00:00
+- **Published:** 2026-10-14
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Network cable
+*Network switches
+*Computer or network or internet security
+- **Category:** *GD
+- **Contact:** sidney.soutozoellner@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5895380777-Doc5930485169
+- **Why IT:** IT infrastructure and operations: data centre, network, network infrastructure
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - The House of Commons (HoC) networking requirements include edge, distribution, and core network switches, wireless LAN controllers, wireless access points, associated software, professional services, warranty coverage, and ongoing support and maintenance services.
+  - To ensure compatibility with the existing network infrastructure, PSPC will apply a no-substitute approach and solicit bids exclusively from the four Cisco-authorized resellers identified under the Supply Arrangement.
+  - The IT Connectivity National Security Exemption (NSE) applies to this procurement due to national security considerations.
 
 **Business requirements (extracted):**
   - _See full notice / attachments._
@@ -189,31 +267,21 @@ _CanadaBuys open tender notices · generated 2026-10-14_
   - N/AThe Crown retains the right to negotiate with suppliers on any procurement.The responsive bid with the lowest evaluated price will be recommended for award of a contract.To access the solicitation and submit your bid click the following link:
   - https://supplier-fournisseur-sscp2pspc.ssc-spc.gc.ca/page.aspx/en/usr/login&nbsp;Documents may be submitted in either official language of Canada.All enquiries related to this solicitation must be addressed in writing to:Michael BoualavongSenior Procurement Officer Shared Services Canada 270 Albert Street, 9th FloorOttawa, ON K1P 5G8Telephone:
 
-### ACAN-NRCan Nuvis Techonologies Inc. Support  —  _Possible fit_
-- **Closes:** 2026-10-28T14:00:00
-- **Published:** 2026-10-13
-- **Buyer:** Department of Natural Resources (NRCan)
-- **UNSPSC:** *Software maintenance and support
-*Information Technology Service Delivery
-- **Category:** *SRV
-- **Contact:** samantha.tavernese@nrcan-rncan.gc.ca
-- **Reference:** cb-596-58542580
-- **Why IT:** UNSPSC/category *Software maintenance and support
-*Information Technology Service Delivery
-- **Claude-fit signals:** + research
+### Maintenance and Support for Kodak Scanners for Statistics Canada (2026)  —  _Possible fit_
+- **Closes:** 2026-11-05T14:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *N7025134
+- **Category:** *GD
+- **Contact:** Katherine,Ikeson
+- **Reference:** SSC-26-00035183:T
+- **Why IT:** GSIN *N7025134
+- **Claude-fit signals:** + document
 
 **Technical requirements (extracted):**
-  - NRCan was able to replace the existing fire detection system in 2022 by way of installing two optical camera sensor systems with fire detection monitoring software by Nuvis Technologies Inc.
-  - The objective of this requirement is to renew hardware and software support for the existing wildfire camera detection system.
-  - Support for Wildfire Guardian Software:
-  - Support and maintenance of the existing software environment
-  - Diagnostics and troubleshooting of bugs or software issues
-  - Software upgrades as they are available
-  - Hardware Support for all equipment:
+  - _See full notice / attachments._
 
 **Business requirements (extracted):**
-  - The land, which the PRF is on, is owned by the Canadian Department of National Defence (DND), Garrison Petawawa, however, under a joint memorandum of understanding (MOU) the PRF is staffed and operated by Natural Resources Canada (NRCan).
-  - To date, fire detection on the property has been conducted using two fire towers with cupola’s (27.5 and 38.5 metres tall) staffed with personnel who visually detect fires/smoke and biangulate the location.
+  - This Contract is for maintaining the equipment described in Annex A in good working condition with both preventative and remedial maintained.&nbsp;
 
 
 ## Software licensing
