@@ -1,0 +1,18 @@
+it_category,claude_tier,title,close_date,pub_date,buyer,gsin,unspsc,category,contact_email,notice_url,why_it
+"Cloud, data and analytics",Strong fit,IT Professional Services,2026-11-23T14:00:00,2026-10-15,Canada Council for the Arts,,"*Information technology consultation services
+*Software maintenance and support",*SRV,bids-offres@canadacouncil.ca,,"Cloud, data and analytics: artificial intelligence, business intelligence, cloud, data analysis, database, machine learning; UNSPSC/category *Information technology consultation services
+*Software maintenance and support"
+IT infrastructure and operations,Strong fit,"Synology Server Storage Devices, or equivalent, for DND",2026-10-20T14:00:00,,Shared Services Canada,*N7025,,*GD,,,"IT infrastructure and operations: server, storage; GSIN *N7025"
+IT infrastructure and operations,Strong fit,"ASUS Ascent Supercomputers and Server Storage Devices, or equivalent, for DND.",2026-10-22T14:00:00,,Shared Services Canada,*N7010,,*GD,,,"IT infrastructure and operations: server, storage; GSIN *N7010"
+IT infrastructure and operations,Possible fit,"RFQ -Synology Hardware, or equivalent, for DND",2026-10-19T14:00:00,,Shared Services Canada,*AJ212512,,*SRV,,,IT infrastructure and operations: network
+IT infrastructure and operations,Possible fit,RFQ – HPE Hardware and Software Maintenance and Support renewal for DND,2026-10-23T14:00:00,,Shared Services Canada,*JX7025EA,,*SRVTGD,,,IT infrastructure and operations: network
+IT infrastructure and operations,Possible fit,RFQ -  Preinstalled Extra Large Database ServerScience Logic Support or equivalent for SSC,2026-10-23T14:00:00,,Shared Services Canada,*N7025,,*GD,,,"IT infrastructure and operations: server, storage; GSIN *N7025"
+IT infrastructure and operations,Possible fit,Safety Vocational Training - H2S Alive and Confined Space,2026-11-05T14:00:00,2026-10-15,Correctional Service of Canada (CSC),,"*Vocational training
+*Vocational rehabilitation services",*SRV,aimee.legault@csc-scc.gc.ca,,IT infrastructure and operations: storage
+Other IT,Possible fit,Apple 16-inch MacBook Pro with M5 Max Chip(space black) or equivalent for DND,2026-10-20T14:00:00,,Shared Services Canada,*N7010,,*GD,,,GSIN *N7010
+Other IT,Possible fit,Apple 16-inch MacBook Pro with M5 Max Chip(space black) or equivalent for DND,2026-10-20T14:00:00,,Shared Services Canada,*N7010,,*GD,,,GSIN *N7010
+Other IT,Possible fit,IM/IT Research and Advisory Services for Public Safety Canada,2026-11-04T14:00:00,2026-10-15,Department of Public Safety and Emergency Preparedness (PS),,*Information technology consultation services,*SRV,Matthew.Furlong@ps-sp.gc.ca,,UNSPSC/category *Information technology consultation services
+Other IT,Possible fit,Maintenance and Support for Kodak Scanners for Statistics Canada (2026),2026-11-05T14:00:00,,Shared Services Canada,*N7025134,,*GD,,,GSIN *N7025134
+Software and application development,Possible fit,Enabling Technology for Future Missions,2026-11-26T14:00:00,2026-10-15,Canadian Space Agency (CSA),,*Application or technology research and development service,*SRV,kacendra.dion@asc-csa.gc.ca,,Software and application development: technology research and development; UNSPSC/category *Application or technology research and development service
+Software licensing,Strong fit,Dell Toad for Statistics Canada,2026-10-19T14:00:00,,Shared Services Canada,*N7030,,*GD,,,Software licensing: adp software; GSIN *N7030
+Software licensing,Unlikely,Request For Quotation (RFQ) Riverbed License Maintenance and Support,2026-10-20T15:00:00,,Shared Services Canada,*N7030,,*GD,,,Software licensing: adp software; GSIN *N7030
