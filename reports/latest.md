@@ -1,27 +1,7 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-10-17_
+_CanadaBuys open tender notices · generated 2026-10-18_
 
-**13** open IT opportunities published in the last 1 day(s). Scanned 898 open notices (152 strict IT matches).
-
-## Cloud, data and analytics
-### RFP - Flight passenger traffic and flight schedule data  —  _Possible fit_
-- **Closes:** 2026-11-12T14:00:00
-- **Published:** 2026-10-16
-- **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Database information retrieval
-- **Category:** *GD
-- **Contact:** matthew.curran@tpsgc-pwgsc.gc.ca
-- **Reference:** WS5923551237-Doc5925765843
-- **Why IT:** Cloud, data and analytics: database
-- **Claude-fit signals:** + analysis
-
-**Technical requirements (extracted):**
-  - Statistics Canada requires a subscription to passenger traffic and flight schedule data for domestic and international arrivals and departures.
-  - The data will support the planning and operation of Statistics Canada's air exit survey program through the analysis of passenger volumes and flight schedules, including access to historical and current data to support survey design, collection planning, benchmarking, and statistical analysis.
-
-**Business requirements (extracted):**
-  - _See full notice / attachments._
-
+**10** open IT opportunities published in the last 1 day(s). Scanned 899 open notices (153 strict IT matches).
 
 ## IT infrastructure and operations
 ### Synology Server Storage Devices, or equivalent, for DND  —  _Strong fit_
@@ -126,30 +106,6 @@ _CanadaBuys open tender notices · generated 2026-10-17_
   - to publish the “Questions and Answers – Questions et r&#233;ponses (2026-10-16)" document that answers a question regarding the solicitation closing date.
   - All other terms and conditions of this solicitation remain the same.
 
-### Facet Coater  —  _Possible fit_
-- **Closes:** 2026-11-16T14:00:00
-- **Published:** 2026-10-16
-- **Buyer:** National Research Council of Canada (NRC)
-- **UNSPSC:** *Laboratory and scientific equipment
-*Measuring and observing and testing instruments
-*Laboratory supplies and fixtures
-- **Category:** *GD
-- **Contact:** karl.payong@nrc-cnrc.gc.ca
-- **Reference:** cb-830-33996289
-- **Why IT:** IT infrastructure and operations: data centre, telecommunication
-- **Claude-fit signals:** + research
-
-**Technical requirements (extracted):**
-  - For over two decades, the Canadian Photonics Fabrication Centre (CPFC) at the National Research Council of Canada (NRC) has operated as a mission-critical facility supporting Canada’s photonics and semiconductor innovation ecosystem.
-  - Photonic devices are critical pieces of hardware for high-performance computing in various innovative fields such as artificial intelligence (AI), data centres, automotive LiDARs (Light Detection and Ranging), biomedical, aerospace;
-  - security, and quantum industry/applications.
-  - The global market for compound semiconductor foundry services is growing rapidly, presenting niche opportunities and challenges for Canada.
-  - of a current facility) to house numerous automated tools, such as Dual Ion Beam Sputter Deposition (DIBS) Laser Facet Coating Systems.
-
-**Business requirements (extracted):**
-  - Photonic devices fabricated on InP wafers must undergo several “back-end” steps before dicing and packaging, adding time and cost if the assembled parts are then found to be defective.
-  - This project will establish the capability at CPFC to deliver known good die (KGD) to clients, to reduce time and cost for new product introduction (NPI).
-
 
 ## Other IT
 ### Apple 16-inch MacBook Pro with M5 Max Chip(space black) or equivalent for DND  —  _Possible fit_
@@ -203,26 +159,6 @@ _CanadaBuys open tender notices · generated 2026-10-17_
 
 **Business requirements (extracted):**
   - This Contract is for maintaining the equipment described in Annex A in good working condition with both preventative and remedial maintained.&nbsp;
-
-
-## Software and application development
-### RFP - Transformation of the HIPLAB Toolbox  —  _Possible fit_
-[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110028655?anId=ANONYMOUS)
-- **Closes:** 2026-11-06T14:00:00
-- **Published:** 2026-10-16
-- **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Application or technology research and development service
-- **Category:** *SRV
-- **Contact:** luc.maillet@tpsgc-pwgsc.gc.ca
-- **Reference:** WS5793879032-Doc5934246754
-- **Why IT:** Software and application development: software development, technology research and development; UNSPSC/category *Application or technology research and development service
-- **Claude-fit signals:** + research
-
-**Technical requirements (extracted):**
-  - Defence Research and Development Canada (DRDC) requires software development services for the modernization, integration, and optimization of the High-Latitude Ionospheric Propagation Laboratory (HIPLAB) toolbox to support Polar Over-the-Horizon Radar (POTHR) operations.
-
-**Business requirements (extracted):**
-  - _See full notice / attachments._
 
 
 ## Software licensing
