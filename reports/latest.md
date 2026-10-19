@@ -1,7 +1,7 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-10-18_
+_CanadaBuys open tender notices · generated 2026-10-19_
 
-**10** open IT opportunities published in the last 1 day(s). Scanned 899 open notices (153 strict IT matches).
+**10** open IT opportunities published in the last 1 day(s). Scanned 896 open notices (153 strict IT matches).
 
 ## IT infrastructure and operations
 ### Synology Server Storage Devices, or equivalent, for DND  —  _Strong fit_
@@ -52,24 +52,6 @@ _CanadaBuys open tender notices · generated 2026-10-18_
   - Documents may be submitted in either official language of Canada.Suppliers are required to submit bids electronically using the Contracting Authority’s email.
   - Faxed and hard copy bids (submitted in person or via mail/courier) will not be accepted, except in exceptional circumstances, for the subject bid solicitation.
 
-### RFQ -Synology Hardware, or equivalent, for DND  —  _Possible fit_
-- **Closes:** 2026-10-23T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *AJ212512
-- **Category:** *SRV
-- **Contact:** Ryma,Brahiti
-- **Reference:** SSC-26-00034509:T
-- **Why IT:** IT infrastructure and operations: network
-- **Claude-fit signals:** + document
-
-**Technical requirements (extracted):**
-  - SSC RFQ -Synology Hardware, or equivalent, for DND- Amendment 002
-
-**Business requirements (extracted):**
-  - to publish the “Questions and Answers – Questions et r&#233;ponses (2026-10-17)" document that answers a question regarding the solicitation closing date.
-  - to publish amendment 002 to the RFQ to extend the closing date of the solicitation to October 23, 2026.
-  - All other terms and conditions of this solicitation remain the same.&nbsp;
-
 ### RFQ – HPE Hardware and Software Maintenance and Support renewal for DND  —  _Possible fit_
 - **Closes:** 2026-10-23T14:00:00
 - **Buyer:** Shared Services Canada
@@ -86,6 +68,24 @@ _CanadaBuys open tender notices · generated 2026-10-18_
 **Business requirements (extracted):**
   - To publish amendment 001 to the RFQ to extend the closing date of the solicitation to October 23, 2026.
   - to publish the “Questions and Answers – Questions et r&#233;ponses (2026-10-16)" document that answers a question regarding the solicitation closing date.
+  - All other terms and conditions of this solicitation remain the same.&nbsp;
+
+### RFQ -Synology Hardware, or equivalent, for DND  —  _Possible fit_
+- **Closes:** 2026-10-23T14:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *AJ212512
+- **Category:** *SRV
+- **Contact:** Ryma,Brahiti
+- **Reference:** SSC-26-00034509:T
+- **Why IT:** IT infrastructure and operations: network
+- **Claude-fit signals:** + document
+
+**Technical requirements (extracted):**
+  - SSC RFQ -Synology Hardware, or equivalent, for DND- Amendment 002
+
+**Business requirements (extracted):**
+  - to publish the “Questions and Answers – Questions et r&#233;ponses (2026-10-17)" document that answers a question regarding the solicitation closing date.
+  - to publish amendment 002 to the RFQ to extend the closing date of the solicitation to October 23, 2026.
   - All other terms and conditions of this solicitation remain the same.&nbsp;
 
 ### RFQ -  Preinstalled Extra Large Database ServerScience Logic Support or equivalent for SSC  —  _Possible fit_
