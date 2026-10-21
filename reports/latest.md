@@ -1,73 +1,32 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-10-20_
+_CanadaBuys open tender notices · generated 2026-10-21_
 
-**18** open IT opportunities published in the last 1 day(s). Scanned 899 open notices (155 strict IT matches).
+**12** open IT opportunities published in the last 1 day(s). Scanned 897 open notices (154 strict IT matches).
 
 ## Cloud, data and analytics
-### Artificial Intelligence Adoption and Implementation Support Services  —  _Strong fit_
-- **Closes:** 2026-11-03T14:00:00
-- **Published:** 2026-10-19
-- **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Information technology consultation services
+### IT Security Professional Services Under the Task-Based Services Supply Arrangement  —  _Unlikely_
+- **Closes:** 2026-11-23T14:00:00
+- **Published:** 2026-10-20
+- **Buyer:** Department of Public Safety and Emergency Preparedness (PS)
+- **UNSPSC:** *Information Technology Service Delivery
 - **Category:** *SRV
-- **Contact:** Sara.Bulhoes@tpsgc-pwgsc.gc.ca
-- **Reference:** cb-136-14329200
-- **Why IT:** Cloud, data and analytics: artificial intelligence; UNSPSC/category *Information technology consultation services
-- **Claude-fit signals:** + framework, + guidance
+- **Contact:** Matthew.Furlong@ps-sp.gc.ca
+- **Reference:** cb-953-98325012
+- **Why IT:** Cloud, data and analytics: cloud; UNSPSC/category *Information Technology Service Delivery
+- **Claude-fit signals:** —
 
 **Technical requirements (extracted):**
-  - _See full notice / attachments._
+  - Public Safety Canada requires task-based IT professional services to complete defined security assessment, authorization, architecture, testing, remediation-validation and incident-readiness packages for identified departmental systems, applications, cloud services, networks and technology initiatives.
+  - PS will identify systems, owners, security requirements and decision authorities;
 
 **Business requirements (extracted):**
-  - _See full notice / attachments._
-
-
-## Cybersecurity and identity
-### Security Investigations and Threat and Risk Assessments  —  _Unlikely_
-- **Closes:** 2026-11-03T14:00:00
-- **Published:** 2026-10-19
-- **Buyer:** Courts Administration Service (CAS)
-- **UNSPSC:** *Risk management consultation service
-*Risk management process as a service
-- **Category:** *SRV
-- **Contact:** Housseynatou.Barry@cas-satj.gc.ca
-- **Reference:** cb-431-91876096
-- **Why IT:** Cybersecurity and identity: threat
-- **Claude-fit signals:** - security clearance
-
-**Technical requirements (extracted):**
-  - This requirement is open only to those Supply Arrangement Holders under E60ZT-18TSPS who qualified under Tier 1 in the National Capital Region, level 2 (intermediate) and 3 (Senior) and for the following category:
-  - Court Administration Services (CAS) requires the services of a security firm holding the appropriate organizational security clearance to provide specialized security services in support of its departmental security programs.
-
-**Business requirements (extracted):**
-  - Due to fluctuating operational requirements and the need for specialized expertise, CAS requires a Contractor to conduct Threat and Risk Assessments (TRAs) and administrative security investigations, as required, to support operational requirements, security risk management, personnel security, and Government of Canada security instrument policy.
+  - The Contractor will manage its personnel and methods of work and will remain responsible for producing complete and accepted deliverables.
+  - and accept or reject deliverables.
+  - Contractor personnel will not be directed as employees of Canada.
+  - The Contractor must be capable of mobilizing and managing sufficient qualified resources to perform multiple concurrent Task Authorizations, where authorized by PS, without compromising agreed schedules, deliverable quality, required independence or security requirements.
 
 
 ## IT infrastructure and operations
-### Synology Server Storage Devices, or equivalent, for DND  —  _Strong fit_
-- **Closes:** 2026-10-20T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *N7025
-- **Category:** *GD
-- **Contact:** Reyna Teresa,Garcia Tito
-- **Reference:** SSC-26-00034682:T
-- **Why IT:** IT infrastructure and operations: server, storage; GSIN *N7025
-- **Claude-fit signals:** + document, + evaluation
-
-**Technical requirements (extracted):**
-  - _See full notice / attachments._
-
-**Business requirements (extracted):**
-  - This process is intended to result in the award of one contract for the delivery of goods;
-  - the term of the contract will be a period of time encompassing:
-  - the period for delivery, acceptance and warranty.Policy on Reciprocal Procurement:
-  - This solicitation of bids is open to Canadian suppliers and to suppliers of an applicable trading partner.A bid must comply with all requirements of the bid solicitation to be declared responsive.
-  - The responsive bid with the lowest evaluated price will be recommended for award of a contract.
-  - The Bidder must submit pricing in accordance with Annex A – List of Deliverables and Pricing.
-  - Canada retains the right to negotiate with suppliers on any procurement.Please refer to the Request for Quotations document for the complete details regarding this requirement including the mandatory criteria, evaluation criteria and basis of selection.
-  - Documents may be submitted in either official language of Canada.Suppliers are required to submit bids electronically using the Contracting Authority’s email.
-  - Faxed and hard copy bids (submitted in person or via mail/courier) will not be accepted, except in exceptional circumstances, for the subject bid solicitation.
-
 ### ASUS Ascent Supercomputers and Server Storage Devices, or equivalent, for DND.  —  _Strong fit_
 - **Closes:** 2026-10-22T14:00:00
 - **Buyer:** Shared Services Canada
@@ -146,22 +105,6 @@ _CanadaBuys open tender notices · generated 2026-10-20_
   - to publish the “Questions and Answers – Questions et r&#233;ponses (2026-10-16)" document that answers a question regarding the solicitation closing date.
   - All other terms and conditions of this solicitation remain the same.
 
-### Wireless Access Points and Switches - completion of project  —  _Unlikely_
-- **Closes:** 2026-10-20T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *N7025405
-- **Category:** *GD
-- **Contact:** Annie,Goulet
-- **Reference:** SSC-26-00035151:T
-- **Why IT:** IT infrastructure and operations: network; GSIN *N7025405
-- **Claude-fit signals:** —
-
-**Technical requirements (extracted):**
-  - _See full notice / attachments._
-
-**Business requirements (extracted):**
-  - _See full notice / attachments._
-
 ### Pure Storage FlashArray X50R3 – 3 Yr - Maintenance and Support -DND  —  _Unlikely_
 - **Closes:** 2026-10-26T14:00:00
 - **Buyer:** Shared Services Canada
@@ -178,123 +121,40 @@ _CanadaBuys open tender notices · generated 2026-10-20_
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
-### NPP – S6148153 - THS SA – One (1) Computer Application Support. Temporary Help Services against the Supply Arrangement for the National Capital Region (NCR).  —  _Unlikely_
-- **Closes:** 2026-11-02T13:00:00
-- **Published:** 2026-10-19
-- **Buyer:** Department of National Defence (DND)
-- **UNSPSC:** *Temporary personnel services
-- **Category:** *SRV
-- **Contact:** CFSGO-GTemporaryHelp-GSFCO-Gdaidetemporaire@forces.gc.ca
-- **Reference:** cb-778-59020005
-- **Why IT:** IT infrastructure and operations: computer application support, computer services
+### Wireless Access Points and Switches - completion of project  —  _Unlikely_
+- **Closes:** 2026-10-30T14:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *N7025405
+- **Category:** *GD
+- **Contact:** Annie,Goulet
+- **Reference:** SSC-26-00035151:T
+- **Why IT:** IT infrastructure and operations: network; GSIN *N7025405
 - **Claude-fit signals:** —
 
 **Technical requirements (extracted):**
-  - Adirondack Information Management Inc., The AIM Group Inc.
-  - NTT DATA CANADA, INC.
-  - Level of Security Requirement:
-  - Resource(s) Minimum Security Level Required is/are:
+  - _See full notice / attachments._
 
 **Business requirements (extracted):**
-  - The following SA Holders have been invited to submit a proposal:
-  - AZUR HUMAN RESOURCES LIMITED 
-  - Labor Tek Personnel Services Ltd / Labor Tek Services de Personnel Ltee 
-  - Department of National Defense (DND) has a requirement for Temporary Help Services and has issued a Request for Proposal to suppliers generated from CPSS who are qualified under the streams and categories listed above.
+  - _See full notice / attachments._
 
-### LH INBOARD FLAP ASSEMBLY  —  _Unlikely_
-- **Closes:** 2026-11-30T14:00:00
-- **Published:** 2026-10-19
-- **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Aerospace systems and components and equipment
+### QNAP TVS-H1688X - NAS server for RCMP  —  _Unlikely_
+- **Closes:** 2026-11-04T14:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *N7010
 - **Category:** *GD
-- **Contact:** edmond.egikian@tpsgc-pwgsc.gc.ca
-- **Reference:** WS5919867642-Doc5939084297
-- **Why IT:** IT infrastructure and operations: network
+- **Contact:** Rebecca,Sukkar
+- **Reference:** SSC-26-00034485:T
+- **Why IT:** IT infrastructure and operations: server; GSIN *N7010
 - **Claude-fit signals:** —
 
 **Technical requirements (extracted):**
-  - This Request for Proposal (RFP) will be issued for this requirement through the SAP Business Network (CanadaBuys), which is the electronic platform being used by the Government of Canada for procurement with the appropriate CanadaBuys Standard Instructions and General Conditions.
+  - _See full notice / attachments._
 
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
 
 ## Other IT
-### Research and Advisory Services  —  _Strong fit_
-- **Closes:** 2026-11-09T15:00:00
-- **Published:** 2026-10-19
-- **Buyer:** Department of Citizenship & Immigration (IRCC)
-- **UNSPSC:** *Information technology consultation services
-*Product research and development service
-- **Category:** *SRV
-- **Contact:** IRCC.BidsReceiving-Receptiondessoumissions.IRCC@cic.gc.ca
-- **Reference:** cb-950-7075770
-- **Why IT:** UNSPSC/category *Information technology consultation services
-*Product research and development 
-- **Claude-fit signals:** + analysis, + best practices, + research
-
-**Technical requirements (extracted):**
-  - Immigration, Refugees and Citizenship Canada requires specialized IT research and advisory services that provide access to expert insights, advanced methodologies, data-driven analysis, and industry best practices.
-
-**Business requirements (extracted):**
-  - These services will support informed decision-making, optimize resource allocation, mitigate risks, and enable strategic investments that deliver value for money while fostering innovation and addressing complex organizational challenges.
-
-### Notice of Proposed Procurement (NPP) - Data Hub Invitation to Qualify (ITQ) - D  —  _Strong fit_
-- **Closes:** 2026-11-13T14:00:00
-- **Published:** 2026-10-19
-- **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Software or hardware engineering
-- **Category:** *SRV
-- **Contact:** brian.steele@tpsgc-pwgsc.gc.ca
-- **Reference:** WS4611618733-Doc5938553023
-- **Why IT:** UNSPSC/category *Software or hardware engineering
-- **Claude-fit signals:** + evaluation, + report
-
-**Technical requirements (extracted):**
-  - Public Services and Procurement Canada (PSPC) is providing advance notice of its intention to issue a new Invitation to Qualify (ITQ-D) in support of the Enterprise Data Hub initiative.
-  - PSPC has previously conducted procurement and industry engagement activities related to the Enterprise Data Hub, including previous Invitations to Qualify.
-  - This Notice of Proposed Procurement (NPP) is being published for information purposes only to provide interested suppliers with advance awareness of the forthcoming procurement opportunity.
-  - For additional background on the Enterprise Data Hub initiative and industry engagement activities conducted to date, interested suppliers may also review the previously published Summary of Feedback and Outcomes Report.
-
-**Business requirements (extracted):**
-  - The forthcoming ITQ-D will set out the applicable requirements, qualification process, evaluation criteria, and instructions for participation.
-
-### Apple 16-inch MacBook Pro with M5 Max Chip(space black) or equivalent for DND  —  _Possible fit_
-- **Closes:** 2026-10-20T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *N7010
-- **Category:** *GD
-- **Contact:** Michael,Boualavong
-- **Reference:** SSC-26-00035079:T
-- **Why IT:** GSIN *N7010
-- **Claude-fit signals:** + writing
-
-**Technical requirements (extracted):**
-  - &nbsp;Security Requirements:
-
-**Business requirements (extracted):**
-  - 30 federal government working days from contract award.
-  - N/AThe Crown retains the right to negotiate with suppliers on any procurement.The responsive bid with the lowest evaluated price will be recommended for award of a contract.To access the solicitation and submit your bid click the following link:
-  - https://supplier-fournisseur-sscp2pspc.ssc-spc.gc.ca/page.aspx/en/usr/login&nbsp;Documents may be submitted in either official language of Canada.All enquiries related to this solicitation must be addressed in writing to:Michael BoualavongSenior Procurement Officer Shared Services Canada 270 Albert Street, 9th FloorOttawa, ON K1P 5G8Telephone:
-
-### Apple 16-inch MacBook Pro with M5 Max Chip(space black) or equivalent for DND  —  _Possible fit_
-- **Closes:** 2026-10-20T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *N7010
-- **Category:** *GD
-- **Contact:** Michael,Boualavong
-- **Reference:** SSC-26-00035085:T
-- **Why IT:** GSIN *N7010
-- **Claude-fit signals:** + writing
-
-**Technical requirements (extracted):**
-  - &nbsp;Security Requirements:
-
-**Business requirements (extracted):**
-  - 30 federal government working days from contract award.
-  - N/AThe Crown retains the right to negotiate with suppliers on any procurement.The responsive bid with the lowest evaluated price will be recommended for award of a contract.To access the solicitation and submit your bid click the following link:
-  - https://supplier-fournisseur-sscp2pspc.ssc-spc.gc.ca/page.aspx/en/usr/login&nbsp;Documents may be submitted in either official language of Canada.All enquiries related to this solicitation must be addressed in writing to:Michael BoualavongSenior Procurement Officer Shared Services Canada 270 Albert Street, 9th FloorOttawa, ON K1P 5G8Telephone:
-
 ### Maintenance and Support for Kodak Scanners for Statistics Canada (2026)  —  _Possible fit_
 - **Closes:** 2026-11-05T14:00:00
 - **Buyer:** Shared Services Canada
@@ -311,46 +171,93 @@ _CanadaBuys open tender notices · generated 2026-10-20_
 **Business requirements (extracted):**
   - This Contract is for maintaining the equipment described in Annex A in good working condition with both preventative and remedial maintained.&nbsp;
 
-
-## Software and application development
-### OSIRIS-REx Lab Organic and Inorganic Analyses Monitoring  —  _Strong fit_
-- **Closes:** 2026-11-03T15:00:00
-- **Published:** 2026-10-19
-- **Buyer:** Canadian Space Agency (CSA)
-- **UNSPSC:** *Application or technology research and development service
+### NPP - Stream 4: Business Services  —  _Unlikely_
+- **Closes:** 2026-11-03T14:00:00
+- **Published:** 2026-10-20
+- **Buyer:** Department of Natural Resources (NRCan)
+- **UNSPSC:** *Information technology consultation services
+*Business administration services
+*Information technology IT management services
 - **Category:** *SRV
-- **Contact:** kacendra.dion@asc-csa.gc.ca
-- **Reference:** cb-280-37424447
-- **Why IT:** Software and application development: technology research and development; UNSPSC/category *Application or technology research and development service
-- **Claude-fit signals:** + analyses, + analysis, + classification, + research
+- **Contact:** raymond.thai@NRCan-RNCan.gc.ca
+- **Reference:** cb-691-48571510
+- **Why IT:** UNSPSC/category *Information technology consultation services
+*Business administration services
 
-**Technical requirements (extracted):**
-  - In return for Canada’s contribution of OLA, Canada will receive 4% by mass of the returned sample, marking Canada’s first samples returned from another solar system body and the 5th country in the world to have samples collected in space.
-
-**Business requirements (extracted):**
-  - Determination of organic in air by TD-GC-MS;
-  - The Contractor must ship a series of 200 mm diameter bare silicon wafers and the absorbent tube to the CSA.
-  - The CSA will leave the wafer and tubes in the environment for 24 hours, following the Contractor’s provided instructions.
-  - The CSA will then ship the analytical equipment to the Contractor for analysis by VPD-ICP-MS and TD-GD-MS.
-  - The Contractor must include any accessories required for sampling, such as stands and tweezer for the wafers or pumps for the absorbent tubes.
-
-
-## Software licensing
-### Request For Quotation (RFQ) Riverbed License Maintenance and Support  —  _Unlikely_
-- **Closes:** 2026-10-20T15:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *N7030
-- **Category:** *GD
-- **Contact:** Dimeji,Temidire
-- **Reference:** SSC-26-00035113:T
-- **Why IT:** Software licensing: adp software; GSIN *N7030
 - **Claude-fit signals:** —
 
 **Technical requirements (extracted):**
   - _See full notice / attachments._
 
 **Business requirements (extracted):**
-  - _See full notice / attachments._
+  - NRCan is undertaking a series of projects and modernization initiatives that will require a temporary increase in resources.
+  - Business Services, for the resource categories listed herein on an “as and when required” basis through the issuance of Task Authorizations (TAs).
+
+
+## Software and application development
+### Geographic information system programmer/analyst  —  _Strong fit_
+- **Closes:** 2026-11-03T14:00:00
+- **Published:** 2026-10-20
+- **Buyer:** Office of Infrastructure of Canada (INFC)
+- **UNSPSC:** *Geographic information system
+*Geography and map skills resources and accessories
+*Geographic information system GIS services
+*Demining geographical or geospatial information system GIS
+- **Category:** *SRV
+- **Contact:** procurement-approvisionnement@infc.gc.ca
+- **Reference:** cb-184-76950539
+- **Why IT:** Software and application development: programmer
+- **Claude-fit signals:** + document, + documentation, + evaluation, + needs assessment
+
+**Technical requirements (extracted):**
+  - Bids which fail to provide all information and documentation as requested in the RFP document by the time of bid closure will be declared non-responsive.
+
+**Business requirements (extracted):**
+  - Housing, Infrastructure and Communities Canada (HICC) is seeking proposals for services to update a public-facing interactive map to assist with displaying housing needs across the country to provide access to municipal housing needs assessments, Census data, and downloadable resources.
+  - SA Holders may not submit a bid in response to this bid solicitation unless they have been invited to do so.
+  - However, should an uninvited SA Holder wish to be invited, it may contact the Contracting Authority to request an invitation at any time prior to five business days before the published bid closing date, and an invitation will be made to that SA Holder unless it would not be consistent with the efficient operation of the procurement process.
+  - One (1) contract will be awarded as a result of the evaluation of the responses to this RFP.
+  - Neither the qualifying proposal that scores the highest points nor the one that contains the lowest cost will necessarily be accepted.
+  - HICC reserves the right to accept any proposal as submitted without prior negotiations.
+
+### TBIPS Change Management Consultant Level 3  —  _Strong fit_
+- **Closes:** 2026-11-16T14:00:00
+- **Published:** 2026-10-20
+- **Buyer:** Department of Fisheries and Oceans (DFO)
+- **UNSPSC:** *Systems integration design
+- **Category:** *SRV
+- **Contact:** DFO.Tenders-Soumissions.MPO@dfo-mpo.gc.ca
+- **Reference:** cb-869-30702733
+- **Why IT:** Software and application development: systems integration
+- **Claude-fit signals:** + document, + framework, + writing
+
+**Technical requirements (extracted):**
+  - TASK BASED INFORMATICS PROFESSIONAL SERVICES (TBIPS)
+  - This requirement is open only to those TBIPS Supply Arrangement Holders under EN578-170432 who qualified under Tier 2, under the National Capital Region, level of expertise and for the following category:
+  - The objective of this engagement is to enable the organization to successfully adopt and sustain the changes introduced by DFO digital investments as well as the overall transformation agenda for the department.
+  - In addition, the Change Management resources must establish, document, and continuously improve change management standards, frameworks, methodologies, tools, and governance practices to promote a consistent and scalable approach across all digital initiatives.
+  - They will be responsible for ensuring the consistent application of these standards across projects, programs, and business areas, enabling a cohesive and enterprise-wide approach to change adoption and transformation.
+  - There are security requirements associated with this requirement.
+  - For additional information, consult Part 6
+  - Security, Financial and Other Requirements, and Part 7 – Resulting Contract Clauses.
+  - Level of Security Requirement:
+  - Security Requirement:
+  - Minimum Corporate Security Required:
+  - Minimum Resource Security Required:
+
+**Business requirements (extracted):**
+  - The requirement is intended to result in the award of one (1) contract.
+  - All SA Holders have been invited to submit a proposal.
+  - The Change Management resources will focus on the people's side of change, ensuring employees understand, accept, and embrace new technologies, processes, and ways of working.
+  - The Change Management resources will also be expected to build internal organizational capability by training, coaching, mentoring, and supporting employees, leaders, project teams, and emerging change management practitioners.
+  - This includes transferring knowledge, developing practical change management competencies, and helping establish a sustainable community of practice that strengthens the department's long-term ability to lead and manage change independently.
+  - Please note that SA Holders do not need to have the required clearance to submit a bid.
+  - For more information on personnel and organization security screening or security clauses, Bidders should refer to the Contract Security Program of Public Works and Government Services Canada (http://www.tpsgc-pwgsc.gc.ca/esc-src/introduction-eng.html) website.
+  - Applicable Trade Agreements:
+  - the Canada-Chile Free Trade Agreement (CCFTA), 
+  - the Canada-Peru Free Trade Agreement (CPFTA), 
+  - the Canada-Colombia Free Trade Agreement (CColFTA), 
+  - the Canada-Panama Free Trade Agreement (CPanFTA), 
 
 
 
