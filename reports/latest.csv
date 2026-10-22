@@ -1,20 +1,21 @@
 it_category,claude_tier,title,close_date,pub_date,buyer,gsin,unspsc,category,contact_email,notice_url,why_it
-"Cloud, data and analytics",Unlikely,IT Security Professional Services Under the Task-Based Services Supply Arrangement,2026-11-23T14:00:00,2026-10-20,Department of Public Safety and Emergency Preparedness (PS),,*Information Technology Service Delivery,*SRV,Matthew.Furlong@ps-sp.gc.ca,,"Cloud, data and analytics: cloud; UNSPSC/category *Information Technology Service Delivery"
+"Cloud, data and analytics",Possible fit,Herring Biological Sampling,2026-11-16T16:00:00,2026-10-21,Department of Fisheries and Oceans (DFO),,*Fishery data collection or distribution,*SRV,DFO.Tenders-Soumissions.MPO@dfo-mpo.gc.ca,,"Cloud, data and analytics: database"
 IT infrastructure and operations,Strong fit,"ASUS Ascent Supercomputers and Server Storage Devices, or equivalent, for DND.",2026-10-22T14:00:00,,Shared Services Canada,*N7010,,*GD,,,"IT infrastructure and operations: server, storage; GSIN *N7010"
+IT infrastructure and operations,Strong fit,Independent (Geoscience) Advisory Group on the long-term management of used nuclear fuel in a Deep Geological Repository (Phase V),2026-11-06T14:00:00,2026-10-21,Canadian Nuclear Safety Commission (CNSC),,"*Geology and earth science
+*Environmental advisory services
+*Geology",*SRV,solicitation-demandedesoumission@cnsc-ccsn.gc.ca,,IT infrastructure and operations: network
 IT infrastructure and operations,Possible fit,RFQ – HPE Hardware and Software Maintenance and Support renewal for DND,2026-10-23T14:00:00,,Shared Services Canada,*JX7025EA,,*SRVTGD,,,IT infrastructure and operations: network
 IT infrastructure and operations,Possible fit,"RFQ -Synology Hardware, or equivalent, for DND",2026-10-23T14:00:00,,Shared Services Canada,*AJ212512,,*SRV,,,IT infrastructure and operations: network
 IT infrastructure and operations,Possible fit,RFQ -  Preinstalled Extra Large Database ServerScience Logic Support or equivalent for SSC,2026-10-23T14:00:00,,Shared Services Canada,*N7025,,*GD,,,"IT infrastructure and operations: server, storage; GSIN *N7025"
+IT infrastructure and operations,Possible fit (with caveats),"Sprinkler Maintenance, Repairs, and Installation Services",2026-11-03T14:00:00,2026-10-21,Department of Industry (ISED),,"*Building and facility maintenance and repair services
+*Building maintenance and repair services",*SRV,rima.salika@ised-isde.gc.ca,,IT infrastructure and operations: network
 IT infrastructure and operations,Unlikely,Pure Storage FlashArray X50R3 – 3 Yr - Maintenance and Support -DND,2026-10-26T14:00:00,,Shared Services Canada,*N7030,,*GD,,,IT infrastructure and operations: storage; GSIN *N7030
 IT infrastructure and operations,Unlikely,Wireless Access Points and Switches - completion of project,2026-10-30T14:00:00,,Shared Services Canada,*N7025405,,*GD,,,IT infrastructure and operations: network; GSIN *N7025405
 IT infrastructure and operations,Unlikely,QNAP TVS-H1688X - NAS server for RCMP,2026-11-04T14:00:00,,Shared Services Canada,*N7010,,*GD,,,IT infrastructure and operations: server; GSIN *N7010
+IT infrastructure and operations,Unlikely,Local Moving Services for the Embassy of Canada in Stockholm,2026-11-05T11:00:00,2026-10-21,"Department of Foreign Affairs, Trade and Development (GAC)",,*Relocation services,*SRV,internationalproposals@international.gc.ca,,IT infrastructure and operations: storage
+IT infrastructure and operations,Unlikely,Data Erasure- RFP,2026-11-09T14:00:00,,Shared Services Canada,*N7030,,*GD,,,IT infrastructure and operations: storage; GSIN *N7030
+IT infrastructure and operations,Unlikely,"Canada Centre Conference on Countering Radicalization to Violence, “Megaweek 2027,”",2026-11-16T14:00:00,2026-10-21,Department of Public Safety and Emergency Preparedness (PS),,"*Audio visual services
+*Banquet and catering services
+*Meeting facilities",*SRV,nathalie.guerin@ps-sp.gc.ca,,IT infrastructure and operations: network
 Other IT,Possible fit,Maintenance and Support for Kodak Scanners for Statistics Canada (2026),2026-11-05T14:00:00,,Shared Services Canada,*N7025134,,*GD,,,GSIN *N7025134
-Other IT,Unlikely,NPP - Stream 4: Business Services,2026-11-03T14:00:00,2026-10-20,Department of Natural Resources (NRCan),,"*Information technology consultation services
-*Business administration services
-*Information technology IT management services",*SRV,raymond.thai@NRCan-RNCan.gc.ca,,"UNSPSC/category *Information technology consultation services
-*Business administration services
-"
-Software and application development,Strong fit,Geographic information system programmer/analyst,2026-11-03T14:00:00,2026-10-20,Office of Infrastructure of Canada (INFC),,"*Geographic information system
-*Geography and map skills resources and accessories
-*Geographic information system GIS services
-*Demining geographical or geospatial information system GIS",*SRV,procurement-approvisionnement@infc.gc.ca,,Software and application development: programmer
-Software and application development,Strong fit,TBIPS Change Management Consultant Level 3,2026-11-16T14:00:00,2026-10-20,Department of Fisheries and Oceans (DFO),,*Systems integration design,*SRV,DFO.Tenders-Soumissions.MPO@dfo-mpo.gc.ca,,Software and application development: systems integration
+Software licensing,Unlikely,SSC’s APM2 Industry Day,2026-11-02T14:00:00,,Shared Services Canada,*N7030,,*GD,,,Software licensing: adp software; GSIN *N7030
