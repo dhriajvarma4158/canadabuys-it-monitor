@@ -1,108 +1,53 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-10-22_
+_CanadaBuys open tender notices · generated 2026-10-23_
 
-**15** open IT opportunities published in the last 1 day(s). Scanned 897 open notices (158 strict IT matches).
+**16** open IT opportunities published in the last 1 day(s). Scanned 899 open notices (159 strict IT matches).
 
 ## Cloud, data and analytics
-### Herring Biological Sampling  —  _Possible fit_
-- **Closes:** 2026-11-16T16:00:00
-- **Published:** 2026-10-21
-- **Buyer:** Department of Fisheries and Oceans (DFO)
-- **UNSPSC:** *Fishery data collection or distribution
+### Subscription to a Drug Pricing Intelligence Database  —  _Possible fit_
+- **Closes:** 2026-11-06T12:00:00
+- **Published:** 2026-10-22
+- **Buyer:** Patented Medicine Prices Review Board (PMPRB)
+- **UNSPSC:** *Online database information retrieval service
 - **Category:** *SRV
-- **Contact:** DFO.Tenders-Soumissions.MPO@dfo-mpo.gc.ca
-- **Reference:** cb-186-22593486
+- **Contact:** sylvie.beaudoin@pmprb-Cepmb.gc.ca
+- **Reference:** cb-219-49543150
 - **Why IT:** Cloud, data and analytics: database
-- **Claude-fit signals:** + research
+- **Claude-fit signals:** + report
 
 **Technical requirements (extracted):**
-  - The biological information obtained through sample processing supports annual stock assessments and the development of scientific advice regarding the status of BC herring stocks.
-  - All sample identification information and biological data must be entered into the MS Access database provided by DFO.
-  - Daily electronic data backups must be completed using the USB drive provided by DFO.
-  - The Contractor must provide a completed MS Access database containing all required biological and sample information, prepared herring scale slides suitable for subsequent age determination, original sample labels, electronic data backup files, and cleaned sample buckets.
-  - The actual number of samples provided may vary according to sample availability.
-  - All proposed personnel must be fluent in English and capable of understanding technical instructions, following scientific procedures, and communicating effectively with DFO personnel.
+  - The PMPRB gathers intelligence and data on international pricing and reimbursement regimes/policies and trends to carry out its price review process, develop strategic advice and report on national and international trends.
+  - To perform these functions, the PMPRB needs to invest considerable resources both internally and externally to gathering and analyzing the best available information on global pricing and reimbursement of pharmaceuticals.
 
 **Business requirements (extracted):**
-  - The Contractor will be required to provide all qualified personnel, laboratory facilities, equipment, materials, and services necessary to process approximately 200 to 250 herring samples per year.
-  - The Contractor must process all samples provided by DFO, including samples containing fewer than 100 fish, in accordance with DFO-approved scientific procedures.
-  - For each fish processed, the Contractor must record the fish's length, weight, sex, gonad length, gonad weight, maturity stage, and one suitable herring scale for subsequent age determination.
-  - The Contractor must also prepare herring scale slides, maintain daily electronic data backups, conduct quality control checks, and submit the required data and associated materials within the specified timelines.
-  - The Contractor must provide a minimum two-person team consisting of one Project Manager and one Sampling Technician.
-  - The team must be available to process a minimum of five herring samples per day, with each sample containing approximately 100 fish.
-  - The Contractor must provide an appropriate laboratory facility with suitable workspace, equipment, cold-storage capacity, water supply, sanitation, and arrangements for the proper disposal of biological waste.
-  - Where the facility is located more than 10 km from the Pacific Biological Station (PBS), the Contractor will be responsible for arranging and paying for the pickup and transportation of samples from PBS to the facility.
-  - The Contractor must coordinate sample receipt or pickup with DFO, provide weekly submissions of prepared herring scale slides and original sample labels during the processing period, and return cleaned, empty sample buckets strapped in groups of ten.
-  - The initial Contract period and each option year are expected to require similar services and sample-processing volumes.
-  - Payment will be made only for samples provided by DFO and services completed in accordance with the Statement of Work.
-  - The Contractor is responsible for all costs associated with performing the work, including personnel, facilities, equipment, materials, transportation where required, and waste disposal.
+  - _See full notice / attachments._
 
 
 ## IT infrastructure and operations
-### ASUS Ascent Supercomputers and Server Storage Devices, or equivalent, for DND.  —  _Strong fit_
-- **Closes:** 2026-10-22T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *N7010
-- **Category:** *GD
-- **Contact:** Reyna Teresa,Garcia Tito
-- **Reference:** SSC-26-00034513:T
-- **Why IT:** IT infrastructure and operations: server, storage; GSIN *N7010
-- **Claude-fit signals:** + document, + evaluation
+### ET022-270285 Fuel Storage Tank System Replacement - Prince Albert National Park  —  _Strong fit_
+[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029254?anId=ANONYMOUS)
+- **Closes:** 2026-11-19T15:00:00
+- **Published:** 2026-10-22
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Fuel tanks and systems
+- **Category:** *CNST
+- **Contact:** lani.adatan@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5910624718-Doc5942351061
+- **Why IT:** IT infrastructure and operations: network, service desk, storage
+- **Claude-fit signals:** + content, + documentation
 
 **Technical requirements (extracted):**
-  - _See full notice / attachments._
+  - For technical support with SAP Ariba, please contact the CanadaBuys Service Desk agents:
+  - The event messages tab and/or the event contents section in the SAP Business Network event.
+  - Do not use the Q&A section appearing on the SAP Business Network Discovery website.
 
 **Business requirements (extracted):**
-  - and2.&nbsp;Extend the Solicitation Closing Date to October 22, 2026.Notice of Amendment 001This amendment is raised to:
-  - This process is intended to result in the award of one contract for the delivery of goods;
-  - the term of the contract will be a period of time encompassing the period for delivery and warranty.Policy on Reciprocal Procurement:
-  - This solicitation of bids is open to Canadian suppliers and to suppliers of an applicable trading partner.A bid must comply with all requirements of the bid solicitation to be declared responsive.
-  - The responsive bid with the lowest evaluated price will be recommended for award of a contract.
-  - The Bidder must submit pricing in accordance with Annex A – List of Deliverables and Pricing.
-  - Canada retains the right to negotiate with suppliers on any procurement.Please refer to the Request for Quotations document for the complete details regarding this requirement including the mandatory criteria, evaluation criteria and basis of selection.
-  - Documents may be submitted in either official language of Canada.Suppliers are required to submit bids electronically using the Contracting Authority’s email.
-  - Faxed and hard copy bids (submitted in person or via mail/courier) will not be accepted, except in exceptional circumstances, for the subject bid solicitation.
-
-### Independent (Geoscience) Advisory Group on the long-term management of used nuclear fuel in a Deep Geological Repository (Phase V)  —  _Strong fit_
-- **Closes:** 2026-11-06T14:00:00
-- **Published:** 2026-10-21
-- **Buyer:** Canadian Nuclear Safety Commission (CNSC)
-- **UNSPSC:** *Geology and earth science
-*Environmental advisory services
-*Geology
-- **Category:** *SRV
-- **Contact:** solicitation-demandedesoumission@cnsc-ccsn.gc.ca
-- **Reference:** cb-911-99857942
-- **Why IT:** IT infrastructure and operations: network
-- **Claude-fit signals:** + best practices, + documentation, + framework, + report, + research, + review of, + writing
-
-**Technical requirements (extracted):**
-  - The group supports the CNSC’s regulatory preparedness by providing independent advice on the long-term management of used nuclear fuel in Canada and by supporting technical reviews of regulatory documentation expected from the Nuclear Waste Management Organization (NWMO) in relation to its Deep Geological Repository (DGR) project.
-  - The NWMO initiated the formal regulatory review of their proposed DGR (through an integrated IA, which includes the initial CNSC licence) in early 2026.
-  - Currently, the CNSC is developing regulatory preparedness for technical reviews of regulatory documentation expected from the NWMO in support of their DGR project.
-  - Provide input and advice to CNSC’s technical reviews as requested, specific to NWMO’s integrated impact assessment (including licence application), in particular to the technical reports associated with and/or supporting the safe case for DGR project.
-  - Review the NWMO’s geoscientific research by using annual reports and /or other technical information documents, and attending geoscience seminars.
-  - Carleton University is considered unique because it has an established network of specialized individuals with expertise in the technical fields required for this work, including geomechanics, hydrogeology, geology, geochemistry, geoscience, radioactive waste management, deep geological repositories, site characterization, safety case development, and the long-term safety assessment of geological disposal.
-  - While there may be other suppliers with general geoscience expertise, this requirement also requires access to a coordinated group of experts who can provide independent, third-party advice on NWMO submissions related to licensing, while maintaining familiarity with the CNSC’s technical review needs and the Canadian regulatory context.
-  - This independence requirement significantly limits the availability of alternative sources of supply.
-  - Carleton’s established network is therefore uniquely positioned to provide the required breadth of specialized expertise while meeting the strict independence requirement for this contract.
-  - Carleton University has previously provided independent geoscientific advice to the CNSC, demonstrating familiarity with regulatory expectations, review processes, and the provision of objective technical assessments.
-  - In addition, the proposed supplier has thorough and up-to-date knowledge of the ongoing research and development (R&D) activities, as well as the licensing framework and supporting technical work associated with the NWMO DGR program.
-  - Suppliers are requested to submit documents in any of the following formats:
-
-**Business requirements (extracted):**
-  - The Canadian Nuclear Safety Commission (CNSC) has a requirement to build and maintain independent and contracted geoscientific expertise, consistent with international best practice, through an independent scientific advisory group.
-  - The purpose of this advance contract award notice (ACAN) is to signal the CNSC’s intention to award a contract for these services to:
-  - Before awarding a contract, however, the CNSC would like to provide other suppliers with the opportunity to demonstrate that they can satisfy the requirements set out in this ACAN, by submitting a statement of capabilities within the posting period for this ACAN, which is 15 calendar days.
-  - If, during the posting period, other potential suppliers submit a statement of capabilities that meets the requirements set out in this ACAN, the CNSC may proceed to a full tendering process via the Government Electronic Tendering Service or by inviting bids directly from suppliers.
-  - If no other supplier submits, on or before the closing date, a statement of capabilities meeting the requirements set out in the ACAN, a contract will be awarded to the above-noted supplier.
-  - The NWMO has developed the Adaptive Phased Management (APM) plan for the long-term management of Canada’s used nuclear fuel.
-  - As part of building and maintaining independent knowledge, the CNSC continues independent and contracted geoscientific research.
-  - Based on the tasks identified in the work plan, the IAG will provide independent geoscientific advice to the CNSC related to the long-term management of used nuclear fuel in Canada.
-  - The IAG will carry out these tasks in accordance with the Terms of Reference
-  - 4.0	ESTIMATED PERIOD AND VALUE OF CONTRACT
-  - The proposed contract is for a period of 3 years, from April 1, 2027.
-  - The estimated value of the contract is $450,000.
+  - AMENDMENT TO RESPONSE DEADLINE CLOSING TIME:
+  - Please disregard the Ariba Discovery posting response deadline closing time.
+  - All required supporting documentation and bid submission must be submitted by 19 November 2026at 14:00 EST.
+  - All bids submitted after 14:00 EST will result in the bid being declared non-responsive.The full Request for Proposal (RFP) and attachments can only be accessed and downloaded when logged into your SAP Ariba account and you have filled out your Government of Canada profile.
+  - Once you have created an account or logged in, you will need to answer a few additional questions about your business in order to view and bid on Government of Canada tender opportunities.
+  - Where to submit questions about the tender document:
 
 ### RFQ – HPE Hardware and Software Maintenance and Support renewal for DND  —  _Possible fit_
 - **Closes:** 2026-10-23T14:00:00
@@ -151,38 +96,52 @@ _CanadaBuys open tender notices · generated 2026-10-22_
 - **Claude-fit signals:** + document
 
 **Technical requirements (extracted):**
-  - Preinstalled Extra Large Database ServerScience Logic Support or equivalent for SSC- Amendment 001
+  - Preinstalled Extra Large Database ServerScience Logic Support or equivalent for SSC- Amendment 002
 
 **Business requirements (extracted):**
-  - To publish amendment 001 to the RFQ to extend the closing date of the solicitation to October 23, 2026.
-  - to publish the “Questions and Answers – Questions et r&#233;ponses (2026-10-16)" document that answers a question regarding the solicitation closing date.
+  - to publish the “Questions and Answers – Questions et r&#233;ponses (2026-10-23)" document that answers a question regarding the solicitation closing date.
   - All other terms and conditions of this solicitation remain the same.
 
-### Sprinkler Maintenance, Repairs, and Installation Services  —  _Possible fit (with caveats)_
-- **Closes:** 2026-11-03T14:00:00
-- **Published:** 2026-10-21
-- **Buyer:** Department of Industry (ISED)
-- **UNSPSC:** *Building and facility maintenance and repair services
-*Building maintenance and repair services
-- **Category:** *SRV
-- **Contact:** rima.salika@ised-isde.gc.ca
-- **Reference:** cb-384-83204763
+### RFP Mobile Nitrogen Generators for the Department of National Defence v3  —  _Possible fit_
+[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029251?anId=ANONYMOUS)
+- **Closes:** 2026-11-24T14:00:00
+- **Published:** 2026-10-22
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Diesel generators
+- **Category:** *GD
+- **Contact:** jean-robert.goulet@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5552838538-Doc5943942999
 - **Why IT:** IT infrastructure and operations: network
-- **Claude-fit signals:** + writing, - installation, - on site
+- **Claude-fit signals:** + documentation
 
 **Technical requirements (extracted):**
-  - Innovation Science and Economic Development Canada (ISED)  is soliciting bids for services to provide Sprinkler Maintenance, Repairs, and Installation Services to all sprinkler systems and other security components associated with the SBC on an "as and when requested" basis.
-  - The area of work shall be within the National Capital Region (NCR), specifically the complex of the SBC located at 3701 Carling Avenue, Ottawa, ON.
-  - Provide testing and inspecting all equipment attached to sprinkler systems to ensure system is always operational as per codes per the buildings (Semi annual inspections, bi-annuals, and annually)
-  - Replace any defective system components to ensure system integrity.
-  - commonly encountered errors, incorrect configurations, network connectivity issues, version conflicts, failed fire suppression systems, and the installations of sprinklers within potentially new buildings on site.
+  - Please disregard the SAP Business Network posting response closing time and CanadaBuys posting closing time.
 
 **Business requirements (extracted):**
-  - The Contractor will be responsible for supplying all labour, equipment, and tools to complete the scope of work identified below.
-  - The services will be required for a period commencing from contract award to March 31, 2027, with the choice of option years for 2027-2028, 2028-2029, and 2029-2030, for a total of 4 years.
-  - It is estimated that the total expenditures throughout the period of the resulting contract will not exceed $139,200.00 (plus HST).
-  - The Contractor will be responsible for supplying all labour, equipment, materials (ISED reserves the right to directly purchase materials and supplies for installation from the Contractor), tools, and supervision to complete services with qualified, licensed technician on an ‘as and when’ required basis as identified in the scope of work below.
-  - Repair costs must be submitted for approval prior to the work and show the cost of material and labor.
+  - AMENDMENT TO CLOSING TIME:
+  - Unless specified otherwise in the tender opportunity, all required supporting documentation and responses must be submitted by November 24, 2026 at 14:00EST.
+  - All responses submitted after 14:00EST will result in the response being declared non-responsive.
+
+### RFP 23240-270241 - High temperature resistivity setup system  —  _Possible fit (with caveats)_
+[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029230?anId=ANONYMOUS)
+- **Closes:** 2026-11-09T14:00:00
+- **Published:** 2026-10-22
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Measuring and observing and testing instruments
+- **Category:** *GD
+- **Contact:** lisa.golab@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5918009453-Doc5941899409
+- **Why IT:** IT infrastructure and operations: network
+- **Claude-fit signals:** + content, - supply of
+
+**Technical requirements (extracted):**
+  - The event messages tab and/or the event contents section in the SAP Business Network event.
+  - Do not use the Q&A section appearing on the SAP Business Network Discovery website.
+  - Ensure you are fully registered in CanadaBuys/SAP Ariba! Natural Resources Canada (NRCan) has a requirement for the supply of one high temperature resistivity setup system, which must meet all of the mandatory technical requirements.
+  - The contractor must provide all equipment, software, manuals, peripherals, accessories, cables and components necessary for the high temperature resistivity setup system to work in accordance with the Mandatory Technical Requirements.
+
+**Business requirements (extracted):**
+  - Where to submit questions about the tender document:
 
 ### Pure Storage FlashArray X50R3 – 3 Yr - Maintenance and Support -DND  —  _Unlikely_
 - **Closes:** 2026-10-26T14:00:00
@@ -232,24 +191,6 @@ _CanadaBuys open tender notices · generated 2026-10-22_
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
-### Local Moving Services for the Embassy of Canada in Stockholm  —  _Unlikely_
-- **Closes:** 2026-11-05T11:00:00
-- **Published:** 2026-10-21
-- **Buyer:** Department of Foreign Affairs, Trade and Development (GAC)
-- **UNSPSC:** *Relocation services
-- **Category:** *SRV
-- **Contact:** internationalproposals@international.gc.ca
-- **Reference:** cb-838-64359830
-- **Why IT:** IT infrastructure and operations: storage
-- **Claude-fit signals:** —
-
-**Technical requirements (extracted):**
-  - _See full notice / attachments._
-
-**Business requirements (extracted):**
-  - The Embassy of Canada in Stockholm, Sweden requires services of an experienced Contractor to provide the moving and relocation services within the region of Stockholm between the Embassy,  official residence and staff quarters, to/from storage facilities and between the Embassy and Swedish seaports.
-  - The Contractor must posses the licences required to operate in the region of Stockholm, Sweden.
-
 ### Data Erasure- RFP  —  _Unlikely_
 - **Closes:** 2026-11-09T14:00:00
 - **Buyer:** Shared Services Canada
@@ -269,29 +210,45 @@ _CanadaBuys open tender notices · generated 2026-10-22_
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
-### Canada Centre Conference on Countering Radicalization to Violence, “Megaweek 2027,”  —  _Unlikely_
-- **Closes:** 2026-11-16T14:00:00
-- **Published:** 2026-10-21
-- **Buyer:** Department of Public Safety and Emergency Preparedness (PS)
-- **UNSPSC:** *Audio visual services
-*Banquet and catering services
-*Meeting facilities
-- **Category:** *SRV
-- **Contact:** nathalie.guerin@ps-sp.gc.ca
-- **Reference:** cb-871-50633660
-- **Why IT:** IT infrastructure and operations: network
-- **Claude-fit signals:** - onsite
+### Telecom Management Network (TMN) Monitoring Solution  —  _Unlikely_
+- **Closes:** 2026-11-13T23:59:00
+- **Published:** 2026-10-22
+- **Buyer:** Department of National Defence (DND)
+- **UNSPSC:** *Enhanced telecommunications services
+- **Category:** *GD
+- **Contact:** christopher.muldoon@forces.gc.ca
+- **Reference:** cb-343-67034154
+- **Why IT:** IT infrastructure and operations: network, telecommunication
+- **Claude-fit signals:** —
 
 **Technical requirements (extracted):**
-  - The event will include plenary sessions, concurrent breakout sessions, VIP activities, partner showcases, networking, side meetings and an evening reception on Day 1.
-  - The Contractor must complete required setup, configuration and testing before the event and provide onsite support throughout delivery and teardown.
+  - _See full notice / attachments._
 
 **Business requirements (extracted):**
-  - Public Safety Canada requires a Contractor to provide a suitable venue, hospitality services and complete audio-visual services for a three-day conference for up to 500 participants.
-  - Bidders may also propose other three-consecutive-weekday options in February 2027, excluding February 15, 2027, Family Day.
-  - Public Safety Canada will select the event dates that best meet its operational requirements from among the date options proposed by responsive bidders.
-  - Once the event dates have been selected, the responsive bid with the lowest evaluated aggregate price for meeting space and hospitality services for the selected dates will be recommended for contract award.
-  - If two or more responsive bids have the same lowest evaluated aggregate price, the bid with the lowest evaluated meeting space cost will be recommended for contract award.
+  - This requirement is a Request for Proposal (RFP) against Supply Arrangement # W6399-22-CA50.
+  - If vendors outside of the Supply Arrangement are interested in submitting a proposal, they will have to qualify for the Supply Arrangement before they are given an opportunity to bid on this requirement.
+  - Please contact the Supply Arrangement Contracting Officer at PSPC to obtain the steps required to be considered for Supply Arrangement # W6399-22-CA50.
+
+### Industrial Workstations  —  _Unlikely_
+- **Closes:** 2026-11-16T16:00:00
+- **Published:** 2026-10-22
+- **Buyer:** Department of National Defence (DND)
+- **UNSPSC:** *Lockers
+*Storage cabinets
+*Industrial work surfaces
+- **Category:** *GD
+- **Contact:** Shirley.Choy@forces.gc.ca
+- **Reference:** cb-364-86211256
+- **Why IT:** IT infrastructure and operations: storage
+- **Claude-fit signals:** - installation, - security clearance
+
+**Technical requirements (extracted):**
+  - There are security requirements associated with this requirement.
+  - For additional information, consult the section on Security Clearances in the Offeror Requirements, and the section on security in the resulting contract.
+  - For additional information on security requirements, Offerors should refer to the Contract Security Program of the Public Works and Government Services Canada (http://www.tpsgc-pwgsc.gc.ca/esc-src/introduction-eng.html) website.
+
+**Business requirements (extracted):**
+  - Documents may be submitted in either official language of Canada.
 
 
 ## Other IT
@@ -310,6 +267,47 @@ _CanadaBuys open tender notices · generated 2026-10-22_
 
 **Business requirements (extracted):**
   - This Contract is for maintaining the equipment described in Annex A in good working condition with both preventative and remedial maintained.&nbsp;
+
+
+## Software and application development
+### 5000096221 Programmer / Software Developer – Level 2  —  _Possible fit (with caveats)_
+- **Closes:** 2026-11-23T14:00:00
+- **Published:** 2026-10-22
+- **Buyer:** Canadian Nuclear Safety Commission (CNSC)
+- **UNSPSC:** *Information technology consultation services
+- **Category:** *SRV
+- **Contact:** solicitation-demandedesoumission@cnsc-ccsn.gc.ca
+- **Reference:** cb-336-68484575
+- **Why IT:** Software and application development: developer, programmer; UNSPSC/category *Information technology consultation services
+- **Claude-fit signals:** + writing, - security clearance
+
+**Technical requirements (extracted):**
+  - NOTICE OF PROPOSED PROCUREMENT (NPP) for TASK BASED INFORMATICS PROFESSIONAL SERVICES (TBIPS)
+  - This requirement is open only to those TBIPS Supply Arrangement Holders under EN578-170432 who qualified under Tier 1 under the National Capital Region (NCR) for the level of expertise and for the following category(ies):
+  - A.6 Programmer / Software Developer – Level 2
+  - Adirondack Information Management Inc.
+  - Nortak Software Ltd.
+  - Prologic Systems Ltd.
+  - Factr Limited	Systemscope Inc.
+  - Thinking Big Information Technology Inc.
+  - Tundra Technical Solutions Inc
+  - The CNSC requires the services of Programmers/Software Developers to assist with designing and developing micro/event services to enable digital regulatory capabilities that enable both people and system data interactions across the Canadian nuclear ecosystem.
+  - There are security requirements associated with this requirement.
+  - For additional information, consult Part 6
+
+**Business requirements (extracted):**
+  - The requirement is intended to result in the award of one (1) contract.
+  - The following SA Holders have been invited to submit a proposal:
+  - ACOSYS CONSULTING SERVICES INC./ SERVICES CONSEILS ACOSYS INC., PRICEWATERHOUSECOOPERS LLP, IN JOINT VENTURE	Morningstar Solutions IQ Inc
+  - New Value Solutions Group Inc.
+  - Contract Community Inc.
+  - Please note that SA Holders do not need to have the required clearance to submit a bid.
+  - For more information on personnel and organization security screening or security clauses, Bidders should refer to the Contract Security Program of Public Works and Government Services Canada (http://www.tpsgc-pwgsc.gc.ca/esc-src/introduction-eng.html) website.
+  - Proposed period of contract:
+  - The proposed period of contract is approximately 3.5 years.
+  - Contracting Authority:
+  - Inquiries regarding this Request for Proposal (RFP) requirement must be submitted to the Contracting Authority named above.
+  - RFP documents will be e-mailed directly by the Contracting Authority to the Qualified Supply Arrangement Holders who are being invited to bid on this requirement.
 
 
 ## Software licensing
