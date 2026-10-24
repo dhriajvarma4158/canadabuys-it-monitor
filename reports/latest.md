@@ -1,147 +1,98 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-10-23_
+_CanadaBuys open tender notices · generated 2026-10-24_
 
-**16** open IT opportunities published in the last 1 day(s). Scanned 899 open notices (159 strict IT matches).
+**13** open IT opportunities published in the last 1 day(s). Scanned 899 open notices (160 strict IT matches).
 
 ## Cloud, data and analytics
-### Subscription to a Drug Pricing Intelligence Database  —  _Possible fit_
-- **Closes:** 2026-11-06T12:00:00
-- **Published:** 2026-10-22
-- **Buyer:** Patented Medicine Prices Review Board (PMPRB)
-- **UNSPSC:** *Online database information retrieval service
+### Data Analytics  —  _Strong fit_
+- **Closes:** 2026-11-17T14:00:00
+- **Published:** 2026-10-23
+- **Buyer:** Department of National Defence (DND)
+- **UNSPSC:** *Information technology consultation services
+*Business intelligence consulting services
+*Project monitoring and evaluation
 - **Category:** *SRV
-- **Contact:** sylvie.beaudoin@pmprb-Cepmb.gc.ca
-- **Reference:** cb-219-49543150
-- **Why IT:** Cloud, data and analytics: database
-- **Claude-fit signals:** + report
+- **Contact:** noemy.dubois3@forces.gc.ca
+- **Reference:** cb-760-4439630
+- **Why IT:** Cloud, data and analytics: business intelligence, data analytics; UNSPSC/category *Information technology consultation services
+*Business intelligence consulting 
+- **Claude-fit signals:** + analysis, + evaluation, + report
 
 **Technical requirements (extracted):**
-  - The PMPRB gathers intelligence and data on international pricing and reimbursement regimes/policies and trends to carry out its price review process, develop strategic advice and report on national and international trends.
-  - To perform these functions, the PMPRB needs to invest considerable resources both internally and externally to gathering and analyzing the best available information on global pricing and reimbursement of pharmaceuticals.
+  - The Department of National Defence (DND), on behalf of the Canadian Forces Health Services (CFHS), requires one (1) Evaluation Services Consultant to provide evaluation services, statistical analysis, economic assessment and reporting services in support of the evaluation of a Virtual Reality (VR) Platform over a six (6) month period.
 
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
-
-## IT infrastructure and operations
-### ET022-270285 Fuel Storage Tank System Replacement - Prince Albert National Park  —  _Strong fit_
-[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029254?anId=ANONYMOUS)
-- **Closes:** 2026-11-19T15:00:00
-- **Published:** 2026-10-22
+### 5Z011-260117 - RFP Archive Folders and Envelopes  —  _Possible fit_
+[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029373?anId=ANONYMOUS)
+- **Closes:** 2026-11-18T14:00:00
+- **Published:** 2026-10-23
 - **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Fuel tanks and systems
-- **Category:** *CNST
-- **Contact:** lani.adatan@tpsgc-pwgsc.gc.ca
-- **Reference:** WS5910624718-Doc5942351061
-- **Why IT:** IT infrastructure and operations: network, service desk, storage
-- **Claude-fit signals:** + content, + documentation
-
-**Technical requirements (extracted):**
-  - For technical support with SAP Ariba, please contact the CanadaBuys Service Desk agents:
-  - The event messages tab and/or the event contents section in the SAP Business Network event.
-  - Do not use the Q&A section appearing on the SAP Business Network Discovery website.
-
-**Business requirements (extracted):**
-  - AMENDMENT TO RESPONSE DEADLINE CLOSING TIME:
-  - Please disregard the Ariba Discovery posting response deadline closing time.
-  - All required supporting documentation and bid submission must be submitted by 19 November 2026at 14:00 EST.
-  - All bids submitted after 14:00 EST will result in the bid being declared non-responsive.The full Request for Proposal (RFP) and attachments can only be accessed and downloaded when logged into your SAP Ariba account and you have filled out your Government of Canada profile.
-  - Once you have created an account or logged in, you will need to answer a few additional questions about your business in order to view and bid on Government of Canada tender opportunities.
-  - Where to submit questions about the tender document:
-
-### RFQ – HPE Hardware and Software Maintenance and Support renewal for DND  —  _Possible fit_
-- **Closes:** 2026-10-23T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *JX7025EA
-- **Category:** *SRVTGD
-- **Contact:** Ryma,Brahiti
-- **Reference:** SSC-26-00035044:T
-- **Why IT:** IT infrastructure and operations: network
-- **Claude-fit signals:** + document
-
-**Technical requirements (extracted):**
-  - SSC RFQ – HPE Hardware and Software Maintenance and Support renewal for DND- Amendment 001
-
-**Business requirements (extracted):**
-  - To publish amendment 001 to the RFQ to extend the closing date of the solicitation to October 23, 2026.
-  - to publish the “Questions and Answers – Questions et r&#233;ponses (2026-10-16)" document that answers a question regarding the solicitation closing date.
-  - All other terms and conditions of this solicitation remain the same.&nbsp;
-
-### RFQ -Synology Hardware, or equivalent, for DND  —  _Possible fit_
-- **Closes:** 2026-10-23T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *AJ212512
-- **Category:** *SRV
-- **Contact:** Ryma,Brahiti
-- **Reference:** SSC-26-00034509:T
-- **Why IT:** IT infrastructure and operations: network
-- **Claude-fit signals:** + document
-
-**Technical requirements (extracted):**
-  - SSC RFQ -Synology Hardware, or equivalent, for DND- Amendment 002
-
-**Business requirements (extracted):**
-  - to publish the “Questions and Answers – Questions et r&#233;ponses (2026-10-17)" document that answers a question regarding the solicitation closing date.
-  - to publish amendment 002 to the RFQ to extend the closing date of the solicitation to October 23, 2026.
-  - All other terms and conditions of this solicitation remain the same.&nbsp;
-
-### RFQ -  Preinstalled Extra Large Database ServerScience Logic Support or equivalent for SSC  —  _Possible fit_
-- **Closes:** 2026-10-23T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *N7025
+- **UNSPSC:** *Paper products
+*Specialty envelopes
+*Folders
 - **Category:** *GD
-- **Contact:** Ryma,Brahiti
-- **Reference:** SSC-26-00034883:T
-- **Why IT:** IT infrastructure and operations: server, storage; GSIN *N7025
-- **Claude-fit signals:** + document
-
-**Technical requirements (extracted):**
-  - Preinstalled Extra Large Database ServerScience Logic Support or equivalent for SSC- Amendment 002
-
-**Business requirements (extracted):**
-  - to publish the “Questions and Answers – Questions et r&#233;ponses (2026-10-23)" document that answers a question regarding the solicitation closing date.
-  - All other terms and conditions of this solicitation remain the same.
-
-### RFP Mobile Nitrogen Generators for the Department of National Defence v3  —  _Possible fit_
-[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029251?anId=ANONYMOUS)
-- **Closes:** 2026-11-24T14:00:00
-- **Published:** 2026-10-22
-- **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Diesel generators
-- **Category:** *GD
-- **Contact:** jean-robert.goulet@tpsgc-pwgsc.gc.ca
-- **Reference:** WS5552838538-Doc5943942999
-- **Why IT:** IT infrastructure and operations: network
+- **Contact:** gabrielle.durand-marsh@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5943624261-Doc5945286266
+- **Why IT:** Cloud, data and analytics: cloud, dashboard
 - **Claude-fit signals:** + documentation
 
 **Technical requirements (extracted):**
-  - Please disregard the SAP Business Network posting response closing time and CanadaBuys posting closing time.
+  - https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029373?anId=ANONYMOUS
 
 **Business requirements (extracted):**
+  - The Department of Public Works and Government Services Canada (PWGSC), on behalf of Library and Archives Canada (LAC), has a requirement for a Contract to purchase archive folders and archive envelopes, to be delivered on an ‘’as and when required’’ basis.
   - AMENDMENT TO CLOSING TIME:
-  - Unless specified otherwise in the tender opportunity, all required supporting documentation and responses must be submitted by November 24, 2026 at 14:00EST.
-  - All responses submitted after 14:00EST will result in the response being declared non-responsive.
+  - Please disregard the Ariba Discovery posting response deadline closing time and CanadaBuys posting closing time.
+  - All required supporting documentation and offer submission must be submitted on November 18, 2026 by 2:00pm EST.
+  - All offers submitted after 2:00pm EST will result in the offer being declared non-responsive.
+  - The full Request for Proposal (RFP) and attachments can only be accessed and downloaded when logged into your SAP Ariba account.
 
-### RFP 23240-270241 - High temperature resistivity setup system  —  _Possible fit (with caveats)_
-[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029230?anId=ANONYMOUS)
-- **Closes:** 2026-11-09T14:00:00
-- **Published:** 2026-10-22
-- **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Measuring and observing and testing instruments
-- **Category:** *GD
-- **Contact:** lisa.golab@tpsgc-pwgsc.gc.ca
-- **Reference:** WS5918009453-Doc5941899409
-- **Why IT:** IT infrastructure and operations: network
-- **Claude-fit signals:** + content, - supply of
+
+## Digital records and information management
+### TSPS - NOTICE OF PROPOSED PROCUREMENT (NPP)  —  _Unlikely_
+- **Closes:** 2026-11-10T14:00:00
+- **Published:** 2026-10-23
+- **Buyer:** Canadian Food Inspection Agency (CFIA)
+- **UNSPSC:** *Information services
+- **Category:** *SRV
+- **Contact:** Ashley.Bennett@inspection.gc.ca
+- **Reference:** cb-522-62468062
+- **Why IT:** Digital records and information management: records management
+- **Claude-fit signals:** —
 
 **Technical requirements (extracted):**
-  - The event messages tab and/or the event contents section in the SAP Business Network event.
-  - Do not use the Q&A section appearing on the SAP Business Network Discovery website.
-  - Ensure you are fully registered in CanadaBuys/SAP Ariba! Natural Resources Canada (NRCan) has a requirement for the supply of one high temperature resistivity setup system, which must meet all of the mandatory technical requirements.
-  - The contractor must provide all equipment, software, manuals, peripherals, accessories, cables and components necessary for the high temperature resistivity setup system to work in accordance with the Mandatory Technical Requirements.
+  - This requirement is open only to those TSPS Supply Arrangement Holders who qualified under Tier 1 for services in the National Capital Region for the following category(ies):
+  - 2.11 Information / Records Management / Recordkeeping Specialist
+  - Security Requirement:
+  - Minimum Resource Security Required:
 
 **Business requirements (extracted):**
-  - Where to submit questions about the tender document:
+  - This procurement has been conditionally set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB).
+  - The procurement is open to both Indigenous and non-Indigenous businesses.
+  - However, if two or more Indigenous businesses submit a bid, then the procurement is set aside under PSIB.
+  - In order to be considered under PSIB, a supplier must certify that it qualifies as an Indigenous business as defined under PSIB and that it will comply with all requirements of PSIB.
+
+
+## IT infrastructure and operations
+### Purchase of two (2) Millimetre-Wave Frequency Extender Modules for a Vector Network Analyzers (VNAs) from 110 GHz to 170 GHz  —  _Possible fit_
+- **Closes:** 2026-11-09T14:00:00
+- **Published:** 2026-10-23
+- **Buyer:** National Research Council of Canada (NRC)
+- **UNSPSC:** *Laboratory and scientific equipment
+- **Category:** *GD
+- **Contact:** MarieJosee.Lachance@nrc-cnrc.gc.ca
+- **Reference:** cb-917-52161619
+- **Why IT:** IT infrastructure and operations: network
+- **Claude-fit signals:** + research
+
+**Technical requirements (extracted):**
+  - Existing Vector Network Analyzers (VNAs) at NRC HAA are currently limited to a maximum operational frequency of 116 GHz.
+  - These extenders must integrate with either of HAA's existing analysers (Keysight PNA N5227B and Rohde & Schwarz ZNA67), providing high dynamic range and stable two-port measurements.
+
+**Business requirements (extracted):**
+  - _See full notice / attachments._
 
 ### Pure Storage FlashArray X50R3 – 3 Yr - Maintenance and Support -DND  —  _Unlikely_
 - **Closes:** 2026-10-26T14:00:00
@@ -210,45 +161,42 @@ _CanadaBuys open tender notices · generated 2026-10-23_
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
-### Telecom Management Network (TMN) Monitoring Solution  —  _Unlikely_
-- **Closes:** 2026-11-13T23:59:00
-- **Published:** 2026-10-22
-- **Buyer:** Department of National Defence (DND)
-- **UNSPSC:** *Enhanced telecommunications services
+### Parliamentary Precinct Network Infrastructure Transformation  —  _Unlikely_
+- **Closes:** 2026-11-09T14:00:00
+- **Published:** 2026-10-23
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Wireless access point
 - **Category:** *GD
-- **Contact:** christopher.muldoon@forces.gc.ca
-- **Reference:** cb-343-67034154
-- **Why IT:** IT infrastructure and operations: network, telecommunication
+- **Contact:** sidney.soutozoellner@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5935625437-Doc5945491432
+- **Why IT:** IT infrastructure and operations: network, network infrastructure
 - **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - The project is ensuring the PPN as sufficient capabilities and scale to meet the current and future needs of the HoC network
+
+**Business requirements (extracted):**
+  - _See full notice / attachments._
+
+### Phase 2 EZ899-270648 Fuel Tank and Dispenser Replacement  —  _Unlikely_
+- **Closes:** 2026-11-10T14:00:00
+- **Published:** 2026-10-23
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Fuel storage tanks
+*Fuel tanks and systems
+*Demolition services
+*Specialty building and trades services
+- **Category:** *CNST
+- **Contact:** rodnie.allison@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5902662668-Doc5945723506
+- **Why IT:** IT infrastructure and operations: storage
+- **Claude-fit signals:** - installation
 
 **Technical requirements (extracted):**
   - _See full notice / attachments._
 
 **Business requirements (extracted):**
-  - This requirement is a Request for Proposal (RFP) against Supply Arrangement # W6399-22-CA50.
-  - If vendors outside of the Supply Arrangement are interested in submitting a proposal, they will have to qualify for the Supply Arrangement before they are given an opportunity to bid on this requirement.
-  - Please contact the Supply Arrangement Contracting Officer at PSPC to obtain the steps required to be considered for Supply Arrangement # W6399-22-CA50.
-
-### Industrial Workstations  —  _Unlikely_
-- **Closes:** 2026-11-16T16:00:00
-- **Published:** 2026-10-22
-- **Buyer:** Department of National Defence (DND)
-- **UNSPSC:** *Lockers
-*Storage cabinets
-*Industrial work surfaces
-- **Category:** *GD
-- **Contact:** Shirley.Choy@forces.gc.ca
-- **Reference:** cb-364-86211256
-- **Why IT:** IT infrastructure and operations: storage
-- **Claude-fit signals:** - installation, - security clearance
-
-**Technical requirements (extracted):**
-  - There are security requirements associated with this requirement.
-  - For additional information, consult the section on Security Clearances in the Offeror Requirements, and the section on security in the resulting contract.
-  - For additional information on security requirements, Offerors should refer to the Contract Security Program of the Public Works and Government Services Canada (http://www.tpsgc-pwgsc.gc.ca/esc-src/introduction-eng.html) website.
-
-**Business requirements (extracted):**
-  - Documents may be submitted in either official language of Canada.
+  - _See full notice / attachments._
 
 
 ## Other IT
@@ -270,44 +218,25 @@ _CanadaBuys open tender notices · generated 2026-10-23_
 
 
 ## Software and application development
-### 5000096221 Programmer / Software Developer – Level 2  —  _Possible fit (with caveats)_
-- **Closes:** 2026-11-23T14:00:00
-- **Published:** 2026-10-22
-- **Buyer:** Canadian Nuclear Safety Commission (CNSC)
-- **UNSPSC:** *Information technology consultation services
+### Digital Talent Services  —  _Unlikely_
+- **Closes:** 2026-11-24T14:00:00
+- **Published:** 2026-10-23
+- **Buyer:** Department of Public Safety and Emergency Preparedness (PS)
+- **UNSPSC:** *System or application programming management service
 - **Category:** *SRV
-- **Contact:** solicitation-demandedesoumission@cnsc-ccsn.gc.ca
-- **Reference:** cb-336-68484575
-- **Why IT:** Software and application development: developer, programmer; UNSPSC/category *Information technology consultation services
-- **Claude-fit signals:** + writing, - security clearance
+- **Contact:** alexandra.gallerio@ps-sp.gc.ca
+- **Reference:** cb-26-24814736
+- **Why IT:** Software and application development: programming
+- **Claude-fit signals:** —
 
 **Technical requirements (extracted):**
-  - NOTICE OF PROPOSED PROCUREMENT (NPP) for TASK BASED INFORMATICS PROFESSIONAL SERVICES (TBIPS)
-  - This requirement is open only to those TBIPS Supply Arrangement Holders under EN578-170432 who qualified under Tier 1 under the National Capital Region (NCR) for the level of expertise and for the following category(ies):
-  - A.6 Programmer / Software Developer – Level 2
-  - Adirondack Information Management Inc.
-  - Nortak Software Ltd.
-  - Prologic Systems Ltd.
-  - Factr Limited	Systemscope Inc.
-  - Thinking Big Information Technology Inc.
-  - Tundra Technical Solutions Inc
-  - The CNSC requires the services of Programmers/Software Developers to assist with designing and developing micro/event services to enable digital regulatory capabilities that enable both people and system data interactions across the Canadian nuclear ecosystem.
-  - There are security requirements associated with this requirement.
-  - For additional information, consult Part 6
+  - digital, data and technology capabilities.
+  - DSD must modernize aging applications, expand platform-based solutions and automation, improve
 
 **Business requirements (extracted):**
-  - The requirement is intended to result in the award of one (1) contract.
-  - The following SA Holders have been invited to submit a proposal:
-  - ACOSYS CONSULTING SERVICES INC./ SERVICES CONSEILS ACOSYS INC., PRICEWATERHOUSECOOPERS LLP, IN JOINT VENTURE	Morningstar Solutions IQ Inc
-  - New Value Solutions Group Inc.
-  - Contract Community Inc.
-  - Please note that SA Holders do not need to have the required clearance to submit a bid.
-  - For more information on personnel and organization security screening or security clauses, Bidders should refer to the Contract Security Program of Public Works and Government Services Canada (http://www.tpsgc-pwgsc.gc.ca/esc-src/introduction-eng.html) website.
-  - Proposed period of contract:
-  - The proposed period of contract is approximately 3.5 years.
-  - Contracting Authority:
-  - Inquiries regarding this Request for Proposal (RFP) requirement must be submitted to the Contracting Authority named above.
-  - RFP documents will be e-mailed directly by the Contracting Authority to the Qualified Supply Arrangement Holders who are being invited to bid on this requirement.
+  - deliverables.
+  - Contractor services will be authorized only through Task Authorizations that identify a named project,
+  - deliverables;
 
 
 ## Software licensing
