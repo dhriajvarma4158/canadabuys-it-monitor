@@ -1,22 +1,7 @@
 it_category,claude_tier,title,close_date,pub_date,buyer,gsin,unspsc,category,contact_email,notice_url,why_it
-"Cloud, data and analytics",Strong fit,Data Analytics,2026-11-17T14:00:00,2026-10-23,Department of National Defence (DND),,"*Information technology consultation services
-*Business intelligence consulting services
-*Project monitoring and evaluation",*SRV,noemy.dubois3@forces.gc.ca,,"Cloud, data and analytics: business intelligence, data analytics; UNSPSC/category *Information technology consultation services
-*Business intelligence consulting "
-"Cloud, data and analytics",Possible fit,5Z011-260117 - RFP Archive Folders and Envelopes,2026-11-18T14:00:00,2026-10-23,Department of Public Works and Government Services (PSPC),,"*Paper products
-*Specialty envelopes
-*Folders",*GD,gabrielle.durand-marsh@tpsgc-pwgsc.gc.ca,https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029373?anId=ANONYMOUS,"Cloud, data and analytics: cloud, dashboard"
-Digital records and information management,Unlikely,TSPS - NOTICE OF PROPOSED PROCUREMENT (NPP),2026-11-10T14:00:00,2026-10-23,Canadian Food Inspection Agency (CFIA),,*Information services,*SRV,Ashley.Bennett@inspection.gc.ca,,Digital records and information management: records management
-IT infrastructure and operations,Possible fit,Purchase of two (2) Millimetre-Wave Frequency Extender Modules for a Vector Network Analyzers (VNAs) from 110 GHz to 170 GHz,2026-11-09T14:00:00,2026-10-23,National Research Council of Canada (NRC),,*Laboratory and scientific equipment,*GD,MarieJosee.Lachance@nrc-cnrc.gc.ca,,IT infrastructure and operations: network
 IT infrastructure and operations,Unlikely,Pure Storage FlashArray X50R3 – 3 Yr - Maintenance and Support -DND,2026-10-26T14:00:00,,Shared Services Canada,*N7030,,*GD,,,IT infrastructure and operations: storage; GSIN *N7030
 IT infrastructure and operations,Unlikely,Wireless Access Points and Switches - completion of project,2026-10-30T14:00:00,,Shared Services Canada,*N7025405,,*GD,,,IT infrastructure and operations: network; GSIN *N7025405
 IT infrastructure and operations,Unlikely,QNAP TVS-H1688X - NAS server for RCMP,2026-11-04T14:00:00,,Shared Services Canada,*N7010,,*GD,,,IT infrastructure and operations: server; GSIN *N7010
 IT infrastructure and operations,Unlikely,Data Erasure- RFP,2026-11-09T14:00:00,,Shared Services Canada,*N7030,,*GD,,,IT infrastructure and operations: storage; GSIN *N7030
-IT infrastructure and operations,Unlikely,Parliamentary Precinct Network Infrastructure Transformation,2026-11-09T14:00:00,2026-10-23,Department of Public Works and Government Services (PSPC),,*Wireless access point,*GD,sidney.soutozoellner@tpsgc-pwgsc.gc.ca,,"IT infrastructure and operations: network, network infrastructure"
-IT infrastructure and operations,Unlikely,Phase 2 EZ899-270648 Fuel Tank and Dispenser Replacement,2026-11-10T14:00:00,2026-10-23,Department of Public Works and Government Services (PSPC),,"*Fuel storage tanks
-*Fuel tanks and systems
-*Demolition services
-*Specialty building and trades services",*CNST,rodnie.allison@tpsgc-pwgsc.gc.ca,,IT infrastructure and operations: storage
 Other IT,Possible fit,Maintenance and Support for Kodak Scanners for Statistics Canada (2026),2026-11-05T14:00:00,,Shared Services Canada,*N7025134,,*GD,,,GSIN *N7025134
-Software and application development,Unlikely,Digital Talent Services,2026-11-24T14:00:00,2026-10-23,Department of Public Safety and Emergency Preparedness (PS),,*System or application programming management service,*SRV,alexandra.gallerio@ps-sp.gc.ca,,Software and application development: programming
 Software licensing,Unlikely,SSC’s APM2 Industry Day,2026-11-02T14:00:00,,Shared Services Canada,*N7030,,*GD,,,Software licensing: adp software; GSIN *N7030
