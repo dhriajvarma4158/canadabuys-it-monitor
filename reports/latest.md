@@ -1,7 +1,7 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-10-25_
+_CanadaBuys open tender notices · generated 2026-10-26_
 
-**6** open IT opportunities published in the last 1 day(s). Scanned 899 open notices (160 strict IT matches).
+**7** open IT opportunities published in the last 1 day(s). Scanned 897 open notices (161 strict IT matches).
 
 ## IT infrastructure and operations
 ### Pure Storage FlashArray X50R3 – 3 Yr - Maintenance and Support -DND  —  _Unlikely_
@@ -91,6 +91,32 @@ _CanadaBuys open tender notices · generated 2026-10-25_
 
 
 ## Software licensing
+### Red Hat OpenShift Bare Metal Node  —  _Strong fit_
+- **Closes:** 2026-11-02T14:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *N7030
+- **Category:** *GD
+- **Contact:** John Ford,Robert
+- **Reference:** SSC-26-00035173:T
+- **Why IT:** Software licensing: adp software, software licensing; GSIN *N7030
+- **Claude-fit signals:** + document, + evaluation
+
+**Technical requirements (extracted):**
+  - This Request for Quote is issued pursuant to Software Licensing Supply Arrangement (SLSA) # EN578-232335/078/SMS.Tendering Procedure:
+  - Unilogik Systems Inc.
+  - 1&nbsp;Security RequirementNoneContracting AuthorityName:
+  - Software Licensing Supply Arrangement (SLSA) RFSA [L&#39;arrangement en mati&#232;re d&#39;approvisionnement portant sur l&#39;achat de licences de logiciels]
+
+**Business requirements (extracted):**
+  - The following Supply Arrangement Holders and Class-1 Resellers have been invited to submit a proposal:
+  - Only suppliers who are pre-qualified and have been issued a supply arrangement are eligible to bid.
+  - Non-SA holders cannot be awarded a contract unless and until the Supply Arrangement Authority (SAA) has issued a Supply Arrangement to that supplier for the products and/or services contained in the bid.
+  - Canada is not required to delay the award of a resulting contract pending the evaluation of an arrangement and issuance of a Supply Arrangement by the Supply Arrangement Authority.Requirement Details&nbsp;:Product:
+  - &nbsp;&nbsp;&nbsp;&nbsp;6Contract duration:
+  - 12 monthsPlanned number of contracts:
+  - InquiriesInquiries regarding this requirement must be directed to the Contracting Authority named above.The RFQ document will be sent directly to the eligible SLSA SA Holder and Class 1 Resellers listed for the product in Annex G of the SLSA Catalogue.Canada retains the right to negotiate with any supplier on any procurement.
+  - Bidders may submit their responses in either official language.NOTE:
+
 ### SSC’s APM2 Industry Day  —  _Unlikely_
 - **Closes:** 2026-11-02T14:00:00
 - **Buyer:** Shared Services Canada
