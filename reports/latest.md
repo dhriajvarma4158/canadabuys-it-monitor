@@ -1,18 +1,61 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-10-26_
+_CanadaBuys open tender notices · generated 2026-10-27_
 
-**7** open IT opportunities published in the last 1 day(s). Scanned 897 open notices (161 strict IT matches).
+**8** open IT opportunities published in the last 1 day(s). Scanned 886 open notices (157 strict IT matches).
+
+## Cloud, data and analytics
+### TBIPS Grants and Contributions Transformation Initiative (GCTI) – P.1 Change Management Consultants  —  _Possible fit_
+- **Closes:** 2026-11-13T14:00:00
+- **Published:** 2026-10-26
+- **Buyer:** Department of Foreign Affairs, Trade and Development (GAC)
+- **UNSPSC:** *Change management communication and advisory service
+- **Category:** *SRV
+- **Contact:** betty.woodman@international.gc.ca
+- **Reference:** cb-508-46113438
+- **Why IT:** Cloud, data and analytics: cloud
+- **Claude-fit signals:** + framework
+
+**Technical requirements (extracted):**
+  - TASK BASED INFORMATICS PROFESSIONAL SERVICES (TBIPS)
+  - TBIPS Grants and Contributions Transformation Initiative (GCTI) – P.1 Change Management Consultants
+  - This requirement is open only to those TBIPS Supply Arrangement Holders who qualified under Tier 1 for services in the National Capital Region for the following categories
+  - Adirondack Information Management Inc., Entrust Security (CA) ULC, Artemp Personnel Services Inc., The AIM Group Inc., in JOINT VENTURE 
+  - BRYCA Solutions Inc., SERVER CLOUD CANADA INC., 2657319 ONTARIO INC., in Joint Venture 
+  - SYSTEMS ULC, in Joint Venture 
+  - TEKSYSTEMS CANADA CORP./SOCIÉTÉ TEKSYSTEMS CANADA 
+  - Tundra Technical Solutions Inc 
+  - DFATD is building a modern and user-friendly Grants & Contributions platform that will effectively deliver and manage consistent data across an enterprise which will facilitate greater innovation
+  - DFATD is building a pool of resources that will focus on internal coherence, strategic alignment, stakeholder engagement, transformation-enablement (e.g.
+  - Security Requirement:
+  - The Security Requirements Check List (SRCL) applicable to this requirement is currently being finalized.
+
+**Business requirements (extracted):**
+  - Reference Number:
+  - 2026-10-26	Closing Date:
+  - 3,300 days for an estimated five (5) resources
+  - Contract Duration:
+  - The contract period will be for an estimated thirty six months from the date of contract 
+  - No	Number of Contracts:
+  - Applicable Trade Agreements:
+  - The Canadian Free Trade Agreement (CFTA)
+  - The Canada-Chile Free Trade Agreement (CCFTA),
+  - The Canada-Columbia Free Trade Agreement (CColFTA),
+  - Canada-European Union Comprehensive Economic and Trade Agreement (CETA)
+  - Canada-Honduras Free Trade Agreement (CHFTA)
+
 
 ## IT infrastructure and operations
-### Pure Storage FlashArray X50R3 – 3 Yr - Maintenance and Support -DND  —  _Unlikely_
-- **Closes:** 2026-10-26T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *N7030
+### W7701-278176 - Air Storage Bag for Trisonic Wind Tunnel  —  _Possible fit (with caveats)_
+[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110029591?anId=ANONYMOUS)
+- **Closes:** 2026-12-18T14:00:00
+- **Published:** 2026-10-26
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Air circulation and parts and accessories
 - **Category:** *GD
-- **Contact:** Eleanor,Cesare
-- **Reference:** SSC-26-00035226:T
-- **Why IT:** IT infrastructure and operations: storage; GSIN *N7030
-- **Claude-fit signals:** —
+- **Contact:** alina.cocieru@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5944010672-Doc5952019972
+- **Why IT:** IT infrastructure and operations: storage
+- **Claude-fit signals:** + research, - installation
 
 **Technical requirements (extracted):**
   - _See full notice / attachments._
