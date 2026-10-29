@@ -1,0 +1,9 @@
+it_category,claude_tier,title,close_date,pub_date,buyer,gsin,unspsc,category,contact_email,notice_url,why_it
+IT infrastructure and operations,Unlikely,Wireless Access Points and Switches - completion of project,2026-10-30T14:00:00,,Shared Services Canada,*N7025405,,*GD,,,IT infrastructure and operations: network; GSIN *N7025405
+IT infrastructure and operations,Unlikely,QNAP TVS-H1688X - NAS server for RCMP,2026-11-04T14:00:00,,Shared Services Canada,*N7010,,*GD,,,IT infrastructure and operations: server; GSIN *N7010
+IT infrastructure and operations,Unlikely,Data Erasure- RFP,2026-11-09T14:00:00,,Shared Services Canada,*N7030,,*GD,,,IT infrastructure and operations: storage; GSIN *N7030
+Other IT,Possible fit,Maintenance and Support for Kodak Scanners for Statistics Canada (2026),2026-11-05T14:00:00,,Shared Services Canada,*N7025134,,*GD,,,GSIN *N7025134
+Other IT,Unlikely,"ATEN Products, or equivalent, for the Department of National Defence.",2026-11-09T12:00:00,,Shared Services Canada,*N7010,,*GD,,,GSIN *N7010
+Software licensing,Strong fit,Red Hat OpenShift Platform Plus for  DND,2026-10-30T14:00:00,,Shared Services Canada,*N7030,,*GD,,,"Software licensing: adp software, software licensing; GSIN *N7030"
+Software licensing,Strong fit,Red Hat OpenShift Bare Metal Node,2026-11-02T14:00:00,,Shared Services Canada,*N7030,,*GD,,,"Software licensing: adp software, software licensing; GSIN *N7030"
+Software licensing,Unlikely,SSC’s APM2 Industry Day,2026-11-02T14:00:00,,Shared Services Canada,*N7030,,*GD,,,Software licensing: adp software; GSIN *N7030
