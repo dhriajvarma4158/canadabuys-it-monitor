@@ -1,0 +1,21 @@
+it_category,claude_tier,title,close_date,pub_date,buyer,gsin,unspsc,category,contact_email,notice_url,why_it
+"Cloud, data and analytics",Unlikely,Stream 2.11 Information/Record Management/Recordkeeping Specialists,2026-11-17T14:00:00,2026-10-29,Department of Natural Resources (NRCan),,"*Management advisory services
+*Database information retrieval
+*Information retrieval or search software maintenance",*SRV,julia.pace@nrcan-rncan.gc.ca,,"Cloud, data and analytics: database; UNSPSC/category *Management advisory services
+*Database information retrieval
+*Information retri"
+Cybersecurity and identity,Strong fit,Test Sets,2026-11-16T14:00:00,2026-10-29,Royal Canadian Mounted Police (RCMP),,*Electronic hardware and component parts and accessories,*GD,Olivia.mccarthy@rcmp-grc.gc.ca,,Cybersecurity and identity: security information
+IT infrastructure and operations,Strong fit,Fraser Valley CCTV Upgrade,2026-11-20T14:00:00,2026-10-29,Correctional Service of Canada (CSC),,"*Cameras
+*Surveillance video or audio recorders",*SRV,stephanie.gigoux@csc-scc.gc.ca,,IT infrastructure and operations: network
+IT infrastructure and operations,Unlikely,Wireless Access Points and Switches - completion of project,2026-10-30T14:00:00,,Shared Services Canada,*N7025405,,*GD,,,IT infrastructure and operations: network; GSIN *N7025405
+IT infrastructure and operations,Unlikely,QNAP TVS-H1688X - NAS server for RCMP,2026-11-04T14:00:00,,Shared Services Canada,*N7010,,*GD,,,IT infrastructure and operations: server; GSIN *N7010
+IT infrastructure and operations,Unlikely,"Purchase and Install two server racks in five sheds in southern Manitoba  or equivalent, for the ROYAL CANADIReq. 2026-07-30",2026-11-09T14:00:00,,Shared Services Canada,*N5895,,*GD,,,IT infrastructure and operations: server
+IT infrastructure and operations,Unlikely,Pure Storage FlashArray X50R3 – 3 Yr - Maintenance and Support -DND,2026-11-09T14:00:00,,Shared Services Canada,*N7030,,*GD,,,IT infrastructure and operations: storage; GSIN *N7030
+IT infrastructure and operations,Unlikely,Data Erasure- RFP,2026-11-09T14:00:00,,Shared Services Canada,*N7030,,*GD,,,IT infrastructure and operations: storage; GSIN *N7030
+IT infrastructure and operations,Unlikely,"Divider, Power, Radio Frequency",2026-11-27T14:00:00,2026-10-29,Department of National Defence (DND),,*Network service equipment,*GD,DMPSACSVBid-DSGPVBSCSoumission@forces.gc.ca,,IT infrastructure and operations: network
+Other IT,Possible fit,Maintenance and Support for Kodak Scanners for Statistics Canada (2026),2026-11-05T14:00:00,,Shared Services Canada,*N7025134,,*GD,,,GSIN *N7025134
+Other IT,Possible fit,Apple 14-inch MacBook Pro with M5 Pro Chip(space black) or equivalent for NRC,2026-11-12T14:00:00,,Shared Services Canada,*N7010,,*GD,,,GSIN *N7010
+Other IT,Unlikely,"ATEN Products, or equivalent, for the Department of National Defence.",2026-11-09T12:00:00,,Shared Services Canada,*N7010,,*GD,,,GSIN *N7010
+Software licensing,Strong fit,Red Hat OpenShift Platform Plus for  DND,2026-10-30T14:00:00,,Shared Services Canada,*N7030,,*GD,,,"Software licensing: adp software, software licensing; GSIN *N7030"
+Software licensing,Strong fit,Red Hat OpenShift Bare Metal Node,2026-11-02T14:00:00,,Shared Services Canada,*N7030,,*GD,,,"Software licensing: adp software, software licensing; GSIN *N7030"
+Software licensing,Unlikely,SSC’s APM2 Industry Day,2026-11-02T14:00:00,,Shared Services Canada,*N7030,,*GD,,,Software licensing: adp software; GSIN *N7030
