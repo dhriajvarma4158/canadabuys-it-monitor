@@ -1,9 +1,49 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-11-01_
+_CanadaBuys open tender notices · generated 2026-11-02_
 
-**9** open IT opportunities published in the last 1 day(s). Scanned 878 open notices (162 strict IT matches).
+**11** open IT opportunities published in the last 1 day(s). Scanned 880 open notices (164 strict IT matches).
 
 ## IT infrastructure and operations
+### RFQ-Synology System hardware for National Research Council of Canada (NRC)  —  _Strong fit_
+- **Closes:** 2026-11-16T14:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *N7025
+- **Category:** *GD
+- **Contact:** christel,kouame
+- **Reference:** SSC-26-00035343:T
+- **Why IT:** IT infrastructure and operations: storage; GSIN *N7025
+- **Claude-fit signals:** + document, + evaluation, + research
+
+**Technical requirements (extracted):**
+  - Notice of Proposed ProcurementShared Services Canada (SSC) has a requirement Synology System hardware for National Research Council of Canada (NRC) ,&nbsp;
+  - SSC RFQ-Synology System hardware for National Research Council of Canada (NRC)- Amendment 000
+
+**Business requirements (extracted):**
+  - This process is intended to result in the award of one contract for the delivery of goods and/or services;
+  - the term of the contract will be from the contract award date and will include the period for delivery, acceptance and warranty.Policy on Reciprocal Procurement:
+  - This solicitation of bids is open to Canadian Suppliers and Suppliers of an Applicable Trading Partner.A bid must comply with all requirements of the bid solicitation to be declared responsive.
+  - The responsive bid with the lowest evaluated price will be recommended for award of a contract.
+  - The Bidder must submit pricing in accordance with Annex A – List of Deliverables and Pricing.
+  - The Crown retains the right to negotiate with suppliers on any procurement.Please refer to the Request for Quotations document for the complete details regarding this requirement including the mandatory criteria, evaluation criteria and basis of selection.
+  - Documents may be submitted in either official language of Canada.Suppliers are required to submit bids electronically using the Contracting Authority’s email.
+  - Faxed and hard copy (submitted in person or via mail/courier) bids will not be accepted, except in exceptional circumstances, for the subject bid solicitation.&nbsp;
+
+### RedHat for StatsCan  —  _Strong fit_
+- **Closes:** 2026-11-17T14:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *N7030AG
+- **Category:** *GD
+- **Contact:** Richard ,Boyling
+- **Reference:** SSC-26-00035350:T
+- **Why IT:** IT infrastructure and operations: network, server; GSIN *N7030AG
+- **Claude-fit signals:** + document, + spreadsheet
+
+**Technical requirements (extracted):**
+  - This Request for Quote is issued pursuant to Software Licensing Supply Arrangement (SLSA) # EN578-232335/078/SMS.
+
+**Business requirements (extracted):**
+  - Closing Date:
+
 ### QNAP TVS-H1688X - NAS server for RCMP  —  _Unlikely_
 - **Closes:** 2026-11-04T14:00:00
 - **Buyer:** Shared Services Canada
