@@ -1,7 +1,35 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-11-02_
+_CanadaBuys open tender notices · generated 2026-11-03_
 
-**11** open IT opportunities published in the last 1 day(s). Scanned 880 open notices (164 strict IT matches).
+**12** open IT opportunities published in the last 1 day(s). Scanned 893 open notices (163 strict IT matches).
+
+## Cloud, data and analytics
+### Request for Information (RFI) on Accessible Digital Technologies including Artificial Intelligence Systems  —  _Unlikely_
+- **Closes:** 2027-01-29T14:00:00
+- **Published:** 2026-11-02
+- **Buyer:** Department of Employment and Social Development (ESDC)
+- **UNSPSC:** *Software
+*Cloud-based software as a service
+- **Category:** *SRV
+- **Contact:** nc-solicitations-gd@esdc-edsc.gc.ca
+- **Reference:** cb-941-69633101
+- **Why IT:** Cloud, data and analytics: artificial intelligence, cloud; UNSPSC/category *Software
+*Cloud-based software as a service
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - To support the development of the next phase of regulations, Employment and Social Development Canada (ESDC) is launching this RFI to gather information from digital technology vendors and suppliers on their current accessibility-related capabilities, practices, implementation challenges, and readiness with respect to artificial intelligence (AI) systems, software, and hardware.
+  - The RFI seeks information on:
+  - Current accessibility capabilities, policies, and practices relating to software, hardware, and AI systems;
+  - Conformance with relevant accessibility standards and specifications for software, hardware, and AI systems;
+  - Approaches to incorporating accessibility throughout the product lifecycle, including design, development, testing, deployment, and procurement;
+  - Barriers, implementation challenges, and considerations associated with achieving accessibility;
+  - Organizational readiness to meet potential future accessibility requirements.
+  - The information collected through this process will help inform the development of the next phase of Digital Technologies Accessibility Regulations under the ACA.
+
+**Business requirements (extracted):**
+  - _See full notice / attachments._
+
 
 ## IT infrastructure and operations
 ### RFQ-Synology System hardware for National Research Council of Canada (NRC)  —  _Strong fit_
@@ -111,6 +139,34 @@ _CanadaBuys open tender notices · generated 2026-11-02_
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
+### Computer Equipment Peripherals  —  _Unlikely_
+- **Closes:** 2026-11-24T15:00:00
+- **Published:** 2026-11-02
+- **Buyer:** House of Commons
+- **UNSPSC:** *Removable storage media
+*Removable storage media accessories
+*Computer Equipment and Accessories
+*Computer accessories
+*Computer data input device accessories
+*Computer display accessories
+*Office machines and their supplies and accessories
+*Typing machines and accessories
+*Office machine accessories
+- **Category:** *GD
+- **Contact:** ContractingServ@parl.gc.ca
+- **Reference:** cb-351-55979873
+- **Why IT:** IT infrastructure and operations: storage
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - Numéro de référence de l’appel d’information :
+  - La Chambre des communes fait la présente Demande de renseignements (DDR) afin de recueillir de l’information sur des périphériques pour ordinateur qui répondent à ses exigences essentielles telles qu’elles sont définies ici.
+
+**Business requirements (extracted):**
+  - https://www.merx.com/solicitations/open-bids/P-riph-riques-pour-ordinateur/0000336609?origin=0
+  - Vous avez peut être reçu cet avis d’appel d’offres par l’intermédiaire d’un distributeur tiers.
+  - contractingserv@parl.gc.ca
+
 
 ## Other IT
 ### Maintenance and Support for Kodak Scanners for Statistics Canada (2026)  —  _Possible fit_
@@ -165,51 +221,23 @@ _CanadaBuys open tender notices · generated 2026-11-02_
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
-
-## Software licensing
-### Red Hat OpenShift Bare Metal Node  —  _Strong fit_
-- **Closes:** 2026-11-02T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *N7030
-- **Category:** *GD
-- **Contact:** John Ford,Robert
-- **Reference:** SSC-26-00035173:T
-- **Why IT:** Software licensing: adp software, software licensing; GSIN *N7030
-- **Claude-fit signals:** + document, + evaluation
-
-**Technical requirements (extracted):**
-  - This Request for Quote is issued pursuant to Software Licensing Supply Arrangement (SLSA) # EN578-232335/078/SMS.Tendering Procedure:
-  - Unilogik Systems Inc.
-  - 1&nbsp;Security RequirementNoneContracting AuthorityName:
-  - Software Licensing Supply Arrangement (SLSA) RFSA [L&#39;arrangement en mati&#232;re d&#39;approvisionnement portant sur l&#39;achat de licences de logiciels]
-
-**Business requirements (extracted):**
-  - The following Supply Arrangement Holders and Class-1 Resellers have been invited to submit a proposal:
-  - Only suppliers who are pre-qualified and have been issued a supply arrangement are eligible to bid.
-  - Non-SA holders cannot be awarded a contract unless and until the Supply Arrangement Authority (SAA) has issued a Supply Arrangement to that supplier for the products and/or services contained in the bid.
-  - Canada is not required to delay the award of a resulting contract pending the evaluation of an arrangement and issuance of a Supply Arrangement by the Supply Arrangement Authority.Requirement Details&nbsp;:Product:
-  - &nbsp;&nbsp;&nbsp;&nbsp;6Contract duration:
-  - 12 monthsPlanned number of contracts:
-  - InquiriesInquiries regarding this requirement must be directed to the Contracting Authority named above.The RFQ document will be sent directly to the eligible SLSA SA Holder and Class 1 Resellers listed for the product in Annex G of the SLSA Catalogue.Canada retains the right to negotiate with any supplier on any procurement.
-  - Bidders may submit their responses in either official language.NOTE:
-
-### SSC’s APM2 Industry Day  —  _Unlikely_
-- **Closes:** 2026-11-02T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *N7030
-- **Category:** *GD
-- **Contact:** Agnes,Kowalska
-- **Reference:** SSC-26-00035250:T
-- **Why IT:** Software licensing: adp software; GSIN *N7030
+### TBIPS RFP – DEFENCEX Stream 1 for DND  —  _Unlikely_
+[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030358?anId=ANONYMOUS)
+- **Closes:** 2026-11-23T14:00:00
+- **Published:** 2026-11-02
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Information technology IT management services
+- **Category:** *SRV
+- **Contact:** nikolai.kanel@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5859546215-Doc5861193546
+- **Why IT:** UNSPSC/category *Information technology IT management services
 - **Claude-fit signals:** —
 
 **Technical requirements (extracted):**
-  - ET.The APM2 Industry Day is being held in parallel with and relates to the Request for Information (RFI)for Application Performance Management 2 (APM2) Solution (the RFI can be found at https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/ssc-26-00035133t).If you are interested in attending this Industry Day, please provide the following information in an email to the following address:
-  - Attendee names and contact information
-  - Accessibility requirements (if required)Deadline for registration is November 2, 2026 by 10:00 a.m.
+  - The Department of National Defence requires informatics professional services on an as and when requested basis, to support Stream 1 of the DEFENCEX Project.
 
 **Business requirements (extracted):**
-  - _See full notice / attachments._
+  - Only Task-Based Informatics Professional Services (TBIPS) Supply Arrangement (SA) Holders holding a TBIPS SA for Tier 2 at the time of bid closing, in all required resource categories in this solicitation and in the National Capital Region under the EN578-170432 series of SAs are eligible to compete.
 
 
 
