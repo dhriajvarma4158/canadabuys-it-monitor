@@ -1,34 +1,67 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-11-03_
+_CanadaBuys open tender notices · generated 2026-11-04_
 
-**12** open IT opportunities published in the last 1 day(s). Scanned 893 open notices (163 strict IT matches).
+**15** open IT opportunities published in the last 1 day(s). Scanned 895 open notices (161 strict IT matches).
 
 ## Cloud, data and analytics
-### Request for Information (RFI) on Accessible Digital Technologies including Artificial Intelligence Systems  —  _Unlikely_
-- **Closes:** 2027-01-29T14:00:00
-- **Published:** 2026-11-02
-- **Buyer:** Department of Employment and Social Development (ESDC)
-- **UNSPSC:** *Software
-*Cloud-based software as a service
+### Notice of Proposed Procurement (NPP)  —  _Strong fit_
+- **Closes:** 2026-11-18T14:00:00
+- **Published:** 2026-11-03
+- **Buyer:** Department of Natural Resources (NRCan)
+- **UNSPSC:** *Industrial machinery components and accessories
+*Material handling machinery and equipment
+*Industrial refrigeration
+*Industrial refrigerators
+*Industrial freezers
+*Batteries and cells and accessories
+*Doors and windows and glass
+*Windows
+*Lighting Fixtures and Accessories
+*Interior lighting fixtures and accessories
+*Electrical equipment and components and supplies
+*Heating and ventilation and air circulation
+*Air circulation and parts and accessories
+*Cooling equipment and parts and accessories
+*Heating equipment and parts and accessories
+*Commercial water heaters
+*Computer Equipment and Accessories
+*Domestic appliances
+*Domestic kitchen appliances
+*Domestic laundry appliances and supplies
+*Audio and visual equipment
+*Professional engineering services
+*Materials testing
+*Product testing
 - **Category:** *SRV
-- **Contact:** nc-solicitations-gd@esdc-edsc.gc.ca
-- **Reference:** cb-941-69633101
-- **Why IT:** Cloud, data and analytics: artificial intelligence, cloud; UNSPSC/category *Software
-*Cloud-based software as a service
-- **Claude-fit signals:** —
+- **Contact:** marie-josee.michaud@nrcan-rncan.gc.ca
+- **Reference:** cb-787-21460756
+- **Why IT:** Cloud, data and analytics: data analysis
+- **Claude-fit signals:** + analysis, + data analysis, + report
 
 **Technical requirements (extracted):**
-  - To support the development of the next phase of regulations, Employment and Social Development Canada (ESDC) is launching this RFI to gather information from digital technology vendors and suppliers on their current accessibility-related capabilities, practices, implementation challenges, and readiness with respect to artificial intelligence (AI) systems, software, and hardware.
-  - The RFI seeks information on:
-  - Current accessibility capabilities, policies, and practices relating to software, hardware, and AI systems;
-  - Conformance with relevant accessibility standards and specifications for software, hardware, and AI systems;
-  - Approaches to incorporating accessibility throughout the product lifecycle, including design, development, testing, deployment, and procurement;
-  - Barriers, implementation challenges, and considerations associated with achieving accessibility;
-  - Organizational readiness to meet potential future accessibility requirements.
-  - The information collected through this process will help inform the development of the next phase of Digital Technologies Accessibility Regulations under the ACA.
+  - This requirement is for laboratory testing, data analysis, and reporting for one (1) to three (3) air-to-water heat pump systems in accordance with CSA/ANSI C715.
+  - All tests, whether the proposal should include one, two, or three tested air-to-water heat pump systems, must be completed including all tasks by March 31, 2027.
 
 **Business requirements (extracted):**
   - _See full notice / attachments._
+
+### Collection Management System for AAFC national living biological collections under the Service as a Software (SaaS) model  —  _Unlikely_
+- **Closes:** 2026-12-02T14:00:00
+- **Published:** 2026-11-03
+- **Buyer:** Department of Agriculture and Agri-Food (AAFC)
+- **UNSPSC:** *Software
+- **Category:** *SRV
+- **Contact:** claudia.lauzier@agr.gc.ca
+- **Reference:** cb-157-75573891
+- **Why IT:** Cloud, data and analytics: saas; UNSPSC/category *Software
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - Agriculture and Agri-Food Canada (AAFC) will acquire and implement a software as a service (SaaS) Collection Management System (CMS) software solution specifically developed for managing and supporting biological living collections.
+  - The Collection Management System must support the capture and management of data, transactions and protocols for multiple organism collection types;
+
+**Business requirements (extracted):**
+  - The period of the contract will be from the date of issue for a period of 3 years with a further option for 2 years after the initial 3 years.
 
 
 ## IT infrastructure and operations
@@ -72,22 +105,6 @@ _CanadaBuys open tender notices · generated 2026-11-03_
 **Business requirements (extracted):**
   - Closing Date:
 
-### QNAP TVS-H1688X - NAS server for RCMP  —  _Unlikely_
-- **Closes:** 2026-11-04T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *N7010
-- **Category:** *GD
-- **Contact:** Rebecca,Sukkar
-- **Reference:** SSC-26-00034485:T
-- **Why IT:** IT infrastructure and operations: server; GSIN *N7010
-- **Claude-fit signals:** —
-
-**Technical requirements (extracted):**
-  - _See full notice / attachments._
-
-**Business requirements (extracted):**
-  - _See full notice / attachments._
-
 ### Purchase and Install two server racks in five sheds in southern Manitoba  or equivalent, for the ROYAL CANADIReq. 2026-07-30  —  _Unlikely_
 - **Closes:** 2026-11-09T14:00:00
 - **Buyer:** Shared Services Canada
@@ -96,6 +113,22 @@ _CanadaBuys open tender notices · generated 2026-11-03_
 - **Contact:** Eleanor,Cesare
 - **Reference:** SSC-26-00035342:T
 - **Why IT:** IT infrastructure and operations: server
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - _See full notice / attachments._
+
+**Business requirements (extracted):**
+  - _See full notice / attachments._
+
+### QNAP TVS-H1688X - NAS server for RCMP  —  _Unlikely_
+- **Closes:** 2026-11-09T14:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *N7010
+- **Category:** *GD
+- **Contact:** Rebecca,Sukkar
+- **Reference:** SSC-26-00034485:T
+- **Why IT:** IT infrastructure and operations: server; GSIN *N7010
 - **Claude-fit signals:** —
 
 **Technical requirements (extracted):**
@@ -139,33 +172,40 @@ _CanadaBuys open tender notices · generated 2026-11-03_
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
-### Computer Equipment Peripherals  —  _Unlikely_
-- **Closes:** 2026-11-24T15:00:00
-- **Published:** 2026-11-02
-- **Buyer:** House of Commons
-- **UNSPSC:** *Removable storage media
-*Removable storage media accessories
-*Computer Equipment and Accessories
-*Computer accessories
-*Computer data input device accessories
-*Computer display accessories
-*Office machines and their supplies and accessories
-*Typing machines and accessories
-*Office machine accessories
+### HPE SAN Infrastructure  —  _Unlikely_
+- **Closes:** 2026-12-02T16:00:00
+- **Published:** 2026-11-03
+- **Buyer:** Government of the Northwest Territories (GNWT)
+- **UNSPSC:** *Storage area network SAN switch
 - **Category:** *GD
-- **Contact:** ContractingServ@parl.gc.ca
-- **Reference:** cb-351-55979873
+- **Contact:** psstenders@gov.nt.ca
+- **Reference:** cb-490-96457761
+- **Why IT:** IT infrastructure and operations: network, storage
+- **Claude-fit signals:** - supply of
+
+**Technical requirements (extracted):**
+  - _See full notice / attachments._
+
+**Business requirements (extracted):**
+  - https://contracts.fin.gov.nt.ca/
+
+### Recycling of the CCGS Atlin Post  —  _Unlikely_
+[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030500?anId=ANONYMOUS)
+- **Closes:** 2026-12-03T14:00:00
+- **Published:** 2026-11-03
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Naval architecture
+- **Category:** *SRV
+- **Contact:** andrea.jeakins@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5966050534-Doc5967865913
 - **Why IT:** IT infrastructure and operations: storage
 - **Claude-fit signals:** —
 
 **Technical requirements (extracted):**
-  - Numéro de référence de l’appel d’information :
-  - La Chambre des communes fait la présente Demande de renseignements (DDR) afin de recueillir de l’information sur des périphériques pour ordinateur qui répondent à ses exigences essentielles telles qu’elles sont définies ici.
+  - _See full notice / attachments._
 
 **Business requirements (extracted):**
-  - https://www.merx.com/solicitations/open-bids/P-riph-riques-pour-ordinateur/0000336609?origin=0
-  - Vous avez peut être reçu cet avis d’appel d’offres par l’intermédiaire d’un distributeur tiers.
-  - contractingserv@parl.gc.ca
+  - _See full notice / attachments._
 
 
 ## Other IT
@@ -221,23 +261,43 @@ _CanadaBuys open tender notices · generated 2026-11-03_
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
-### TBIPS RFP – DEFENCEX Stream 1 for DND  —  _Unlikely_
-[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030358?anId=ANONYMOUS)
-- **Closes:** 2026-11-23T14:00:00
-- **Published:** 2026-11-02
-- **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Information technology IT management services
+### TSPS – Five (5) Technical Writers  —  _Unlikely_
+- **Closes:** 2026-11-18T14:00:00
+- **Published:** 2026-11-03
+- **Buyer:** Department of National Defence (DND)
+- **UNSPSC:** *Data services
 - **Category:** *SRV
-- **Contact:** nikolai.kanel@tpsgc-pwgsc.gc.ca
-- **Reference:** WS5859546215-Doc5861193546
-- **Why IT:** UNSPSC/category *Information technology IT management services
+- **Contact:** Scarlet.torrakaalmendarez@forces.gc.ca
+- **Reference:** cb-132-426816
+- **Why IT:** UNSPSC/category *Data services
 - **Claude-fit signals:** —
 
 **Technical requirements (extracted):**
-  - The Department of National Defence requires informatics professional services on an as and when requested basis, to support Stream 1 of the DEFENCEX Project.
+  - To fulfil the mandate of executing high quality publications in a timely manner, five (5) Technical Writer resources are required under Stream 3.10 [TSPS].
 
 **Business requirements (extracted):**
-  - Only Task-Based Informatics Professional Services (TBIPS) Supply Arrangement (SA) Holders holding a TBIPS SA for Tier 2 at the time of bid closing, in all required resource categories in this solicitation and in the National Capital Region under the EN578-170432 series of SAs are eligible to compete.
+  - It is intended to result in the award of one (1) contract for three (3) years with no options to extend the term of the contract.
+
+### G9292-271166-B WS5755477339 TBIPS - PSIB - myEMS SAP Solution  —  _Unlikely_
+[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030493?anId=ANONYMOUS)
+- **Closes:** 2026-11-24T14:00:00
+- **Published:** 2026-11-03
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Information technology consultation services
+- **Category:** *SRV
+- **Contact:** carole.holden@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5755477339-Doc5954832347
+- **Why IT:** UNSPSC/category *Information technology consultation services
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - This bid solicitation is being issued to satisfy the requirement of the Employment and Social Development Canada for Task-Based Informatics Professional Services (TBIPS) under the TBIPS Supply Arrangement (SA) method of supply.
+  - This requirement for specialized SAP professional services supporting the operation, enhancement, and modernization of the myEMS (SAP) Solution, ESDC’s enterprise financial management system.
+  - There are security requirements associated with this requirement.
+
+**Business requirements (extracted):**
+  - This procurement is set aside under the federal government’s Procurement Strategy for Indigenous Business (PSIB).
+  - The Contractor will provide senior SAP resources for Level 3 support, defect resolution, enhancements, and modernization initiatives aligned with ESDC’s and SAP’s roadmaps.
 
 
 
