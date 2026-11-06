@@ -1,52 +1,144 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-11-05_
+_CanadaBuys open tender notices · generated 2026-11-06_
 
-**12** open IT opportunities published in the last 1 day(s). Scanned 896 open notices (160 strict IT matches).
+**18** open IT opportunities published in the last 1 day(s). Scanned 913 open notices (163 strict IT matches).
 
-## Cybersecurity and identity
-### DATA SECURITY ASSESSMENT TEAM  —  _Unlikely_
-- **Closes:** 2026-11-26T13:00:00
-- **Published:** 2026-11-04
-- **Buyer:** Department of National Defence (DND)
-- **UNSPSC:** *Business and corporate management consultation services
+## Cloud, data and analytics
+### Development of a Strategic Interpretation Framework for Artificial Intelligence Results  —  _Strong fit_
+- **Closes:** 2026-11-23T14:00:00
+- **Published:** 2026-11-05
+- **Buyer:** Department of Fisheries and Oceans (DFO)
+- **UNSPSC:** *Information technology consultation services
+*Business intelligence consulting services
 - **Category:** *SRV
-- **Contact:** DGMPTRFP-DDPDGTPM-4@FORCES.GC.CA
-- **Reference:** cb-184-68710011
-- **Why IT:** Cybersecurity and identity: threat
+- **Contact:** florence.laurin@dfo-mpo.gc.ca
+- **Reference:** cb-292-29950599
+- **Why IT:** Cloud, data and analytics: artificial intelligence, business intelligence, dashboard; UNSPSC/category *Information technology consultation services
+*Business intelligence consulting 
+- **Claude-fit signals:** + analysis, + framework, + literature review, + report, + writing
+
+**Technical requirements (extracted):**
+  - Fisheries and Oceans Canada (DFO), Quebec Region, requires the services of a firm with expertise in applied artificial intelligence, strategic analysis and data valorization to validate and strengthen its AI-based social perception analysis approach.
+  - development of a visualization tool (Power BI dashboard or other approved platform);
+  - The project does not involve developing a new AI tool or a new data collection methodology.
+  - highest combined rating of technical merit (60%) and price (40%).
+  - Security requirements:
+
+**Business requirements (extracted):**
+  - Contract period:
+  - from contract award to March 31, 2027.
+  - Offers must meet all mandatory criteria and obtain a minimum of 30 out of 60 points on the point-rated criteria.
+  - All enquiries must be submitted in writing to the Contracting Authority no later than three (3) business days before the closing date.
+
+### Crude Oil Inventory and Pipeline Flow Monitoring Services  —  _Possible fit_
+- **Closes:** 2026-11-20T14:00:00
+- **Published:** 2026-11-05
+- **Buyer:** Department of Natural Resources (NRCan)
+- **UNSPSC:** *Data services
+*Application service providers
+*Data analytics process as a service
+- **Category:** *SRV
+- **Contact:** james.maccuaig@nrcan-rncan.gc.ca
+- **Reference:** cb-200-47274023
+- **Why IT:** Cloud, data and analytics: data analytics; UNSPSC/category *Data services
+*Application service providers
+*Data analytics process as a servi
+- **Claude-fit signals:** + analysis, + report, - physical
+
+**Technical requirements (extracted):**
+  - Crude oil inventory and pipeline flow data are critical for supporting departmental analysis and briefings, as well as monitoring energy supply and security.
+  - Specifically, the department requires weekly reports on crude oil inventory levels in Canada’s main storage areas, as well as daily and near-real-time pipeline flow data within Canada and for exports to the United States.
+
+**Business requirements (extracted):**
+  - The near-total closure of the Strait of Hormuz in early 2026 removed approximately 15 million barrels per day of global supply, making storage indicators one of the most important drivers of short-term crude oil pricing.
+  - To better understand North American oil markets and inform policy decisions, Natural Resources Canada (NRCan) requires greater visibility into Canadian crude oil inventories and pipeline flows.
+
+### 2026 Economic Contributions of BC Small Craft Harbours  —  _Possible fit_
+- **Closes:** 2026-11-23T13:00:00
+- **Published:** 2026-11-05
+- **Buyer:** Department of Fisheries and Oceans (DFO)
+- **UNSPSC:** *Strategic planning consultation services
+*Business intelligence consulting services
+- **Category:** *SRV
+- **Contact:** terri.jones@dfo-mpo.gc.ca
+- **Reference:** cb-797-86804801
+- **Why IT:** Cloud, data and analytics: business intelligence
+- **Claude-fit signals:** + analyses
+
+**Technical requirements (extracted):**
+  - The Small Craft Harbours (SCH) program of Fisheries and Oceans Canada is responsible for overseeing the administration and maintenance of a federally-owned system of fishing and recreational harbours in British Columbia, with the fishing harbour component delivered largely in partnership with local client-run Harbour Authorities.
+  - Fisheries and Oceans Canada (DFO) requires accurate and up-to-date information describing the contributions of Small Craft Harbours (SCH) to British Columbia's coastal livelihoods and economy.
+  - The objective of this contract is to update and expand upon previous studies of Small Craft Harbours in British Columbia, using current data and repeatable methodologies, to:
+  - 1.2.1	Quantify the direct, indirect, and induced economic contributions of the SCH network to British Columbia;
+  - 1.2.6	Identify data gaps, limitations, and opportunities to improve future harbour-level economic analyses.
+
+**Business requirements (extracted):**
+  - These harbours provide communities access to oceans, supporting commercial, recreational, and indigenous fisheries, marine recreation and tourism, aquaculture, and a variety of other uses that directly and indirectly contribute to Canada’s economy, supporting livelihoods in coastal communities and throughout the province.
+  - 1.2.2	Develop and apply a method for estimating commercial fishing attributable to each Small Craft Harbour based on landed value by city and other available data;
+  - 1.2.3	Assess the benefits of SCH infrastructure to commercial fisheries, aquaculture, Indigenous communities, marine tourism, recreational boating, and other coastal economic activities;
+
+### Request for Proposal_Smartmail Marketing Platform_2026  —  _Unlikely_
+[Full notice](https://www.merx.com/public/solicitations/4180705058/abstract?language=EN)
+- **Closes:** 2026-12-22T14:00:00
+- **Published:** 2026-11-05
+- **Buyer:** Canada Post Corporation
+- **Category:** *SRV
+- **Contact:** tender.control@canadapost.ca
+- **Reference:** MX-243100784759
+- **Why IT:** Cloud, data and analytics: cloud, dashboard
 - **Claude-fit signals:** —
 
 **Technical requirements (extracted):**
-  - The Contractor must provide a Data Security Assessment Team consisting of a Strategic Information Technology Security Planning and Protection Consultants (Task-Based Informatics Professional Services (TBIPS) Stream 6:
-  - C.1), an Information Technology Security Threat and Risk Assessment and Certification and Accreditation Analysts (TBIPS Stream 6:
-  - C.3), and an Information Technology Security Design Specialists (TBIPS Stream 6:
-  - The Data Security Assessment Team must assess current-state architecture and develop future-state HCM enterprise architecture.
-  - architectural principles, standards, and design artefacts required to guide modernization initiatives and future capability delivery across the HCM ecosystem.
+  - The objective of this Request for Proposal (RFP) is to select one (1) qualified Service Provider to implement, support, and evolve the next-generation Smartmail Marketing Digital Platform (SMMDP).
+  - https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030755?anId=ANONYMOUS
+  - See https://www.merx.com/public/pricing for more information.
 
 **Business requirements (extracted):**
+  - The initial implementation will focus on delivering a Minimum Lovable Product (MLP) that provides a guided, customer-centric experience for planning, purchasing, executing, and measuring Smartmail Marketing campaigns.
+  - The Requirement to be performed is outlined in the Ariba Sourcing Event:&nbsp;Bidding and Documents are available on http://www.merx.com.
+
+
+## Cybersecurity and identity
+### W8703-290119- Request for Proposal Littoral UAS  —  _Possible fit (with caveats)_
+- **Closes:** 2026-11-25T14:00:00
+- **Published:** 2026-11-06
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Military drone
+- **Category:** *GD
+- **Contact:** sharon.mccartney@dia-aid.gc.ca
+- **Reference:** WS5972339986-Doc5972432166
+- **Why IT:** Cybersecurity and identity: cyber, cybersecurity
+- **Claude-fit signals:** + documentation, - supply and deliver
+
+**Technical requirements (extracted):**
+  - The Defence Investment Agency, on behalf of the Department of National Defence, is seeking offers from qualified Stream 1 Supply Arrangement holders under the Defence Drone Initiative for the acquisition of a Littoral Uncrewed Aircraft System (UAS) capability.
+  - The procurement includes the supply and delivery of a minimum of eighty (80) UAS systems, associated payloads, ground control stations, support equipment, technical publications, spare parts, software and firmware support, and train-the-trainer services.
+  - The requirement also includes airworthiness support, cybersecurity assurance, supply chain security, spectrum supportability, configuration management, and lifecycle sustainment requirements.
+
+**Business requirements (extracted):**
+  - All required supporting documentation and bid submission must be submitted by 25 November 2026 14:00 EST.
+
+
+## Enterprise platforms
+### Computer Services - SAP ABAP Developer  —  _Unlikely_
+- **Closes:** 2026-11-12T14:00:00
+- **Published:** 2026-11-05
+- **Buyer:** Department of Foreign Affairs, Trade and Development (GAC)
+- **UNSPSC:** *Computer services
+- **Category:** *SRV
+- **Contact:** Victoria.Hachey@international.gc.ca
+- **Reference:** cb-6-62589462
+- **Why IT:** Enterprise platforms: abap; UNSPSC/category *Computer services
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
   - _See full notice / attachments._
+
+**Business requirements (extracted):**
+  - Global Affairs Canada has a requirement for Temporary Help Services and has issued a Request for Proposal to suppliers generated from CPSS who are qualified under the streams and categories.
 
 
 ## IT infrastructure and operations
-### Fluke Products or equivalent  —  _Strong fit_
-- **Closes:** 2026-11-16T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *JX7025EA
-*N7025405
-- **Category:** *SRVTGD
-*GD
-- **Contact:** Oliver,Librada
-- **Reference:** SSC-26-00035388:T
-- **Why IT:** IT infrastructure and operations: network
-- **Claude-fit signals:** + analysis, + report
-
-**Technical requirements (extracted):**
-  - Shared Services Canada (SSC) requires a Fluke Networks fiber optic testing solution capable of testing, certifying, and troubleshooting single-mode and multimode fiber infrastructure to support 10 Gbps uplink connectivity.
-  - The solution must provide accurate fault localization, fast OTDR testing, automated event analysis and Pass/Fail assessment, bidirectional testing, and integrated visual fault identification.
-  - It must also support Fluke Networks LinkWare PC for measurement analysis and reporting, including native .flw files and PDF exports, while meeting applicable ISO/IEC and TIA standards.&nbsp;
-
-**Business requirements (extracted):**
-  - _See full notice / attachments._
-
 ### RFQ-Synology System hardware for National Research Council of Canada (NRC)  —  _Strong fit_
 - **Closes:** 2026-11-16T14:00:00
 - **Buyer:** Shared Services Canada
@@ -86,6 +178,33 @@ _CanadaBuys open tender notices · generated 2026-11-05_
 
 **Business requirements (extracted):**
   - Closing Date:
+
+### 5P126-270703 Building Supplies Cape Breton Highlands National Park  —  _Possible fit (with caveats)_
+[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030763?anId=ANONYMOUS)
+- **Closes:** 2026-11-24T14:00:00
+- **Published:** 2026-11-05
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Wood
+*Exterior finishing materials
+*Interior finishing materials
+*Nails
+- **Category:** *GD
+- **Contact:** lucas.shave@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5941734899-Doc5971728581
+- **Why IT:** IT infrastructure and operations: network
+- **Claude-fit signals:** + content, - supply and deliver
+
+**Technical requirements (extracted):**
+  - The event messages tab and/or the event contents section in the SAP Business Network event.
+  - Do not use the Q&A section appearing on the SAP Business Network Discovery website.
+
+**Business requirements (extracted):**
+  - The response time deadline is 14:00 EST
+  - ·         Bidders may request a debriefing on the results of the bid solicitation.
+  - Bidders should make the request to the Contracting Authority within fifteen (15) working days from receipt of notification that their bid was unsuccessful.
+  - Reference the solicitation for further details.
+  - Documents may be submitted in either official language of Canada.
+  - Where to submit questions about the tender document:
 
 ### Purchase and Install two server racks in five sheds in southern Manitoba  or equivalent, for the ROYAL CANADIReq. 2026-07-30  —  _Unlikely_
 - **Closes:** 2026-11-09T14:00:00
@@ -136,7 +255,7 @@ _CanadaBuys open tender notices · generated 2026-11-05_
   - _See full notice / attachments._
 
 ### Data Erasure- RFP  —  _Unlikely_
-- **Closes:** 2026-11-09T14:00:00
+- **Closes:** 2026-11-13T14:00:00
 - **Buyer:** Shared Services Canada
 - **GSIN:** *N7030
 - **Category:** *GD
@@ -149,29 +268,30 @@ _CanadaBuys open tender notices · generated 2026-11-05_
   - REQ211428/ Request for Data Erasure Software for Shared Services Canada (SSC)for Shared Services Canada (SSC)PRODUCT DESCRIPTIONShared Services Canada (SSC), has a requirement to compete Data Erasure software solution for Government of Canada (GC) Departments and Agencies across Canada at the enterprise level.
   - Data Erasure Software – also known as data wiping, data destruction, data sanitation, and secure deletion software – is a software solution that removes all digital information from electronic storage devices by overwriting data onto all sectors of the storage device in an irreversible process.&nbsp;
   - By overwriting data on the storage device, the information previously stored on that device is rendered completely irrecoverable.&nbsp;SECURITY REQUIREMENTThere is no security associated to this requirement.BID SUBMISSIONBy Email to the Contracting Authority at Geoffrey.Lalor@canada.caLANGUAGEDocuments may be submitted in either official language of Canada.NEGOTIATIONSSSC retains the right to negotiate with suppliers on any procurement.ENQUIRIESResponders who wish to be certain of receiving a reply must submit all questions through to the Contracting Authority&nbsp;
-  - SSC Data Erasure- RFP- Amendment 001
+  - SSC Data Erasure- RFP- Amendment 002
 
 **Business requirements (extracted):**
   - _See full notice / attachments._
+
+### TBIPS SAP Technical and Functional RFP  —  _Unlikely_
+- **Closes:** 2026-11-30T14:00:00
+- **Published:** 2026-11-05
+- **Buyer:** Canada Border Services Agency (CBSA)
+- **UNSPSC:** *Computer services
+- **Category:** *SRV
+- **Contact:** Sasha.Daoust1@cbsa-asfc.gc.ca
+- **Reference:** cb-330-64321634
+- **Why IT:** IT infrastructure and operations: computer services; UNSPSC/category *Computer services
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - Fulfilling this requirement ensures the successful, timely, and cost-effective delivery of ongoing projects within the SAP Systems Management Division (SSMD).
+
+**Business requirements (extracted):**
+  - The Finance and Corporate Management Branch of the Canada Border Services Agency (CBSA) requires the continuous services of highly specialized IT Professional Resources.
 
 
 ## Other IT
-### Maintenance and Support for Kodak Scanners for Statistics Canada (2026)  —  _Possible fit_
-- **Closes:** 2026-11-05T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *N7025134
-- **Category:** *GD
-- **Contact:** Katherine,Ikeson
-- **Reference:** SSC-26-00035183:T
-- **Why IT:** GSIN *N7025134
-- **Claude-fit signals:** + document
-
-**Technical requirements (extracted):**
-  - _See full notice / attachments._
-
-**Business requirements (extracted):**
-  - This Contract is for maintaining the equipment described in Annex A in good working condition with both preventative and remedial maintained.&nbsp;
-
 ### Apple 14-inch MacBook Pro with M5 Pro Chip(space black) or equivalent for NRC  —  _Possible fit_
 - **Closes:** 2026-11-12T14:00:00
 - **Buyer:** Shared Services Canada
@@ -231,6 +351,28 @@ _CanadaBuys open tender notices · generated 2026-11-05_
   - Suppliers must be registered and logged into P2P in order to submit a response.
   - Registering for an account will allow vendors to view, respond, bid, invoice, and manage opportunities with SSC.
   - Resources are available to assist your business with account setup and support.
+
+
+## Software licensing
+### NVIDIA Support, Updates, and Maintenance Subscription  Production - technica for Department of National Defense  —  _Strong fit_
+- **Closes:** 2026-11-12T14:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *N7030
+- **Category:** *GD
+- **Contact:** Billel,Abbas
+- **Reference:** SSC-26-00035419:T
+- **Why IT:** Software licensing: adp software; GSIN *N7030
+- **Claude-fit signals:** + document, + evaluation
+
+**Technical requirements (extracted):**
+  - _See full notice / attachments._
+
+**Business requirements (extracted):**
+  - technica or Equivalent for Department of National DefenceA bid must comply with all requirements of the bid solicitation to be declared responsive.
+  - The responsive bid with the lowest evaluated subtotal price will be recommended for award of a contract.The Bidder must submit pricing in accordance with Annex A – List of Deliverables and Pricing.Please refer to the Request for Quotations document for the complete details regarding this requirement including the mandatory criteria, evaluation criteria and basis of selection.Bidders can register in the SSC P2P portal in order to:a.
+  - submit a response to a solicitation;c.
+  - be awarded contracts and receive contract amendments;
+  - submit invoices and receive payment status updates.To register, please go to https://supplier-fournisseur-sscp2pspc.ssc-spc.gc.ca/page.aspx/en/usr/login and click Register Now.&nbsp;
 
 
 

@@ -1,15 +1,29 @@
 it_category,claude_tier,title,close_date,pub_date,buyer,gsin,unspsc,category,contact_email,notice_url,why_it
-Cybersecurity and identity,Unlikely,DATA SECURITY ASSESSMENT TEAM,2026-11-26T13:00:00,2026-11-04,Department of National Defence (DND),,*Business and corporate management consultation services,*SRV,DGMPTRFP-DDPDGTPM-4@FORCES.GC.CA,,Cybersecurity and identity: threat
-IT infrastructure and operations,Strong fit,Fluke Products or equivalent,2026-11-16T14:00:00,,Shared Services Canada,"*JX7025EA
-*N7025405",,"*SRVTGD
-*GD",,,IT infrastructure and operations: network
+"Cloud, data and analytics",Strong fit,Development of a Strategic Interpretation Framework for Artificial Intelligence Results,2026-11-23T14:00:00,2026-11-05,Department of Fisheries and Oceans (DFO),,"*Information technology consultation services
+*Business intelligence consulting services",*SRV,florence.laurin@dfo-mpo.gc.ca,,"Cloud, data and analytics: artificial intelligence, business intelligence, dashboard; UNSPSC/category *Information technology consultation services
+*Business intelligence consulting "
+"Cloud, data and analytics",Possible fit,Crude Oil Inventory and Pipeline Flow Monitoring Services,2026-11-20T14:00:00,2026-11-05,Department of Natural Resources (NRCan),,"*Data services
+*Application service providers
+*Data analytics process as a service",*SRV,james.maccuaig@nrcan-rncan.gc.ca,,"Cloud, data and analytics: data analytics; UNSPSC/category *Data services
+*Application service providers
+*Data analytics process as a servi"
+"Cloud, data and analytics",Possible fit,2026 Economic Contributions of BC Small Craft Harbours,2026-11-23T13:00:00,2026-11-05,Department of Fisheries and Oceans (DFO),,"*Strategic planning consultation services
+*Business intelligence consulting services",*SRV,terri.jones@dfo-mpo.gc.ca,,"Cloud, data and analytics: business intelligence"
+"Cloud, data and analytics",Unlikely,Request for Proposal_Smartmail Marketing Platform_2026,2026-12-22T14:00:00,2026-11-05,Canada Post Corporation,,,*SRV,tender.control@canadapost.ca,https://www.merx.com/public/solicitations/4180705058/abstract?language=EN,"Cloud, data and analytics: cloud, dashboard"
+Cybersecurity and identity,Possible fit (with caveats),W8703-290119- Request for Proposal Littoral UAS,2026-11-25T14:00:00,2026-11-06,Department of Public Works and Government Services (PSPC),,*Military drone,*GD,sharon.mccartney@dia-aid.gc.ca,,"Cybersecurity and identity: cyber, cybersecurity"
+Enterprise platforms,Unlikely,Computer Services - SAP ABAP Developer,2026-11-12T14:00:00,2026-11-05,"Department of Foreign Affairs, Trade and Development (GAC)",,*Computer services,*SRV,Victoria.Hachey@international.gc.ca,,Enterprise platforms: abap; UNSPSC/category *Computer services
 IT infrastructure and operations,Strong fit,RFQ-Synology System hardware for National Research Council of Canada (NRC),2026-11-16T14:00:00,,Shared Services Canada,*N7025,,*GD,,,IT infrastructure and operations: storage; GSIN *N7025
 IT infrastructure and operations,Strong fit,RedHat for StatsCan,2026-11-17T14:00:00,,Shared Services Canada,*N7030AG,,*GD,,,"IT infrastructure and operations: network, server; GSIN *N7030AG"
+IT infrastructure and operations,Possible fit (with caveats),5P126-270703 Building Supplies Cape Breton Highlands National Park,2026-11-24T14:00:00,2026-11-05,Department of Public Works and Government Services (PSPC),,"*Wood
+*Exterior finishing materials
+*Interior finishing materials
+*Nails",*GD,lucas.shave@tpsgc-pwgsc.gc.ca,https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030763?anId=ANONYMOUS,IT infrastructure and operations: network
 IT infrastructure and operations,Unlikely,"Purchase and Install two server racks in five sheds in southern Manitoba  or equivalent, for the ROYAL CANADIReq. 2026-07-30",2026-11-09T14:00:00,,Shared Services Canada,*N5895,,*GD,,,IT infrastructure and operations: server
 IT infrastructure and operations,Unlikely,QNAP TVS-H1688X - NAS server for RCMP,2026-11-09T14:00:00,,Shared Services Canada,*N7010,,*GD,,,IT infrastructure and operations: server; GSIN *N7010
 IT infrastructure and operations,Unlikely,Pure Storage FlashArray X50R3 – 3 Yr - Maintenance and Support -DND,2026-11-09T14:00:00,,Shared Services Canada,*N7030,,*GD,,,IT infrastructure and operations: storage; GSIN *N7030
-IT infrastructure and operations,Unlikely,Data Erasure- RFP,2026-11-09T14:00:00,,Shared Services Canada,*N7030,,*GD,,,IT infrastructure and operations: storage; GSIN *N7030
-Other IT,Possible fit,Maintenance and Support for Kodak Scanners for Statistics Canada (2026),2026-11-05T14:00:00,,Shared Services Canada,*N7025134,,*GD,,,GSIN *N7025134
+IT infrastructure and operations,Unlikely,Data Erasure- RFP,2026-11-13T14:00:00,,Shared Services Canada,*N7030,,*GD,,,IT infrastructure and operations: storage; GSIN *N7030
+IT infrastructure and operations,Unlikely,TBIPS SAP Technical and Functional RFP,2026-11-30T14:00:00,2026-11-05,Canada Border Services Agency (CBSA),,*Computer services,*SRV,Sasha.Daoust1@cbsa-asfc.gc.ca,,IT infrastructure and operations: computer services; UNSPSC/category *Computer services
 Other IT,Possible fit,Apple 14-inch MacBook Pro with M5 Pro Chip(space black) or equivalent for NRC,2026-11-12T14:00:00,,Shared Services Canada,*N7010,,*GD,,,GSIN *N7010
 Other IT,Unlikely,"ATEN Products, or equivalent, for the Department of National Defence.",2026-11-09T12:00:00,,Shared Services Canada,*N7010,,*GD,,,GSIN *N7010
 Other IT,Unlikely,Local Internet Access Services (LIAS),2065-04-27T09:15:00,,Shared Services Canada,*D304A,,*SRV,,,GSIN *D304A
+Software licensing,Strong fit,"NVIDIA Support, Updates, and Maintenance Subscription  Production - technica for Department of National Defense",2026-11-12T14:00:00,,Shared Services Canada,*N7030,,*GD,,,Software licensing: adp software; GSIN *N7030
