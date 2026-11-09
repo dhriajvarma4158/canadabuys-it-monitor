@@ -1,7 +1,7 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-11-08_
+_CanadaBuys open tender notices · generated 2026-11-09_
 
-**10** open IT opportunities published in the last 1 day(s). Scanned 925 open notices (171 strict IT matches).
+**10** open IT opportunities published in the last 1 day(s). Scanned 924 open notices (171 strict IT matches).
 
 ## IT infrastructure and operations
 ### RFQ-Synology System hardware for National Research Council of Canada (NRC)  —  _Strong fit_
