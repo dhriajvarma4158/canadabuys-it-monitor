@@ -1,18 +1,20 @@
 it_category,claude_tier,title,close_date,pub_date,buyer,gsin,unspsc,category,contact_email,notice_url,why_it
-"Cloud, data and analytics",Possible fit,SaaS ESG Data Repository solution,2026-12-08T13:00:00,2026-11-09,Export Development Canada - EDC,,,*SRV,solicitations@edc.ca,https://www.merx.com/public/solicitations/4188349404/abstract?language=EN,"Cloud, data and analytics: saas"
+"Cloud, data and analytics",Possible fit,INTERNATIONAL COMMERCIAL TRADE INFORMTAION SUBSCRIPTION SERVICE,2026-12-20T19:00:00,2026-11-10,Canada Border Services Agency (CBSA),,"*Information retrieval systems
+*Online database information retrieval service",*SRV,Cara.Jiao@cbsa-asfc.gc.ca,,"Cloud, data and analytics: database"
+Cybersecurity and identity,Strong fit,DTB Security Services,2026-12-01T14:00:00,2026-11-10,Department of Health (HC),,"*Information technology consultation services
+*Computer services",*SRV,thomas.hyde@hc-sc.gc.ca,,"Cybersecurity and identity: cyber, cybersecurity, vulnerability; UNSPSC/category *Information technology consultation services
+*Computer services"
 IT infrastructure and operations,Strong fit,RFQ-Synology System hardware for National Research Council of Canada (NRC),2026-11-16T14:00:00,,Shared Services Canada,*N7025,,*GD,,,IT infrastructure and operations: storage; GSIN *N7025
 IT infrastructure and operations,Strong fit,RedHat for StatsCan,2026-11-17T14:00:00,,Shared Services Canada,*N7030AG,,*GD,,,"IT infrastructure and operations: network, server; GSIN *N7030AG"
-IT infrastructure and operations,Possible fit,Splunk Support Services,2026-11-27T14:00:00,2026-11-09,Department of Employment and Social Development (ESDC),,*Computer services,*SRV,NC-SOLICITATIONS-GD@esdc-edsc.gc.ca,,IT infrastructure and operations: computer services; UNSPSC/category *Computer services
 IT infrastructure and operations,Unlikely,Data Erasure- RFP,2026-11-13T14:00:00,,Shared Services Canada,*N7030,,*GD,,,IT infrastructure and operations: storage; GSIN *N7030
-IT infrastructure and operations,Unlikely,T8493-260035 - Aircraft Attitude and Heading Reference Unit (APIRS),2026-11-30T14:00:00,2026-11-09,Department of Public Works and Government Services (PSPC),,*Aircraft digital altitude control systems,*GD,annie.george-madhu@tpsgc-pwgsc.gc.ca,,IT infrastructure and operations: network
 Other IT,Possible fit,Apple 14-inch MacBook Pro with M5 Pro Chip(space black) or equivalent for NRC,2026-11-12T14:00:00,,Shared Services Canada,*N7010,,*GD,,,GSIN *N7010
+Other IT,Possible fit,Mesh and Hydrodynamic Framework for Shellfish Water Classification Program,2026-12-10T17:03:00,2026-11-10,Department of the Environment (ECCC ),,"*Data services
+*Data processing or preparation services
+*Content or data classification services
+*Oceanography and hydrology
+*Oceanographic survey",*SRV,Angelina.Garcia@ec.gc.ca,,"UNSPSC/category *Data services
+*Data processing or preparation services
+*Content or data classif"
 Other IT,Unlikely,Request for Proposal - Modernization of Canada's National Public Alerting System (NPAS),2026-12-18T14:00:00,2026-11-10,Department of Public Works and Government Services (PSPC),,*Software,*SRV,matthew.young@tpsgc-pwgsc.gc.ca,https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031002?anId=ANONYMOUS,UNSPSC/category *Software
 Other IT,Unlikely,Local Internet Access Services (LIAS),2065-04-27T09:15:00,,Shared Services Canada,*D304A,,*SRV,,,GSIN *D304A
-Software and application development,Possible fit (with caveats),Data Platform & Analytics – RCAF,2026-12-10T14:00:00,2026-11-09,Department of National Defence (DND),,"*Computer services
-*System or application programming management service",*SRV,P-2CADCONTRACTSEBR@FORCES.GC.CA,,"Software and application development: application services, developer, programmer, programming; UNSPSC/category *Computer services
-*System or application programming management service"
-Software and application development,Unlikely,Physical Security Compliance Project - NCR,2026-11-26T12:00:00,2026-11-09,Department of Indigenous Services (ISC),,"*Security or access control systems
-*Safety and security system installation services
-*Security systems services",*SRVTGD,sumanvir.sahota-chhokar@sac-isc.gc.ca,,Software and application development: programming
-Software and application development,Unlikely,SBIPS - Data Architecture and Systems Integration Advisory Services,2026-12-04T14:00:00,2026-11-09,Statistics Canada (StatCan),,*Information technology consultation services,*SRV,daniel.blanchard@statcan.gc.ca,,Software and application development: systems integration; UNSPSC/category *Information technology consultation services
 Software licensing,Strong fit,"NVIDIA Support, Updates, and Maintenance Subscription  Production - technica for Department of National Defense",2026-11-13T14:00:00,,Shared Services Canada,*N7030,,*GD,,,Software licensing: adp software; GSIN *N7030
