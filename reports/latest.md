@@ -1,7 +1,56 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-11-13_
+_CanadaBuys open tender notices · generated 2026-11-14_
 
-**14** open IT opportunities published in the last 1 day(s). Scanned 943 open notices (175 strict IT matches).
+**10** open IT opportunities published in the last 1 day(s). Scanned 941 open notices (174 strict IT matches).
+
+## Cloud, data and analytics
+### Geospatial Informatics Professional Services for the Impact Assessment Agency of Canada  —  _Strong fit_
+- **Closes:** 2026-11-30T14:00:00
+- **Published:** 2026-11-13
+- **Buyer:** Impact Assessment Agency of Canada (IAAC)
+- **UNSPSC:** *Requirements analysis and system architecture software
+*Customs consulting service
+*ERP or database applications programming services
+*Application implementation services
+*Systems architecture
+- **Category:** *SRV
+- **Contact:** kimberly.martin@iaac-aeic.gc.ca
+- **Reference:** cb-621-34120934
+- **Why IT:** Cloud, data and analytics: artificial intelligence, database; UNSPSC/category *Requirements analysis and system architecture software
+*Customs consulting serv
+- **Claude-fit signals:** + analysis, + guidance
+
+**Technical requirements (extracted):**
+  - Geospatial Informatics Services, under the Solutions Based Informatics Professional Services supply arrangement, on an as-and-when-required basis to support the operation, maintenance, enhancement, modernization, and sustainability of its enterprise Geographic Information System (GIS) environment.
+  - The Contractor shall provide senior-level geospatial informatics professional services related to enterprise GIS architecture, GIS application development, data management and integration, GIS platform modernization, and the assessment and implementation of emerging geospatial technologies, including artificial intelligence-enabled capabilities.
+  - Services may include strategic, business, technical, and architectural advisory services;
+  - the preparation of recommendations, plans, standards, and guidance;
+  - and support for the design, development, implementation, maintenance, optimization, and migration of enterprise GIS applications, data, services, and infrastructure, including environments managed in accordance with Shared Services Canada (SSC) requirements and applicable Government of Canada standards.
+
+**Business requirements (extracted):**
+  - _See full notice / attachments._
+
+### Stream 2.11 Information/Record Management/Recordkeeping Specialists  —  _Unlikely_
+- **Closes:** 2026-11-24T14:00:00
+- **Published:** 2026-11-13
+- **Buyer:** Department of Natural Resources (NRCan)
+- **UNSPSC:** *Management advisory services
+*Database information retrieval
+*Information retrieval or search software maintenance
+- **Category:** *SRV
+- **Contact:** julia.pace@nrcan-rncan.gc.ca
+- **Reference:** cb-235-44493484
+- **Why IT:** Cloud, data and analytics: database; UNSPSC/category *Management advisory services
+*Database information retrieval
+*Information retri
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - The objective of this requirement is to acquire ATIP consultant services under TSPS Stream 2, Category 2.11, to provide Access to Information and Privacy (ATIP) services under the Access to Information Act and Privacy Act and expert advice on ATIP issues to all levels of NRCan’s management and staff, its stakeholders and requestors.
+
+**Business requirements (extracted):**
+  - _See full notice / attachments._
+
 
 ## IT infrastructure and operations
 ### RFQ-Synology System hardware for National Research Council of Canada (NRC)  —  _Strong fit_
@@ -44,163 +93,34 @@ _CanadaBuys open tender notices · generated 2026-11-13_
 **Business requirements (extracted):**
   - Closing Date:
 
-### Temperature Cycling Chambers  —  _Strong fit_
-- **Closes:** 2026-12-08T14:00:00
-- **Published:** 2026-11-12
-- **Buyer:** National Research Council of Canada (NRC)
-- **UNSPSC:** *Laboratory and scientific equipment
-- **Category:** *GD
-- **Contact:** Veronica.Exari@nrc-cnrc.gc.ca
-- **Reference:** cb-957-68430656
-- **Why IT:** IT infrastructure and operations: storage
-- **Claude-fit signals:** + evaluation, + research
-
-**Technical requirements (extracted):**
-  - As lithium-ion battery systems continue to increase in energy density and are deployed across transportation, aerospace, and stationary energy storage applications, controlled temperature testing is essential to understand how these systems perform under a range of environmental conditions.
-  - This capability enables the evaluation of battery performance, reliability, and durability while operating across the temperature ranges encountered in real-world applications.
-  - The objective of this procurement is to provide the Automotive and Surface Transportation (AST) team with the capability to conduct controlled temperature testing of battery system and system reliability.
-
-**Business requirements (extracted):**
-  - The National Research Council of Canada (NRC) requires the procurement of temperature cycling chambers to support the thermal evaluation of advanced energy storage technologies.
-  - The AST team operates a unique Canadian facility dedicated to evaluating battery cells and modules well beyond their normal operating envelopes.
-  - All deliverables must be received no later than 18 weeks after contract award.
-
-### One (1) Senior Business Consultant  —  _Possible fit_
-- **Closes:** 2026-11-27T14:00:00
-- **Published:** 2026-11-12
-- **Buyer:** Department of National Defence (DND)
-- **UNSPSC:** *Project management
-- **Category:** *SRV
-- **Contact:** kelsey.lawrence2@forces.gc.ca
-- **Reference:** cb-569-60213082
-- **Why IT:** IT infrastructure and operations: network
-- **Claude-fit signals:** + analysis, + document, + evaluation, + research, - security clearance
-
-**Technical requirements (extracted):**
-  - To obtain more information about how to become a pre-qualified supplier for TSPS please contact Public Works and Government Services Canada (PWGSC).
-  - For general information on the various PWGSC Methods of Supply, or to obtain specific information on a PWGSC professional service method of supply, please visit PWGSC's CanadaBuys Tender Management Application website at:
-  - Adirondack Information Management Inc., The AIM Group Inc.
-  - ALTRUISTIC INFORMATICS CONSULTING INC.
-  - BGIS GLOBAL INTEGRATED SOLUTIONS CANADA LP/BGIS SOLUTIONS GLOBALES INTEGREES CANADA S.E.C.
-  - CGI Information Systems and Management Consultants Inc.
-  - Customer Service Professionals Network Inc.
-  - CVL INFORMATION SOLUTIONS INC.
-  - I4C INFORMATION TECHNOLOGY CONSULTING INC 
-  - Integra Networks Corporation 
-  - ISM Information Systems Management Corporation IN JOINT VENTURE 
-  - Les Enterprises Norleaf Networks Inc.
-
-**Business requirements (extracted):**
-  - The intent of this solicitation is to establish one (1) Contract for three (3) initial years, with the option to extend the term of the Contract by up to one (1) one-year irrevocable option period under the same conditions.
-  - Documents may be submitted in either official language of Canada.
-  - RFP documents will be e-mailed directly from the Contracting Authority to the Qualified Supply Arrangement Holders who are being invited to bid on this requirement.
-  - Bidders are advised that the RFP documents are not available on the CanadaBuys Tender Management Application (https://canadabuys.canada.ca).
-  - The Method of Supply provides suppliers with an on-going opportunity to become prequalified for participation in future bidding opportunities.
-  - ACOSYS CONSULTING SERVICES INC./ SERVICES CONSEILS ACOSYS INC., PRICEWATERHOUSECOOPERS LLP, IN JOINT VENTURE 
-  - Action Personnel of Ottawa-Hull Ltd 
-  - ARTEMP PERSONNEL SERVICES INC 
-  - AZUR HUMAN RESOURCES LIMITED 
-  - Contract Community Inc.
-  - CONTRACT COMMUNITY INC., NISHA TECHNOLOGIES INC IN JOINT VENTURE 
-  - Dare Human Resources Corporation 
-
-### M7594-253587 - Variable Printing Services, Warehousing, Inventory Management and Distribution Services  —  _Possible fit_
-[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110030361?anId=ANONYMOUS)
-- **Closes:** 2026-12-10T14:00:00
-- **Published:** 2026-11-12
-- **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Document storage services
-*Printing
-- **Category:** *SRV
-- **Contact:** siddharth.bucktowar@tpsgc-pwgsc.gc.ca
-- **Reference:** WS5799408035-Doc5958577349
-- **Why IT:** IT infrastructure and operations: storage
-- **Claude-fit signals:** + document
-
-**Technical requirements (extracted):**
-  - _See full notice / attachments._
-
-**Business requirements (extracted):**
-  - _See full notice / attachments._
-
-### Data Erasure- RFP  —  _Unlikely_
-- **Closes:** 2026-11-13T14:00:00
+### Red Hat Ansible Automation Platform for Canada Mortgage and Housing Corporation  —  _Possible fit_
+- **Closes:** 2026-11-23T11:00:00
 - **Buyer:** Shared Services Canada
-- **GSIN:** *N7030
+- **GSIN:** *N7030AG
 - **Category:** *GD
-- **Contact:** Geoffrey,Lalor
-- **Reference:** SSC-26-00035268:T
-- **Why IT:** IT infrastructure and operations: storage; GSIN *N7030
-- **Claude-fit signals:** —
+- **Contact:** Arsène,Keza
+- **Reference:** SSC-26-00035409:T
+- **Why IT:** IT infrastructure and operations: network; GSIN *N7030AG
+- **Claude-fit signals:** + document, + evaluation, + spreadsheet, - supply of
 
 **Technical requirements (extracted):**
-  - REQ211428/ Request for Data Erasure Software for Shared Services Canada (SSC)for Shared Services Canada (SSC)PRODUCT DESCRIPTIONShared Services Canada (SSC), has a requirement to compete Data Erasure software solution for Government of Canada (GC) Departments and Agencies across Canada at the enterprise level.
-  - Data Erasure Software – also known as data wiping, data destruction, data sanitation, and secure deletion software – is a software solution that removes all digital information from electronic storage devices by overwriting data onto all sectors of the storage device in an irreversible process.&nbsp;
-  - By overwriting data on the storage device, the information previously stored on that device is rendered completely irrecoverable.&nbsp;SECURITY REQUIREMENTThere is no security associated to this requirement.BID SUBMISSIONBy Email to the Contracting Authority at Geoffrey.Lalor@canada.caLANGUAGEDocuments may be submitted in either official language of Canada.NEGOTIATIONSSSC retains the right to negotiate with suppliers on any procurement.ENQUIRIESResponders who wish to be certain of receiving a reply must submit all questions through to the Contracting Authority&nbsp;
-  - SSC Data Erasure- RFP- Amendment 002
+  - Requirement Description Canada Mortgage and housing Corporation (CMHC) has a requirement for the procurement of Red Hat Ansible Automation Platform – standard subscription renewal.
+  - This Request for Quote is issued pursuant to Software standard subscription Renewal Supply Arrangement (SLSA) # EN578-232335/078/SMS.Tendering Procedure:
+  - Unilogik Systems Inc
+  - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Red Hat Ansible Automation Platform – standard subscriptionLicense type:
+  - from November 28, 2026 up to and including November 27, 2027Planned number of contracts:1Security RequirementNoneContracting AuthorityName:
+  - Software Licensing Supply Arrangement (SLSA) RFSA [L&#39;arrangement en mati&#232;re d&#39;approvisionnement portant sur l&#39;achat de licences de logiciels]&nbsp;
+  - SSC Red Hat Ansible Automation Platform for Canada Mortgage and Housing Corporation- Amendment 001
 
 **Business requirements (extracted):**
-  - _See full notice / attachments._
-
-### EC015-270889 Miramichi Pay Center - High Density Mobile Storage  —  _Unlikely_
-[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031350?anId=ANONYMOUS)
-- **Closes:** 2026-11-27T14:00:00
-- **Published:** 2026-11-12
-- **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Shelving and storage
-*Industrial cabinets or drawers or shelving
-- **Category:** *GD
-- **Contact:** lyne.leger2@tpsgc-pwgsc.gc.ca
-- **Reference:** WS5952192345-Doc5979275425
-- **Why IT:** IT infrastructure and operations: storage
-- **Claude-fit signals:** - installation
-
-**Technical requirements (extracted):**
-  - This requirement is for the design, delivery and installation of three (3) high density filing system meetings all specifications, codes and standards outlined in Supply Arrangement (SA) series E60HN-21HDMS.
-  - This system is to be installed in file room 118 at 2 Victoria Ave, Miramichi, NB.
-  - There is no security requirements with this requirement.
-
-**Business requirements (extracted):**
-  - This Public Works and Government Services of Canada on behalf of Miramichi Pay Center solicitation and resulting contract are issued against the Supply Arrangement (SA) series E60HN-21HDMS, general stream, all terms and conditions of the SA apply.
+  - 2026-11- 09Closing Date:
+  - Selective tenderingThe following Supply Arrangement Holders and Class-1 Resellers have been invited to submit a proposal:&nbsp;
   - Only suppliers who are pre-qualified and have been issued a supply arrangement are eligible to bid.
-  - Inquiries regarding this requirement must be submitted to the Contracting Authority named above.
-
-### RFP - Ship Recycling of the CCGS Courtenay Bay  —  _Unlikely_
-[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031367?anId=ANONYMOUS)
-- **Closes:** 2026-12-15T13:00:00
-- **Published:** 2026-11-12
-- **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Naval architecture
-- **Category:** *SRV
-- **Contact:** drew.lefrank@tpsgc-pwgsc.gc.ca
-- **Reference:** WS5967229481-Doc5984222736
-- **Why IT:** IT infrastructure and operations: storage
-- **Claude-fit signals:** —
-
-**Technical requirements (extracted):**
-  - _See full notice / attachments._
-
-**Business requirements (extracted):**
-  - The Canadian Coast Guard (CCG) requires a contractor to transport, deconstruct, and dispose of one surplus vessel, the CCGS Courtenay Bay.
-
-### WS5933829424 Canada Strong Technical and Trades Training Program  —  _Unlikely_
-[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031381?anId=ANONYMOUS)
-- **Closes:** 2026-12-31T14:00:00
-- **Published:** 2026-11-12
-- **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Education and Training Services
-- **Category:** *SRV
-- **Contact:** diane.reynolds@tpsgc-pwgsc.gc.ca
-- **Reference:** WS5933829424-Doc5973518768
-- **Why IT:** IT infrastructure and operations: service desk
-- **Claude-fit signals:** —
-
-**Technical requirements (extracted):**
-  - DND, through the CJCR Group, has a requirement for technical and skilled-trades summer training, on an “as and when required” basis, in either of Canada’s official languages for approximately 500 Cadets and Junior Canadian Rangers annually across Canada aged 16 to 18.
-  - For technical support with SAP Ariba, please contact the CanadaBuys Service Desk.
-
-**Business requirements (extracted):**
-  - The requirement supports the Team Canada Strong – Bridge to Opportunity and covers six trades, the training will be delivered between July 2 to August 25, beginning in the summer of 2027.
+  - Non-SA holders cannot be awarded a contract unless and until the Supply Arrangement Authority (SAA) has issued a Supply Arrangement to that supplier for the products and/or services contained in the bid.
+  - Canada is not required to delay the award of a resulting contract pending the evaluation of an arrangement and issuance of a Supply Arrangement by the Supply Arrangement Authority.Requirement Details&nbsp;:Product:
+  - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5Contract duration:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  - 343-990-2382InquiriesInquiries regarding this requirement must be directed to the Contracting Authority named above.The RFQ document will be sent directly to the eligible SLSA SA Holder and Class 1 Resellers listed for the product in Annex G of the SLSA Catalogue.Canada retains the right to negotiate with any supplier on any procurement.
+  - Bidders may submit their responses in either official language.NOTE:
 
 
 ## Other IT
@@ -265,7 +185,7 @@ _CanadaBuys open tender notices · generated 2026-11-13_
 
 ## Software licensing
 ### NVIDIA Support, Updates, and Maintenance Subscription  Production - technica for Department of National Defense  —  _Strong fit_
-- **Closes:** 2026-11-13T14:00:00
+- **Closes:** 2026-11-17T14:00:00
 - **Buyer:** Shared Services Canada
 - **GSIN:** *N7030
 - **Category:** *GD
@@ -275,9 +195,10 @@ _CanadaBuys open tender notices · generated 2026-11-13_
 - **Claude-fit signals:** + document, + evaluation
 
 **Technical requirements (extracted):**
-  - To update the part number in the English version of the RFQ document and to extend the solicitation period by one (1) day.This solicitation is for the purchase of NVIDIA Support, Updates, and Maintenance Subscription &nbsp;Production
+  - _See full notice / attachments._
 
 **Business requirements (extracted):**
+  - AMD02:To respond to bidders&#39;questions and extend the RFQ closing date and time to November 17, 2026, at 2:00 PM.This solicitation is for the purchase of NVIDIA Support, Updates, and Maintenance Subscription &nbsp;Production
   - technica or Equivalent for Department of National DefenceA bid must comply with all requirements of the bid solicitation to be declared responsive.
   - The responsive bid with the lowest evaluated subtotal price will be recommended for award of a contract.The Bidder must submit pricing in accordance with Annex A – List of Deliverables and Pricing.Please refer to the Request for Quotations document for the complete details regarding this requirement including the mandatory criteria, evaluation criteria and basis of selection.Bidders can register in the SSC P2P portal in order to:a.
   - submit a response to a solicitation;c.

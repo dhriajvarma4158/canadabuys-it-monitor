@@ -1,0 +1,20 @@
+it_category,claude_tier,title,close_date,pub_date,buyer,gsin,unspsc,category,contact_email,notice_url,why_it
+"Cloud, data and analytics",Strong fit,Geospatial Informatics Professional Services for the Impact Assessment Agency of Canada,2026-11-30T14:00:00,2026-11-13,Impact Assessment Agency of Canada (IAAC),,"*Requirements analysis and system architecture software
+*Customs consulting service
+*ERP or database applications programming services
+*Application implementation services
+*Systems architecture",*SRV,kimberly.martin@iaac-aeic.gc.ca,,"Cloud, data and analytics: artificial intelligence, database; UNSPSC/category *Requirements analysis and system architecture software
+*Customs consulting serv"
+"Cloud, data and analytics",Unlikely,Stream 2.11 Information/Record Management/Recordkeeping Specialists,2026-11-24T14:00:00,2026-11-13,Department of Natural Resources (NRCan),,"*Management advisory services
+*Database information retrieval
+*Information retrieval or search software maintenance",*SRV,julia.pace@nrcan-rncan.gc.ca,,"Cloud, data and analytics: database; UNSPSC/category *Management advisory services
+*Database information retrieval
+*Information retri"
+IT infrastructure and operations,Strong fit,RFQ-Synology System hardware for National Research Council of Canada (NRC),2026-11-16T14:00:00,,Shared Services Canada,*N7025,,*GD,,,IT infrastructure and operations: storage; GSIN *N7025
+IT infrastructure and operations,Strong fit,RedHat for StatsCan,2026-11-17T14:00:00,,Shared Services Canada,*N7030AG,,*GD,,,"IT infrastructure and operations: network, server; GSIN *N7030AG"
+IT infrastructure and operations,Possible fit,Red Hat Ansible Automation Platform for Canada Mortgage and Housing Corporation,2026-11-23T11:00:00,,Shared Services Canada,*N7030AG,,*GD,,,IT infrastructure and operations: network; GSIN *N7030AG
+Other IT,Strong fit,GCITSM NextGen - What We Heard Report - BPM025298,2027-01-08T00:00:00,,Shared Services Canada,*D302A,,*SRV,,,GSIN *D302A
+Other IT,Possible fit,Apple Mac Studio Workstations – Z1U4 and accessories or equivalent for Library and Archives Canada,2026-11-27T00:00:00,,Shared Services Canada,*N7010,,*GD,,,GSIN *N7010
+Other IT,Unlikely,Local Internet Access Services (LIAS),2065-04-27T09:15:00,,Shared Services Canada,*D304A,,*SRV,,,GSIN *D304A
+Software licensing,Strong fit,"NVIDIA Support, Updates, and Maintenance Subscription  Production - technica for Department of National Defense",2026-11-17T14:00:00,,Shared Services Canada,*N7030,,*GD,,,Software licensing: adp software; GSIN *N7030
+Software licensing,Possible fit,BPM026880 - RFQ-DDP - Red Hat  - DND-MDN,2026-11-23T14:00:00,,Shared Services Canada,*N7030,,*GD,,,"Software licensing: adp software, software licensing; GSIN *N7030"
