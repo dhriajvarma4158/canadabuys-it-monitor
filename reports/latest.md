@@ -1,56 +1,7 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-11-14_
+_CanadaBuys open tender notices · generated 2026-11-15_
 
-**10** open IT opportunities published in the last 1 day(s). Scanned 941 open notices (174 strict IT matches).
-
-## Cloud, data and analytics
-### Geospatial Informatics Professional Services for the Impact Assessment Agency of Canada  —  _Strong fit_
-- **Closes:** 2026-11-30T14:00:00
-- **Published:** 2026-11-13
-- **Buyer:** Impact Assessment Agency of Canada (IAAC)
-- **UNSPSC:** *Requirements analysis and system architecture software
-*Customs consulting service
-*ERP or database applications programming services
-*Application implementation services
-*Systems architecture
-- **Category:** *SRV
-- **Contact:** kimberly.martin@iaac-aeic.gc.ca
-- **Reference:** cb-621-34120934
-- **Why IT:** Cloud, data and analytics: artificial intelligence, database; UNSPSC/category *Requirements analysis and system architecture software
-*Customs consulting serv
-- **Claude-fit signals:** + analysis, + guidance
-
-**Technical requirements (extracted):**
-  - Geospatial Informatics Services, under the Solutions Based Informatics Professional Services supply arrangement, on an as-and-when-required basis to support the operation, maintenance, enhancement, modernization, and sustainability of its enterprise Geographic Information System (GIS) environment.
-  - The Contractor shall provide senior-level geospatial informatics professional services related to enterprise GIS architecture, GIS application development, data management and integration, GIS platform modernization, and the assessment and implementation of emerging geospatial technologies, including artificial intelligence-enabled capabilities.
-  - Services may include strategic, business, technical, and architectural advisory services;
-  - the preparation of recommendations, plans, standards, and guidance;
-  - and support for the design, development, implementation, maintenance, optimization, and migration of enterprise GIS applications, data, services, and infrastructure, including environments managed in accordance with Shared Services Canada (SSC) requirements and applicable Government of Canada standards.
-
-**Business requirements (extracted):**
-  - _See full notice / attachments._
-
-### Stream 2.11 Information/Record Management/Recordkeeping Specialists  —  _Unlikely_
-- **Closes:** 2026-11-24T14:00:00
-- **Published:** 2026-11-13
-- **Buyer:** Department of Natural Resources (NRCan)
-- **UNSPSC:** *Management advisory services
-*Database information retrieval
-*Information retrieval or search software maintenance
-- **Category:** *SRV
-- **Contact:** julia.pace@nrcan-rncan.gc.ca
-- **Reference:** cb-235-44493484
-- **Why IT:** Cloud, data and analytics: database; UNSPSC/category *Management advisory services
-*Database information retrieval
-*Information retri
-- **Claude-fit signals:** —
-
-**Technical requirements (extracted):**
-  - The objective of this requirement is to acquire ATIP consultant services under TSPS Stream 2, Category 2.11, to provide Access to Information and Privacy (ATIP) services under the Access to Information Act and Privacy Act and expert advice on ATIP issues to all levels of NRCan’s management and staff, its stakeholders and requestors.
-
-**Business requirements (extracted):**
-  - _See full notice / attachments._
-
+**8** open IT opportunities published in the last 1 day(s). Scanned 941 open notices (174 strict IT matches).
 
 ## IT infrastructure and operations
 ### RFQ-Synology System hardware for National Research Council of Canada (NRC)  —  _Strong fit_
