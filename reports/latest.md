@@ -1,7 +1,7 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-11-15_
+_CanadaBuys open tender notices · generated 2026-11-16_
 
-**8** open IT opportunities published in the last 1 day(s). Scanned 941 open notices (174 strict IT matches).
+**9** open IT opportunities published in the last 1 day(s). Scanned 943 open notices (175 strict IT matches).
 
 ## IT infrastructure and operations
 ### RFQ-Synology System hardware for National Research Council of Canada (NRC)  —  _Strong fit_
@@ -108,6 +108,24 @@ _CanadaBuys open tender notices · generated 2026-11-15_
   - 60 federal government working days from contract award.
   - N/AThe Crown retains the right to negotiate with suppliers on any procurement.The responsive bid with the lowest evaluated price will be recommended for award of a contract.To access the solicitation and submit your bid click the following link:
   - https://supplier-fournisseur-sscp2pspc.ssc-spc.gc.ca/page.aspx/en/usr/login&nbsp;Documents may be submitted in either official language of Canada.All enquiries related to this solicitation must be addressed in writing to:Sebastien DarifSenior Procurement Officer Shared Services Canada 270 Albert Street, 9th FloorOttawa, ON K1P 5G8Telephone:
+
+### 16” & 24” Touch Screen Monitors  —  _Possible fit (with caveats)_
+- **Closes:** 2026-11-30T14:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *N7010
+*N7025150
+- **Category:** *GD
+- **Contact:** Corey,Griffin
+- **Reference:** SSC-26-00035479:T
+- **Why IT:** GSIN *N7010
+*N7025150
+- **Claude-fit signals:** + documentation, - supply and deliver
+
+**Technical requirements (extracted):**
+  - _See full notice / attachments._
+
+**Business requirements (extracted):**
+  - _See full notice / attachments._
 
 ### Local Internet Access Services (LIAS)  —  _Unlikely_
 - **Closes:** 2065-04-27T09:15:00
