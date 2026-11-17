@@ -1,33 +1,9 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-11-16_
+_CanadaBuys open tender notices · generated 2026-11-17_
 
-**9** open IT opportunities published in the last 1 day(s). Scanned 943 open notices (175 strict IT matches).
+**15** open IT opportunities published in the last 1 day(s). Scanned 938 open notices (173 strict IT matches).
 
 ## IT infrastructure and operations
-### RFQ-Synology System hardware for National Research Council of Canada (NRC)  —  _Strong fit_
-- **Closes:** 2026-11-16T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *N7025
-- **Category:** *GD
-- **Contact:** christel,kouame
-- **Reference:** SSC-26-00035343:T
-- **Why IT:** IT infrastructure and operations: storage; GSIN *N7025
-- **Claude-fit signals:** + document, + evaluation, + research
-
-**Technical requirements (extracted):**
-  - Notice of Proposed ProcurementShared Services Canada (SSC) has a requirement Synology System hardware for National Research Council of Canada (NRC) ,&nbsp;
-  - SSC RFQ-Synology System hardware for National Research Council of Canada (NRC)- Amendment 000
-
-**Business requirements (extracted):**
-  - This process is intended to result in the award of one contract for the delivery of goods and/or services;
-  - the term of the contract will be from the contract award date and will include the period for delivery, acceptance and warranty.Policy on Reciprocal Procurement:
-  - This solicitation of bids is open to Canadian Suppliers and Suppliers of an Applicable Trading Partner.A bid must comply with all requirements of the bid solicitation to be declared responsive.
-  - The responsive bid with the lowest evaluated price will be recommended for award of a contract.
-  - The Bidder must submit pricing in accordance with Annex A – List of Deliverables and Pricing.
-  - The Crown retains the right to negotiate with suppliers on any procurement.Please refer to the Request for Quotations document for the complete details regarding this requirement including the mandatory criteria, evaluation criteria and basis of selection.
-  - Documents may be submitted in either official language of Canada.Suppliers are required to submit bids electronically using the Contracting Authority’s email.
-  - Faxed and hard copy (submitted in person or via mail/courier) bids will not be accepted, except in exceptional circumstances, for the subject bid solicitation.&nbsp;
-
 ### RedHat for StatsCan  —  _Strong fit_
 - **Closes:** 2026-11-17T14:00:00
 - **Buyer:** Shared Services Canada
@@ -73,6 +49,86 @@ _CanadaBuys open tender notices · generated 2026-11-16_
   - 343-990-2382InquiriesInquiries regarding this requirement must be directed to the Contracting Authority named above.The RFQ document will be sent directly to the eligible SLSA SA Holder and Class 1 Resellers listed for the product in Annex G of the SLSA Catalogue.Canada retains the right to negotiate with any supplier on any procurement.
   - Bidders may submit their responses in either official language.NOTE:
 
+### F2599-260338 – CCG Cove Isle Drydock 2027  —  _Possible fit_
+- **Closes:** 2026-12-01T14:00:00
+- **Published:** 2026-11-17
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Commercial marine craft
+- **Category:** *GD
+- **Contact:** jessica.blackburn@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5992093770-Doc5992173829
+- **Why IT:** IT infrastructure and operations: network
+- **Claude-fit signals:** + documentation
+
+**Technical requirements (extracted):**
+  - _See full notice / attachments._
+
+**Business requirements (extracted):**
+  - AMENDMENT TO RESPONSE DEADLINE CLOSING TIME:
+  - Please disregard the SAP Business Network posting response deadline closing time.
+  - Unless specified otherwise in the tender opportunity, all required supporting documentation and responses must be submitted by December 1, 2026 at 2pm EST.
+  - All responses submitted after 2pm EST will result in the submission being declared non-responsive.
+
+### Purchase and Install two server racks in five sheds in southern Manitoba  or equivalent, for the ROYAL CANADIReq. 2026-07-30  —  _Unlikely_
+- **Closes:** 2026-11-23T14:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *N5895
+- **Category:** *GD
+- **Contact:** Eleanor,Cesare
+- **Reference:** SSC-26-00035488:T
+- **Why IT:** IT infrastructure and operations: server
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - _See full notice / attachments._
+
+**Business requirements (extracted):**
+  - _See full notice / attachments._
+
+### EB144-270805 - Consulting Services Marine Design- Berths Digby - Saint John  —  _Unlikely_
+[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031558?anId=ANONYMOUS)
+- **Closes:** 2026-12-15T14:00:00
+- **Published:** 2026-11-16
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Civil engineering
+*Structural engineering
+*Geotechnical or geoseismic engineering
+*Mechanical engineering
+*Marine engineering
+*Electrical engineering services
+*Coastal engineering
+- **Category:** *SRV
+- **Contact:** kate.mintzer@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5908451695-Doc5991406181
+- **Why IT:** IT infrastructure and operations: network
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - Questions submitted through SAP Business Network are not monitored and will not receive a response.
+
+**Business requirements (extracted):**
+  - Public Services and Procurement Canada, on behalf of Transport Canada, requires multidisciplinary engineering consulting services for the design and implementation of replacement marine berth infrastructure, including movable transfer bridges and associated shore-side works, at the Digby Ferry Terminal in Digby, Nova Scotia and the Saint John Ferry Terminal in Saint John, New Brunswick.
+  - All enquiries regarding this requirement are to be submitted to the Contracting Authority identified in the solicitation documents.
+
+### Offshore Portable Tank  —  _Unlikely_
+[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031590?anId=ANONYMOUS)
+- **Closes:** 2027-01-15T14:00:00
+- **Published:** 2026-11-16
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Storage tanks
+- **Category:** *GD
+- **Contact:** david.puff@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5980753926-Doc5992155630
+- **Why IT:** IT infrastructure and operations: storage
+- **Claude-fit signals:** - supply of
+
+**Technical requirements (extracted):**
+  - The Canadian Coast Guard (CCG), is seeking information from industry regarding the supply of Offshore Portable Tanks.
+  - This RFI is intended to gather information on commercially available products, support services, and solutions that meet the technical and operational requirements outlined in the CCG's Technical Statement of Requirements (TSOR) for Offshore Portable Tanks.
+
+**Business requirements (extracted):**
+  - _See full notice / attachments._
+
 
 ## Other IT
 ### GCITSM NextGen - What We Heard Report - BPM025298  —  _Strong fit_
@@ -108,6 +164,25 @@ _CanadaBuys open tender notices · generated 2026-11-16_
   - 60 federal government working days from contract award.
   - N/AThe Crown retains the right to negotiate with suppliers on any procurement.The responsive bid with the lowest evaluated price will be recommended for award of a contract.To access the solicitation and submit your bid click the following link:
   - https://supplier-fournisseur-sscp2pspc.ssc-spc.gc.ca/page.aspx/en/usr/login&nbsp;Documents may be submitted in either official language of Canada.All enquiries related to this solicitation must be addressed in writing to:Sebastien DarifSenior Procurement Officer Shared Services Canada 270 Albert Street, 9th FloorOttawa, ON K1P 5G8Telephone:
+
+### 2BH6216607/A NVIDIA DGX SPARK AI MINI PC GB10 AI workstation or equivalent for ISED  —  _Possible fit_
+- **Closes:** 2026-12-01T14:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *N7010
+- **Category:** *GD
+- **Contact:** Michael,Boualavong
+- **Reference:** SSC-26-00035486:T
+- **Why IT:** GSIN *N7010
+- **Claude-fit signals:** + writing
+
+**Technical requirements (extracted):**
+  - &nbsp;Security Requirements:
+
+**Business requirements (extracted):**
+  - 15 days (11/17/2026 to 12/01/2026) Description of Requirement:Innovation, Science and Economic Development Canada has a requirement for a quantity of 4 x NVIDIA DGX SPARK AI MINI PC GB10 AI workstation or equivalent, plus inventory options &nbsp;as per the List of Deliverables in the Request for Quotation.&nbsp;Delivery Destination Area:&nbsp;&nbsp;
+  - 30 federal government working days from contract award.
+  - N/AThe Crown retains the right to negotiate with suppliers on any procurement.The responsive bid with the lowest evaluated price will be recommended for award of a contract.To access the solicitation and submit your bid click the following link:
+  - https://supplier-fournisseur-sscp2pspc.ssc-spc.gc.ca/page.aspx/en/usr/login&nbsp;Documents may be submitted in either official language of Canada.All enquiries related to this solicitation must be addressed in writing to:Michael BoualavongSenior Procurement Officer Shared Services Canada 270 Albert Street, 9th FloorOttawa, ON K1P 5G8Telephone:
 
 ### 16” & 24” Touch Screen Monitors  —  _Possible fit (with caveats)_
 - **Closes:** 2026-11-30T14:00:00
@@ -174,6 +249,32 @@ _CanadaBuys open tender notices · generated 2026-11-16_
   - be awarded contracts and receive contract amendments;
   - submit invoices and receive payment status updates.To register, please go to https://supplier-fournisseur-sscp2pspc.ssc-spc.gc.ca/page.aspx/en/usr/login and click Register Now.
 
+### Red Hat OpenShift Bare Metal Node  —  _Strong fit_
+- **Closes:** 2026-11-23T14:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *N7030
+- **Category:** *GD
+- **Contact:** John Ford,Robert
+- **Reference:** SSC-26-00035500:T
+- **Why IT:** Software licensing: adp software, software licensing; GSIN *N7030
+- **Claude-fit signals:** + document, + evaluation
+
+**Technical requirements (extracted):**
+  - This Request for Quote is issued pursuant to Software Licensing Supply Arrangement (SLSA) # EN578-232335/078/SMS.Tendering Procedure:
+  - Unilogik Systems Inc.
+  - 1&nbsp;Security RequirementNoneContracting AuthorityName:
+  - Software Licensing Supply Arrangement (SLSA) RFSA [L&#39;arrangement en mati&#232;re d&#39;approvisionnement portant sur l&#39;achat de licences de logiciels]
+
+**Business requirements (extracted):**
+  - The following Supply Arrangement Holders and Class-1 Resellers have been invited to submit a proposal:
+  - Only suppliers who are pre-qualified and have been issued a supply arrangement are eligible to bid.
+  - Non-SA holders cannot be awarded a contract unless and until the Supply Arrangement Authority (SAA) has issued a Supply Arrangement to that supplier for the products and/or services contained in the bid.
+  - Canada is not required to delay the award of a resulting contract pending the evaluation of an arrangement and issuance of a Supply Arrangement by the Supply Arrangement Authority.Requirement Details&nbsp;:Product:
+  - &nbsp;&nbsp;&nbsp;&nbsp;6Contract duration:
+  - 12 monthsPlanned number of contracts:
+  - InquiriesInquiries regarding this requirement must be directed to the Contracting Authority named above.The RFQ document will be sent directly to the eligible SLSA SA Holder and Class 1 Resellers listed for the product in Annex G of the SLSA Catalogue.Canada retains the right to negotiate with any supplier on any procurement.
+  - Bidders may submit their responses in either official language.NOTE:
+
 ### BPM026880 - RFQ-DDP - Red Hat  - DND-MDN  —  _Possible fit_
 - **Closes:** 2026-11-23T14:00:00
 - **Buyer:** Shared Services Canada
@@ -202,6 +303,25 @@ _CanadaBuys open tender notices · generated 2026-11-16_
   - Contracting Authority
   - Inquiries regarding this requirement must be directed to the Contracting Authority named above.The RFQ document will be sent directly to the eligible SLSA SA Holder and Class 1 Resellers listed for the product in Annex G of the SLSA Catalogue.Canada retains the right to negotiate with any supplier on any procurement.
   - Bidders may submit their responses in either official language.NOTE:
+
+### Proxmox VE Basic Subscription for SSC  —  _Possible fit_
+- **Closes:** 2026-11-26T14:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *JI7030
+- **Category:** *SRVTGD
+- **Contact:** John Ford,Robert
+- **Reference:** SSC-26-00035491:T
+- **Why IT:** Software licensing: adp software
+- **Claude-fit signals:** + document, + evaluation, - installation
+
+**Technical requirements (extracted):**
+  - _See full notice / attachments._
+
+**Business requirements (extracted):**
+  - Notice of Proposed ProcurementShared Services Canada requires Proxmox licenses and support for Share Services Canada in Montreal, Quebec as outlined in the attached Request for Quotations.A bid must comply with all requirements of the bid solicitation to be declared responsive.
+  - The responsive bid with the lowest evaluated price will be recommended for award of a contract.
+  - This solicitation of bids is open only to Canadian suppliers.The Bidder must submit pricing in accordance with Annex A – List of Deliverables and Pricing.Please refer to the Request for Quotations document for the complete details regarding this requirement including the mandatory criteria, evaluation criteria and basis of selection.IMPORTANT NOTICE TO SUPPLIERS RE BID SUBMISSION REQUIREMENTSSuppliers are required to submit bids electronically using the P2P system.
+  - Please contact the Contracting Authority if you can&#39;t access the P2P system.Faxed and hard copy (submitted in person or via mail/courier) bids will not be accepted, except in exceptional circumstances, for the subject bid solicitation.The Crown retains the right to negotiate with suppliers on any procurement.Documents may be submitted in either official language of Canada.
 
 
 
