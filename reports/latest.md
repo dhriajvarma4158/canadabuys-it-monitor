@@ -1,7 +1,7 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-11-18_
+_CanadaBuys open tender notices · generated 2026-11-19_
 
-**17** open IT opportunities published in the last 1 day(s). Scanned 937 open notices (172 strict IT matches).
+**15** open IT opportunities published in the last 1 day(s). Scanned 938 open notices (172 strict IT matches).
 
 ## IT infrastructure and operations
 ### Red Hat Ansible Automation Platform for Canada Mortgage and Housing Corporation  —  _Possible fit_
@@ -33,89 +33,22 @@ _CanadaBuys open tender notices · generated 2026-11-18_
   - 343-990-2382InquiriesInquiries regarding this requirement must be directed to the Contracting Authority named above.The RFQ document will be sent directly to the eligible SLSA SA Holder and Class 1 Resellers listed for the product in Annex G of the SLSA Catalogue.Canada retains the right to negotiate with any supplier on any procurement.
   - Bidders may submit their responses in either official language.NOTE:
 
-### F2599-260338 – CCG Cove Isle Drydock 2027  —  _Possible fit_
-[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031594?anId=ANONYMOUS)
-- **Closes:** 2026-12-01T14:00:00
-- **Published:** 2026-11-17
-- **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Commercial marine craft
-- **Category:** *GD
-- **Contact:** jessica.blackburn@tpsgc-pwgsc.gc.ca
-- **Reference:** WS5992093770-Doc5992173829
+### Splunk Maintenance and Support                                      Request for Quotation (RFQ)  —  _Possible fit_
+- **Closes:** 2026-12-01T15:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *JX7025EA
+- **Category:** *SRVTGD
+- **Contact:** Oliver,Librada
+- **Reference:** SSC-26-00035517:T
 - **Why IT:** IT infrastructure and operations: network
-- **Claude-fit signals:** + documentation
+- **Claude-fit signals:** + report
 
 **Technical requirements (extracted):**
+  - Shared Services Canada (SSC) requires the renewal of maintenance and support services for its existing perpetual Cisco (Splunk) software licenses listed in Annex B – Inventory Inventaire.
+  - These services ensure continued access to vendor technical support, software updates, security patches, and assistance necessary to maintain the platform’s operational effectiveness, security, and reliability in supporting government IT monitoring, reporting, and analytics.&nbsp;
+
+**Business requirements (extracted):**
   - _See full notice / attachments._
-
-**Business requirements (extracted):**
-  - AMENDMENT TO RESPONSE DEADLINE CLOSING TIME:
-  - Please disregard the SAP Business Network posting response deadline closing time.
-  - Unless specified otherwise in the tender opportunity, all required supporting documentation and responses must be submitted by December 1, 2026 at 2pm EST.
-  - All responses submitted after 2pm EST will result in the submission being declared non-responsive.
-
-### NPP - W8486-271054/A – TSPS SA  – One (1) Senior Project Administrator  —  _Possible fit_
-- **Closes:** 2026-12-02T14:00:00
-- **Published:** 2026-11-17
-- **Buyer:** Department of National Defence (DND)
-- **UNSPSC:** *Project management
-*Project administration or planning
-- **Category:** *SRV
-- **Contact:** rodric.rahy@forces.gc.ca
-- **Reference:** cb-367-57915758
-- **Why IT:** IT infrastructure and operations: network
-- **Claude-fit signals:** + document, + research, - security clearance
-
-**Technical requirements (extracted):**
-  - Bidders are advised that the RFP documents are not available on the Government Electronic Tendering System (GETS).
-  - To obtain more information about how to become a pre-qualified supplier for TSPS, please contact Public Works and Government Services Canada (PWGSC).
-  - For general information on the various PWGSC Methods of Supply, or to obtain specific information on a PWGSC professional service method of supply,  please visit PWGSC's CanadaBuys Tender Management Application website at:
-  - ADDITIONAL INFORMATION FOR BIDDERS 
-  - For additional information, consult Part 6 – Security and Other Requirements, and Part 7 – Resulting Contract Clauses.
-  - For more information on personnel and organization security screening or security clauses, bidders should refer to the Industrial Security Program (ISP) of Public Works and Government Services Canada (http://ssi-iss.tpsgc-pwgsc.gc.ca/index-eng.html) website.
-  - SECURITY REQUIREMENTS  
-  - There are security requirements associated with this requirement:
-  - Supplier Security Clearance required:
-  - Security Level required (Document Safeguarding):
-  - Canada, National Capital Region (NCR) 
-  - Adirondack Information Management Inc., The AIM Group Inc.
-
-**Business requirements (extracted):**
-  - Documents may be submitted in either official language of Canada.
-  - RFP documents will be e-mailed directly from the Contracting Authority to the Qualified Supply Arrangement Holders who are being invited to bid on this requirement.
-  - For services requirements, Bidders must provide the required information as detailed in article 2.3 of Part 2 of the bid solicitation, in order to comply with Treasury Board policies and directives on contracts awarded to former public servants.
-  - BIDDERS’ INQUIRIES 
-  - Inquiries regarding this Request for Proposal requirement must be submitted to the Contracting Authority:
-  - ACOSYS CONSULTING SERVICES INC./ SERVICES CONSEILS ACOSYS INC., PRICEWATERHOUSECOOPERS LLP, IN JOINT VENTURE
-  - Action Personnel of Ottawa-Hull Ltd
-  - ARTEMP PERSONNEL SERVICES INC
-  - AZUR HUMAN RESOURCES LIMITED
-  - Contract Community Inc.
-  - CONTRACT COMMUNITY INC., NISHA TECHNOLOGIES INC IN JOINT VENTURE
-  - Dare Human Resources Corporation
-
-### TBIPS SA - I.9. System Administrator and I.10. Technical Architect  —  _Possible fit_
-- **Closes:** 2026-12-02T14:00:00
-- **Published:** 2026-11-17
-- **Buyer:** Governor General of Canada (OSGG)
-- **UNSPSC:** *Computer services
-- **Category:** *SRV
-- **Contact:** OSGGContracts@gg.ca
-- **Reference:** cb-989-79342145
-- **Why IT:** IT infrastructure and operations: computer services, network, server, storage; UNSPSC/category *Computer services
-- **Claude-fit signals:** + documentation
-
-**Technical requirements (extracted):**
-  - The Office of the Secretary to the Governor General (OSGG) Information Technology Directorate is responsible for all information technology systems, including their deployment, maintenance and support.
-  - These systems include, but are not limited to, servers, desktops, applications, networks, messaging, virtualization, security, storage, authentication services, Virtual Private Networks (VPNs) and cloud computing/networking.
-  - While the OSGG IT Directorate provides day-to-day operational support for the IT environment, certain requirements involving high-priority incidents, complex infrastructure issues, specialized technical expertise, or time-limited initiatives exceed the capacity or expertise available internally.
-  - The OSGG requires access to a flexible source of specialized technical expertise, on an as-requested basis through Task Authorizations, to support the resolution of priority incidents, infrastructure and cloud initiatives, system optimization activities, technical planning, architecture services, documentation, and knowledge transfer requirements.
-  - Two (2) I.9 System Administrator (Level 3) resources;
-  - Three (3) I.10 Technical Architect (Level 3) resources.
-  - Services may involve network, infrastructure, cloud, storage, security and related technologies within the OSGG environment and will be performed through Task Authorizations issued on an as-and-when-requested basis.
-
-**Business requirements (extracted):**
-  - Canada may require a team of up to five (5) resources under the following TBIPS resource categories:
 
 ### Purchase and Install two server racks in five sheds in southern Manitoba  or equivalent, for the ROYAL CANADIReq. 2026-07-30  —  _Unlikely_
 - **Closes:** 2026-11-23T14:00:00
@@ -133,23 +66,18 @@ _CanadaBuys open tender notices · generated 2026-11-18_
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
-### Mail Tracking System  —  _Unlikely_
+### SNUC Bravo Canyon Intel Atom x7425E for DND  —  _Unlikely_
 - **Closes:** 2026-12-03T14:00:00
-- **Published:** 2026-11-17
-- **Buyer:** Treasury Board (TBS)
-- **UNSPSC:** *Information technology IT management services
-- **Category:** *SRV
-- **Contact:** Dawn.Dormer@tbs-sct.gc.ca
-- **Reference:** cb-852-52867688
-- **Why IT:** IT infrastructure and operations: network, server; UNSPSC/category *Information technology IT management services
+- **Buyer:** Shared Services Canada
+- **GSIN:** *N7025405
+- **Category:** *GD
+- **Contact:** Emmett,Lloyd
+- **Reference:** SSC-26-00035494:T
+- **Why IT:** IT infrastructure and operations: network; GSIN *N7025405
 - **Claude-fit signals:** —
 
 **Technical requirements (extracted):**
-  - The Treasury Board Secretariat of Canada (TBS) has a requirement for the lease of a turn-key mail tracking system that will register all incoming mail, monitor deliveries, produce barcodes (if required) and capture final delivery data.
-  - The requirement is for a three (3) year lease of the full system including the hardware, all related accessories, the software required to meet all of the work detailed below, preventative and remedial maintenance for the hardware, and maintenance and support for the software.
-  - The Contractor will not have access to the Treasury Board Secretariat’s network servers and Internet.
-  - All hardware and software (i.e.
-  - Windows operating system, SQL Server and operational software, Adobe etc.) will be the sole responsibility of the Contractor.
+  - _See full notice / attachments._
 
 **Business requirements (extracted):**
   - _See full notice / attachments._
@@ -227,24 +155,25 @@ _CanadaBuys open tender notices · generated 2026-11-18_
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
-### PR26192 - K4A20-270517 SonarQube Subscription licenses for Environment and Climate Change Canada  —  _Unlikely_
-[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031751?anId=ANONYMOUS)
-- **Closes:** 2026-11-24T14:00:00
-- **Published:** 2026-11-17
-- **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Software
+### Computer Aided Dispatch Replacement  —  _Unlikely_
+- **Closes:** 2026-12-16T16:00:00
+- **Published:** 2026-11-18
+- **Buyer:** Government of the Northwest Territories (GNWT)
+- **UNSPSC:** *Industry specific software
+*Computer aided design CAD software
 - **Category:** *GD
-- **Contact:** john.rankin@tpsgc-pwgsc.gc.ca
-- **Reference:** WS5995084231-Doc5995126307
-- **Why IT:** UNSPSC/category *Software
+- **Contact:** psstenders@gov.nt.ca
+- **Reference:** cb-363-74648533
+- **Why IT:** UNSPSC/category *Industry specific software
+*Computer aided design CAD software
 - **Claude-fit signals:** —
 
 **Technical requirements (extracted):**
   - _See full notice / attachments._
 
 **Business requirements (extracted):**
-  - All prices quoted in the RFQ must be provided in CAD.
-  - All Bid submissions must be received no later than November 24 2026 @ 2:00PM EST.
+  - The Government of Northwest Territories (GNWT), Procurement Shared Services (PSS), on behalf of the Department of Finance (FIN), invites proposals for a Computer Aided Dispatch (CAD) replacement solution.
+  - https://contracts.fin.gov.nt.ca/
 
 ### Local Internet Access Services (LIAS)  —  _Unlikely_
 - **Closes:** 2065-04-27T09:15:00
