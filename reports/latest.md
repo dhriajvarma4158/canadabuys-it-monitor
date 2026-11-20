@@ -1,7 +1,39 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-11-19_
+_CanadaBuys open tender notices · generated 2026-11-20_
 
-**15** open IT opportunities published in the last 1 day(s). Scanned 938 open notices (172 strict IT matches).
+**17** open IT opportunities published in the last 1 day(s). Scanned 934 open notices (173 strict IT matches).
+
+## Cloud, data and analytics
+### Nutanix Cloud Manager for CMHC  —  _Strong fit_
+- **Closes:** 2026-11-30T14:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *N7030AG
+- **Category:** *GD
+- **Contact:** John Ford,Robert
+- **Reference:** SSC-26-00035531:T
+- **Why IT:** Cloud, data and analytics: cloud; GSIN *N7030AG
+- **Claude-fit signals:** + document, + evaluation, + spreadsheet
+
+**Technical requirements (extracted):**
+  - Housing Corporation (CMHC) has a requirement for the procurement of Nutanix Cloud Manager.
+  - This Request for Quote is issued pursuant to Software Licensing Supply Arrangement (SLSA) # EN578-232335.159.SMS
+  - Integra Networks Corporation
+  - &nbsp;Nutanix Cloud ManagerLicense type:&nbsp;
+  - 1Security RequirementNoneContracting AuthorityName:
+  - Software Licensing Supply Arrangement (SLSA) RFSA [L&#39;arrangement en mati&#232;re d&#39;approvisionnement portant sur l&#39;achat de licences de logiciels]
+  - SSC Nutanix Cloud Manager for CMHC- Amendment 000
+
+**Business requirements (extracted):**
+  - Selective tenderingThe following Supply Arrangement Holders and Class-1 Resellers have been invited to submit a proposal:
+  - Only suppliers who are pre-qualified and have been issued a supply arrangement are eligible to bid.
+  - Non-SA holders cannot be awarded a contract unless and until the Supply Arrangement Authority (SAA) has issued a Supply Arrangement to that supplier for the products and/or services contained in the bid.
+  - Canada is not required to delay the award of a resulting contract pending the evaluation of an arrangement and issuance of a Supply Arrangement by the Supply Arrangement Authority.Requirement Details&nbsp;:Product:&nbsp;
+  - &nbsp;1,490.00Contract duration:
+  - 12 monthsPlanned number of contracts:
+  - Intermediate Procurement OfficerDepartment/Agency:&nbsp;
+  - &nbsp;343-990-2676InquiriesInquiries regarding this requirement must be directed to the Contracting Authority named above.The RFQ document will be sent directly to the eligible SLSA SA Holder and Class 1 Resellers listed for the product in Annex G of the SLSA Catalogue.Canada retains the right to negotiate with any supplier on any procurement.
+  - Bidders may submit their responses in either official language.NOTE:
+
 
 ## IT infrastructure and operations
 ### Red Hat Ansible Automation Platform for Canada Mortgage and Housing Corporation  —  _Possible fit_
@@ -50,8 +82,39 @@ _CanadaBuys open tender notices · generated 2026-11-19_
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
+### F2905-260012 Recirculating Aquaculture System  —  _Possible fit_
+[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031984?anId=ANONYMOUS)
+- **Closes:** 2026-12-14T14:00:00
+- **Published:** 2026-11-19
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Fisheries and aquaculture
+*Fishing technology services
+*Fishery by products production services
+*Fish production
+*Fish storage
+*Fish pond resources
+*Fish hatcheries
+- **Category:** *GD
+- **Contact:** christopher.harvey@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5967816693-Doc5980732827
+- **Why IT:** IT infrastructure and operations: storage
+- **Claude-fit signals:** + documentation, + research, - supply and deliver
+
+**Technical requirements (extracted):**
+  - F2905-260012  Recirculating Aquaculture System
+  - Canada is seeking offers from Offerors to provide Fisheries and Oceans with the Supply and deliver one (1), complete platform -mounted Recirculating Aquaculture System (RAS) for use in the Aquatic Life Research Facility (ALRF) at the Canada Centre for Inland Waters (CCIW) in Burlington, Ontario.
+  - The systems will support aquatic research by providing a controlled environment for holding of various fish species.
+  - Bidders must clearly demonstrate compliance with each mandatory technical criteria.
+
+**Business requirements (extracted):**
+  - Contract is for is for 1 firm year and two, 1 year, option years.
+  - AMENDMENT TO RESPONSE DEADLINE CLOSING TIME:
+  - Please disregard the Ariba Discovery posting response deadline closing time.
+  - All required supporting documentation and bid submission must be submitted via Ariba on 2026-12-14 by 14:00 EST.
+  - All bids submitted after 14:00 EST will result in the bid being declared non-responsive.
+
 ### Purchase and Install two server racks in five sheds in southern Manitoba  or equivalent, for the ROYAL CANADIReq. 2026-07-30  —  _Unlikely_
-- **Closes:** 2026-11-23T14:00:00
+- **Closes:** 2026-11-30T14:00:00
 - **Buyer:** Shared Services Canada
 - **GSIN:** *N5895
 - **Category:** *GD
@@ -155,26 +218,6 @@ _CanadaBuys open tender notices · generated 2026-11-19_
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
-### Computer Aided Dispatch Replacement  —  _Unlikely_
-- **Closes:** 2026-12-16T16:00:00
-- **Published:** 2026-11-18
-- **Buyer:** Government of the Northwest Territories (GNWT)
-- **UNSPSC:** *Industry specific software
-*Computer aided design CAD software
-- **Category:** *GD
-- **Contact:** psstenders@gov.nt.ca
-- **Reference:** cb-363-74648533
-- **Why IT:** UNSPSC/category *Industry specific software
-*Computer aided design CAD software
-- **Claude-fit signals:** —
-
-**Technical requirements (extracted):**
-  - _See full notice / attachments._
-
-**Business requirements (extracted):**
-  - The Government of Northwest Territories (GNWT), Procurement Shared Services (PSS), on behalf of the Department of Finance (FIN), invites proposals for a Computer Aided Dispatch (CAD) replacement solution.
-  - https://contracts.fin.gov.nt.ca/
-
 ### Local Internet Access Services (LIAS)  —  _Unlikely_
 - **Closes:** 2065-04-27T09:15:00
 - **Buyer:** Shared Services Canada
@@ -201,6 +244,25 @@ _CanadaBuys open tender notices · generated 2026-11-19_
 
 
 ## Software and application development
+### Behavioural Research to Inform the Development of the Circular Choices Toolkit  —  _Strong fit_
+- **Closes:** 2026-12-21T14:00:00
+- **Published:** 2026-11-19
+- **Buyer:** Department of the Environment (ECCC )
+- **UNSPSC:** *Methodology and analysis
+*Application or technology research and development service
+- **Category:** *SRV
+- **Contact:** samantha.hatzinikou@ec.gc.ca
+- **Reference:** cb-462-21178784
+- **Why IT:** Software and application development: technology research and development; UNSPSC/category *Methodology and analysis
+*Application or technology research and development se
+- **Claude-fit signals:** + analysis, + research
+
+**Technical requirements (extracted):**
+  - _See full notice / attachments._
+
+**Business requirements (extracted):**
+  - Environment and Climate Change Canada requires the services of a supplier to develop an evidence base on purchasing behaviours, requirements and decision-making processes within the Government of Canada, with a focus on understanding the factors that influence purchasing decisions and identifying opportunities to shift purchasing practices toward more circular options, including reuse, surplus utilization, sharing, repair and refurbishment, as detailed in the Annex Statement of Work in the bid solicitation.
+
 ### NVIDIA Sparks and Developer Kit for the Department of National Defence  —  _Possible fit_
 - **Closes:** 2026-12-02T14:00:00
 - **Buyer:** Shared Services Canada
