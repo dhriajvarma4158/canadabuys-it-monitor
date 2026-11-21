@@ -1,7 +1,7 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-11-20_
+_CanadaBuys open tender notices · generated 2026-11-21_
 
-**17** open IT opportunities published in the last 1 day(s). Scanned 934 open notices (173 strict IT matches).
+**20** open IT opportunities published in the last 1 day(s). Scanned 937 open notices (174 strict IT matches).
 
 ## Cloud, data and analytics
 ### Nutanix Cloud Manager for CMHC  —  _Strong fit_
@@ -82,36 +82,62 @@ _CanadaBuys open tender notices · generated 2026-11-20_
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
-### F2905-260012 Recirculating Aquaculture System  —  _Possible fit_
-[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110031984?anId=ANONYMOUS)
-- **Closes:** 2026-12-14T14:00:00
-- **Published:** 2026-11-19
-- **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Fisheries and aquaculture
-*Fishing technology services
-*Fishery by products production services
-*Fish production
-*Fish storage
-*Fish pond resources
-*Fish hatcheries
-- **Category:** *GD
-- **Contact:** christopher.harvey@tpsgc-pwgsc.gc.ca
-- **Reference:** WS5967816693-Doc5980732827
+### Phase 1 - Warden Building Reno Concept Design, Banff National Park  —  _Possible fit_
+- **Closes:** 2026-12-08T15:00:00
+- **Published:** 2026-11-20
+- **Buyer:** Parks Canada Agency (PC)
+- **UNSPSC:** *Structural engineering
+*Architectural engineering
+*Mechanical engineering
+*Electrical engineering services
+- **Category:** *SRV
+- **Contact:** alison.guilford@pc.gc.ca
+- **Reference:** cb-290-67673122
 - **Why IT:** IT infrastructure and operations: storage
-- **Claude-fit signals:** + documentation, + research, - supply and deliver
+- **Claude-fit signals:** + analysis, + evaluation, + review of, + writing, - in-person
 
 **Technical requirements (extracted):**
-  - F2905-260012  Recirculating Aquaculture System
-  - Canada is seeking offers from Offerors to provide Fisheries and Oceans with the Supply and deliver one (1), complete platform -mounted Recirculating Aquaculture System (RAS) for use in the Aquatic Life Research Facility (ALRF) at the Canada Centre for Inland Waters (CCIW) in Burlington, Ontario.
-  - The systems will support aquatic research by providing a controlled environment for holding of various fish species.
-  - Bidders must clearly demonstrate compliance with each mandatory technical criteria.
+  - Multiple technical assessments have been completed to evaluate the existing condition of the facility, including the building envelope, structural systems, mechanical systems, electrical systems, and fire and life safety components.
+  - In addition, an energy audit has been conducted to identify opportunities for improved building performance and energy efficiency.
+  - The Consultant will be expected to undertake a thorough review of the available information, validate key findings and assumptions, and refine recommendations as necessary to support the eventual development of the conceptual design options.
 
 **Business requirements (extracted):**
-  - Contract is for is for 1 firm year and two, 1 year, option years.
-  - AMENDMENT TO RESPONSE DEADLINE CLOSING TIME:
-  - Please disregard the Ariba Discovery posting response deadline closing time.
-  - All required supporting documentation and bid submission must be submitted via Ariba on 2026-12-14 by 14:00 EST.
-  - All bids submitted after 14:00 EST will result in the bid being declared non-responsive.
+  - BIDS RECEIVED BY FAX AND EMAIL WILL BE ACCEPTED AS OFFICIAL.
+  - PARKS CANADA IS NOT CURRENTLY ACCEPTING BIDS VIA SAP ARIBA, YOU MUST SUBMIT YOUR BID VIA FAX OR EMAIL AS INDICATED IN THE SOLICITATION DOCUMENT.
+  - BIDS RECEIVED IN-PERSON OR BY COURIER WILL NOT BE ACCEPTED.
+  - The only acceptable email address for responses to the bid solicitation is soumissionsami-bidsrpc@pc.gc.ca.
+  - Bids submitted by email directly to the Contracting Authority or to any email address other than soumissionsami-bidsrpc@pc.gc.ca will not be accepted.
+  - The only acceptable facsimile for responses to bid solicitations is 1-855-983-1808.
+  - The Bidder is responsible for any failure attributable to the transmission or receipt of the emailed bid due to file size.
+  - The Bidder should be cognisant of the size of the email as a whole, and not only the attachments.
+  - If the email size is too large, the Bidder should send the bid in multiple emails properly labeled with the solicitation number, project name, and indicate how many emails are included (ex.
+  - Emails with links to bid documents will not be accepted.
+  - Bid documents must be sent as email attachments.
+  - SPECIAL INSTRUCTIONS TO BIDDERS (SI)
+
+### 5P122-260124 Trailer-Mounted Vacuum Tank Unit  —  _Possible fit (with caveats)_
+[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110032097?anId=ANONYMOUS)
+- **Closes:** 2026-12-08T14:00:00
+- **Published:** 2026-11-20
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Vacuum truck
+- **Category:** *GD
+- **Contact:** lucas.shave@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5998945512-Doc5999756740
+- **Why IT:** IT infrastructure and operations: network
+- **Claude-fit signals:** + content, - supply and deliver
+
+**Technical requirements (extracted):**
+  - The event messages tab and/or the event contents section in the SAP Business Network event.
+  - Do not use the Q&A section appearing on the SAP Business Network Discovery website.
+
+**Business requirements (extracted):**
+  - The response time deadline is 14:00 EST Parks Canada requires the supply and delivery of a Trailer-Mounted Vacuum Tank Unit before March 31 2027 to Kejimkujik National Park Nova Scotia.
+  - Bidders may request a debriefing on the results of the bid solicitation.
+  - Bidders should make the request to the Contracting Authority within fifteen (15) working days from receipt of notification that their bid was unsuccessful.
+  - Reference the solicitation for further details.
+  - Documents may be submitted in either official language of Canada Please note that late submissions will not be considered or accepted.
+  - Where to submit questions about the tender document:
 
 ### Purchase and Install two server racks in five sheds in southern Manitoba  or equivalent, for the ROYAL CANADIReq. 2026-07-30  —  _Unlikely_
 - **Closes:** 2026-11-30T14:00:00
@@ -145,6 +171,47 @@ _CanadaBuys open tender notices · generated 2026-11-20_
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
+### TBIPS - I.10. Technical Architects  —  _Unlikely_
+- **Closes:** 2026-12-07T14:00:00
+- **Published:** 2026-11-20
+- **Buyer:** Department of National Defence (DND)
+- **UNSPSC:** *Computer services
+*Information Technology Service Delivery
+- **Category:** *SRV
+- **Contact:** mat.desproc.3-4.dose@forces.gc.ca
+- **Reference:** cb-812-35413255
+- **Why IT:** IT infrastructure and operations: computer services; UNSPSC/category *Computer services
+*Information Technology Service Delivery
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - Technical Architects under the TBIPS Supply Arrangement to support ICAM project during its implementation phase.
+  - Security Requirement:
+  - Minimum Corporate Security Required:
+  - Minimum Resource Security Required:
+
+**Business requirements (extracted):**
+  - These 3 resources are required to support ICAM project within the Department of National Defence.
+  - Bidders must submit one bid for each of the 3 resources.
+
+### RFI NESS Domestic Surge Capacity, Procurement, Storage and Inventory Rotation  —  _Unlikely_
+[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110032089?anId=ANONYMOUS)
+- **Closes:** 2027-01-08T14:00:00
+- **Published:** 2026-11-20
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Security and personal safety
+- **Category:** *SRV
+- **Contact:** anja.ramenason@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5997297561-Doc5997377434
+- **Why IT:** IT infrastructure and operations: storage
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - _See full notice / attachments._
+
+**Business requirements (extracted):**
+  - _See full notice / attachments._
+
 
 ## Other IT
 ### GCITSM NextGen - What We Heard Report - BPM025298  —  _Strong fit_
@@ -170,6 +237,24 @@ _CanadaBuys open tender notices · generated 2026-11-20_
 - **Category:** *GD
 - **Contact:** Sébastien Majd,Darif
 - **Reference:** SSC-26-00035466:T
+- **Why IT:** GSIN *N7010
+- **Claude-fit signals:** + writing
+
+**Technical requirements (extracted):**
+  - &nbsp;Security Requirements:
+
+**Business requirements (extracted):**
+  - 60 federal government working days from contract award.
+  - N/AThe Crown retains the right to negotiate with suppliers on any procurement.The responsive bid with the lowest evaluated price will be recommended for award of a contract.To access the solicitation and submit your bid click the following link:
+  - https://supplier-fournisseur-sscp2pspc.ssc-spc.gc.ca/page.aspx/en/usr/login&nbsp;Documents may be submitted in either official language of Canada.All enquiries related to this solicitation must be addressed in writing to:Sebastien DarifSenior Procurement Officer Shared Services Canada 270 Albert Street, 9th FloorOttawa, ON K1P 5G8Telephone:
+
+### Apple Mac Studio Workstations – Z1U4 and accessories or equivalent for Library and Archives Canada  —  _Possible fit_
+- **Closes:** 2026-11-27T00:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *N7010
+- **Category:** *GD
+- **Contact:** Sébastien Majd,Darif
+- **Reference:** SSC-26-00035536:T
 - **Why IT:** GSIN *N7010
 - **Claude-fit signals:** + writing
 
@@ -244,25 +329,6 @@ _CanadaBuys open tender notices · generated 2026-11-20_
 
 
 ## Software and application development
-### Behavioural Research to Inform the Development of the Circular Choices Toolkit  —  _Strong fit_
-- **Closes:** 2026-12-21T14:00:00
-- **Published:** 2026-11-19
-- **Buyer:** Department of the Environment (ECCC )
-- **UNSPSC:** *Methodology and analysis
-*Application or technology research and development service
-- **Category:** *SRV
-- **Contact:** samantha.hatzinikou@ec.gc.ca
-- **Reference:** cb-462-21178784
-- **Why IT:** Software and application development: technology research and development; UNSPSC/category *Methodology and analysis
-*Application or technology research and development se
-- **Claude-fit signals:** + analysis, + research
-
-**Technical requirements (extracted):**
-  - _See full notice / attachments._
-
-**Business requirements (extracted):**
-  - Environment and Climate Change Canada requires the services of a supplier to develop an evidence base on purchasing behaviours, requirements and decision-making processes within the Government of Canada, with a focus on understanding the factors that influence purchasing decisions and identifying opportunities to shift purchasing practices toward more circular options, including reuse, surplus utilization, sharing, repair and refurbishment, as detailed in the Annex Statement of Work in the bid solicitation.
-
 ### NVIDIA Sparks and Developer Kit for the Department of National Defence  —  _Possible fit_
 - **Closes:** 2026-12-02T14:00:00
 - **Buyer:** Shared Services Canada
