@@ -1,7 +1,7 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-11-21_
+_CanadaBuys open tender notices · generated 2026-11-22_
 
-**20** open IT opportunities published in the last 1 day(s). Scanned 937 open notices (174 strict IT matches).
+**16** open IT opportunities published in the last 1 day(s). Scanned 937 open notices (174 strict IT matches).
 
 ## Cloud, data and analytics
 ### Nutanix Cloud Manager for CMHC  —  _Strong fit_
@@ -82,63 +82,6 @@ _CanadaBuys open tender notices · generated 2026-11-21_
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
-### Phase 1 - Warden Building Reno Concept Design, Banff National Park  —  _Possible fit_
-- **Closes:** 2026-12-08T15:00:00
-- **Published:** 2026-11-20
-- **Buyer:** Parks Canada Agency (PC)
-- **UNSPSC:** *Structural engineering
-*Architectural engineering
-*Mechanical engineering
-*Electrical engineering services
-- **Category:** *SRV
-- **Contact:** alison.guilford@pc.gc.ca
-- **Reference:** cb-290-67673122
-- **Why IT:** IT infrastructure and operations: storage
-- **Claude-fit signals:** + analysis, + evaluation, + review of, + writing, - in-person
-
-**Technical requirements (extracted):**
-  - Multiple technical assessments have been completed to evaluate the existing condition of the facility, including the building envelope, structural systems, mechanical systems, electrical systems, and fire and life safety components.
-  - In addition, an energy audit has been conducted to identify opportunities for improved building performance and energy efficiency.
-  - The Consultant will be expected to undertake a thorough review of the available information, validate key findings and assumptions, and refine recommendations as necessary to support the eventual development of the conceptual design options.
-
-**Business requirements (extracted):**
-  - BIDS RECEIVED BY FAX AND EMAIL WILL BE ACCEPTED AS OFFICIAL.
-  - PARKS CANADA IS NOT CURRENTLY ACCEPTING BIDS VIA SAP ARIBA, YOU MUST SUBMIT YOUR BID VIA FAX OR EMAIL AS INDICATED IN THE SOLICITATION DOCUMENT.
-  - BIDS RECEIVED IN-PERSON OR BY COURIER WILL NOT BE ACCEPTED.
-  - The only acceptable email address for responses to the bid solicitation is soumissionsami-bidsrpc@pc.gc.ca.
-  - Bids submitted by email directly to the Contracting Authority or to any email address other than soumissionsami-bidsrpc@pc.gc.ca will not be accepted.
-  - The only acceptable facsimile for responses to bid solicitations is 1-855-983-1808.
-  - The Bidder is responsible for any failure attributable to the transmission or receipt of the emailed bid due to file size.
-  - The Bidder should be cognisant of the size of the email as a whole, and not only the attachments.
-  - If the email size is too large, the Bidder should send the bid in multiple emails properly labeled with the solicitation number, project name, and indicate how many emails are included (ex.
-  - Emails with links to bid documents will not be accepted.
-  - Bid documents must be sent as email attachments.
-  - SPECIAL INSTRUCTIONS TO BIDDERS (SI)
-
-### 5P122-260124 Trailer-Mounted Vacuum Tank Unit  —  _Possible fit (with caveats)_
-[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110032097?anId=ANONYMOUS)
-- **Closes:** 2026-12-08T14:00:00
-- **Published:** 2026-11-20
-- **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Vacuum truck
-- **Category:** *GD
-- **Contact:** lucas.shave@tpsgc-pwgsc.gc.ca
-- **Reference:** WS5998945512-Doc5999756740
-- **Why IT:** IT infrastructure and operations: network
-- **Claude-fit signals:** + content, - supply and deliver
-
-**Technical requirements (extracted):**
-  - The event messages tab and/or the event contents section in the SAP Business Network event.
-  - Do not use the Q&A section appearing on the SAP Business Network Discovery website.
-
-**Business requirements (extracted):**
-  - The response time deadline is 14:00 EST Parks Canada requires the supply and delivery of a Trailer-Mounted Vacuum Tank Unit before March 31 2027 to Kejimkujik National Park Nova Scotia.
-  - Bidders may request a debriefing on the results of the bid solicitation.
-  - Bidders should make the request to the Contracting Authority within fifteen (15) working days from receipt of notification that their bid was unsuccessful.
-  - Reference the solicitation for further details.
-  - Documents may be submitted in either official language of Canada Please note that late submissions will not be considered or accepted.
-  - Where to submit questions about the tender document:
-
 ### Purchase and Install two server racks in five sheds in southern Manitoba  or equivalent, for the ROYAL CANADIReq. 2026-07-30  —  _Unlikely_
 - **Closes:** 2026-11-30T14:00:00
 - **Buyer:** Shared Services Canada
@@ -163,47 +106,6 @@ _CanadaBuys open tender notices · generated 2026-11-21_
 - **Contact:** Emmett,Lloyd
 - **Reference:** SSC-26-00035494:T
 - **Why IT:** IT infrastructure and operations: network; GSIN *N7025405
-- **Claude-fit signals:** —
-
-**Technical requirements (extracted):**
-  - _See full notice / attachments._
-
-**Business requirements (extracted):**
-  - _See full notice / attachments._
-
-### TBIPS - I.10. Technical Architects  —  _Unlikely_
-- **Closes:** 2026-12-07T14:00:00
-- **Published:** 2026-11-20
-- **Buyer:** Department of National Defence (DND)
-- **UNSPSC:** *Computer services
-*Information Technology Service Delivery
-- **Category:** *SRV
-- **Contact:** mat.desproc.3-4.dose@forces.gc.ca
-- **Reference:** cb-812-35413255
-- **Why IT:** IT infrastructure and operations: computer services; UNSPSC/category *Computer services
-*Information Technology Service Delivery
-- **Claude-fit signals:** —
-
-**Technical requirements (extracted):**
-  - Technical Architects under the TBIPS Supply Arrangement to support ICAM project during its implementation phase.
-  - Security Requirement:
-  - Minimum Corporate Security Required:
-  - Minimum Resource Security Required:
-
-**Business requirements (extracted):**
-  - These 3 resources are required to support ICAM project within the Department of National Defence.
-  - Bidders must submit one bid for each of the 3 resources.
-
-### RFI NESS Domestic Surge Capacity, Procurement, Storage and Inventory Rotation  —  _Unlikely_
-[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110032089?anId=ANONYMOUS)
-- **Closes:** 2027-01-08T14:00:00
-- **Published:** 2026-11-20
-- **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Security and personal safety
-- **Category:** *SRV
-- **Contact:** anja.ramenason@tpsgc-pwgsc.gc.ca
-- **Reference:** WS5997297561-Doc5997377434
-- **Why IT:** IT infrastructure and operations: storage
 - **Claude-fit signals:** —
 
 **Technical requirements (extracted):**
