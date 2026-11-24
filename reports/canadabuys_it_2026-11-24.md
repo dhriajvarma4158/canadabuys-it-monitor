@@ -1,7 +1,7 @@
 # Government of Canada — daily IT bid opportunities
 _CanadaBuys open tender notices · generated 2026-11-24_
 
-**16** open IT opportunities published in the last 1 day(s). Scanned 937 open notices (174 strict IT matches).
+**19** open IT opportunities published in the last 1 day(s). Scanned 916 open notices (165 strict IT matches).
 
 ## Cloud, data and analytics
 ### Nutanix Cloud Manager for CMHC  —  _Strong fit_
@@ -34,37 +34,51 @@ _CanadaBuys open tender notices · generated 2026-11-24_
   - &nbsp;343-990-2676InquiriesInquiries regarding this requirement must be directed to the Contracting Authority named above.The RFQ document will be sent directly to the eligible SLSA SA Holder and Class 1 Resellers listed for the product in Annex G of the SLSA Catalogue.Canada retains the right to negotiate with any supplier on any procurement.
   - Bidders may submit their responses in either official language.NOTE:
 
-
-## IT infrastructure and operations
-### Red Hat Ansible Automation Platform for Canada Mortgage and Housing Corporation  —  _Possible fit_
-- **Closes:** 2026-11-23T11:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *N7030AG
+### Digital Twin Workplace Inventory and Asset Management Solution  —  _Possible fit_
+- **Closes:** 2027-01-06T14:00:00
+- **Published:** 2026-11-23
+- **Buyer:** Canada Revenue Agency (CRA)
+- **UNSPSC:** *Inventory management software
+*Information technology consultation services
+*Cloud-based software as a service
 - **Category:** *GD
-- **Contact:** Arsène,Keza
-- **Reference:** SSC-26-00035409:T
-- **Why IT:** IT infrastructure and operations: network; GSIN *N7030AG
-- **Claude-fit signals:** + document, + evaluation, + spreadsheet, - supply of
+- **Contact:** Shawn.Woods@cra-arc.gc.ca
+- **Reference:** cb-156-78591963
+- **Why IT:** Cloud, data and analytics: artificial intelligence, cloud; UNSPSC/category *Inventory management software
+*Information technology consultation services
+*Cl
+- **Claude-fit signals:** + metadata
 
 **Technical requirements (extracted):**
-  - Requirement Description Canada Mortgage and housing Corporation (CMHC) has a requirement for the procurement of Red Hat Ansible Automation Platform – standard subscription renewal.
-  - This Request for Quote is issued pursuant to Software standard subscription Renewal Supply Arrangement (SLSA) # EN578-232335/078/SMS.Tendering Procedure:
-  - Unilogik Systems Inc
-  - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Red Hat Ansible Automation Platform – standard subscriptionLicense type:
-  - from November 28, 2026 up to and including November 27, 2027Planned number of contracts:1Security RequirementNoneContracting AuthorityName:
-  - Software Licensing Supply Arrangement (SLSA) RFSA [L&#39;arrangement en mati&#232;re d&#39;approvisionnement portant sur l&#39;achat de licences de logiciels]&nbsp;
-  - SSC Red Hat Ansible Automation Platform for Canada Mortgage and Housing Corporation- Amendment 001
+  - The Canada Revenue Agency (CRA) is seeking information from industry regarding Digital Twin, Reality Capture, Inventory Management, Asset Metadata Management, and Artificial Intelligence-assisted inventory technologies.
+  - The objective of this RFI is to better understand current market capabilities, implementation approaches, technology maturity, pricing models, integration capabilities, security considerations, and future scalability options related to Digital Twin-enabled workplace inventory and asset management solutions.
 
 **Business requirements (extracted):**
-  - 2026-11- 09Closing Date:
-  - Selective tenderingThe following Supply Arrangement Holders and Class-1 Resellers have been invited to submit a proposal:&nbsp;
-  - Only suppliers who are pre-qualified and have been issued a supply arrangement are eligible to bid.
-  - Non-SA holders cannot be awarded a contract unless and until the Supply Arrangement Authority (SAA) has issued a Supply Arrangement to that supplier for the products and/or services contained in the bid.
-  - Canada is not required to delay the award of a resulting contract pending the evaluation of an arrangement and issuance of a Supply Arrangement by the Supply Arrangement Authority.Requirement Details&nbsp;:Product:
-  - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5Contract duration:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  - 343-990-2382InquiriesInquiries regarding this requirement must be directed to the Contracting Authority named above.The RFQ document will be sent directly to the eligible SLSA SA Holder and Class 1 Resellers listed for the product in Annex G of the SLSA Catalogue.Canada retains the right to negotiate with any supplier on any procurement.
-  - Bidders may submit their responses in either official language.NOTE:
+  - _See full notice / attachments._
 
+### Emergency Alert SaaS Solution  —  _Unlikely_
+- **Closes:** 2026-12-14T14:00:00
+- **Published:** 2026-11-23
+- **Buyer:** Department of Agriculture and Agri-Food (AAFC)
+- **UNSPSC:** *Software
+- **Category:** *SRVTGD
+- **Contact:** jake.lachance@agr.gc.ca
+- **Reference:** cb-794-96635747
+- **Why IT:** Cloud, data and analytics: cloud, saas; UNSPSC/category *Software
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - The objective of this requirement is to procure a cloud-based Software as a Service (SaaS)
+  - Emergency Notification System (ENS) to support Agriculture and Agri-Food Canada's emergency
+  - The system must enable authorized users to rapidly communicate emergency notifications and
+  - severe weather events, security incidents, and other emergencies.
+
+**Business requirements (extracted):**
+  - operational alerts to employees, contractors, visitors, emergency management personnel, and
+  - AAFC personnel.
+
+
+## IT infrastructure and operations
 ### Splunk Maintenance and Support                                      Request for Quotation (RFQ)  —  _Possible fit_
 - **Closes:** 2026-12-01T15:00:00
 - **Buyer:** Shared Services Canada
@@ -81,6 +95,35 @@ _CanadaBuys open tender notices · generated 2026-11-24_
 
 **Business requirements (extracted):**
   - _See full notice / attachments._
+
+### Fuel Systems Replacement, Gwaii Haanas National Marine Conservation Area  —  _Possible fit (with caveats)_
+- **Closes:** 2026-12-08T15:00:00
+- **Published:** 2026-11-23
+- **Buyer:** Parks Canada Agency (PC)
+- **UNSPSC:** *Fuel tanks and systems
+*Fuel tanks
+- **Category:** *CNST
+- **Contact:** sheryl.champagne@pc.gc.ca
+- **Reference:** cb-910-31177689
+- **Why IT:** IT infrastructure and operations: storage
+- **Claude-fit signals:** + writing, - in-person, - installation
+
+**Technical requirements (extracted):**
+  - 5P468-26-0312/A 	Fuel Systems Replacement, Gwaii Haanas National Marine Conservation Area
+
+**Business requirements (extracted):**
+  - BIDS RECEIVED BY FAX AND EMAIL WILL BE ACCEPTED AS OFFICIAL.
+  - PARKS CANADA IS NOT CURRENTLY ACCEPTING BIDS VIA SAP ARIBA, YOU MUST SUBMIT YOUR BID VIA FAX OR EMAIL AS INDICATED IN THE SOLICITATION DOCUMENT.
+  - BIDS RECEIVED IN-PERSON OR BY COURIER WILL NOT BE ACCEPTED.
+  - The only acceptable email address for responses to the bid solicitation is soumissionsami-bidsrpc@pc.gc.ca.
+  - Bids submitted by email directly to the Contracting Authority or to any email address other than soumissionsami-bidsrpc@pc.gc.ca will not be accepted.
+  - The only acceptable facsimile for responses to bid solicitations is 1-855-983-1808.
+  - The Bidder is responsible for any failure attributable to the transmission or receipt of the emailed bid due to file size.
+  - The Bidder should be cognisant of the size of the email as a whole, and not only the attachments.
+  - If the email size is too large, the Bidder should send the bid in multiple emails properly labeled with the solicitation number, project name, and indicate how many emails are included (ex.
+  - Emails with links to bid documents will not be accepted.
+  - Bid documents must be sent as email attachments.
+  - TWO-SUBMISSION BID
 
 ### Purchase and Install two server racks in five sheds in southern Manitoba  or equivalent, for the ROYAL CANADIReq. 2026-07-30  —  _Unlikely_
 - **Closes:** 2026-11-30T14:00:00
@@ -114,8 +157,48 @@ _CanadaBuys open tender notices · generated 2026-11-24_
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
+### Procurement of quantity of 6 ISU90EO  Weapons Storage Container  —  _Unlikely_
+- **Closes:** 2027-01-01T14:00:00
+- **Published:** 2026-11-23
+- **Buyer:** Department of National Defence (DND)
+- **UNSPSC:** *Armored weapons storage container
+- **Category:** *GD
+- **Contact:** cassandra.caron@forces.gc.ca
+- **Reference:** cb-448-49356205
+- **Why IT:** IT infrastructure and operations: storage
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - _See full notice / attachments._
+
+**Business requirements (extracted):**
+  - Bidders proposing an Equivalent or a Substitute Product must indicate the Part Number and  NSCM/CAGE they are offering, and provide a Certificate of Conformance from the OEM.
+  - Documents may be submitted in either official language of Canada.
+
 
 ## Other IT
+### RFQ – NVIDIA OEM (CAI-GPU-H200 NVL) hardware for RCMP  —  _Strong fit_
+- **Closes:** 2026-12-04T14:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *N7020
+- **Category:** *GD
+- **Contact:** Ryma,Brahiti
+- **Reference:** SSC-26-00035087:T
+- **Why IT:** GSIN *N7020
+- **Claude-fit signals:** + document, + evaluation
+
+**Technical requirements (extracted):**
+  - Notice of Proposed ProcurementThis solicitation is for the purchase of NVIDIA OEM (CAI-GPU-H200 NVL) hardware for the Royal Canadian Mounted Police (RCMP), in Edmonton, Alberta.&nbsp;This process is intended to result in the award of one contract for the delivery of the hardware to RCMP.
+  - SSC RFQ – NVIDIA OEM (CAI-GPU-H200 NVL) hardware for RCMP- Amendment 000
+
+**Business requirements (extracted):**
+  - The term of the contract will be for a period of three (3) years following Contract Award.
+  - This solicitation of bids is open to Canadian Suppliers and Suppliers of an applicable trading partner.A bid must comply with all requirements of the bid solicitation to be declared responsive.
+  - The responsive bid with the lowest evaluated subtotal price will be recommended for award of a contract.The Bidder must submit pricing in accordance with Annex A – List of Deliverables and Pricing.Please refer to the Request for Quotations document for the complete details regarding this requirement including the mandatory criteria, evaluation criteria and basis of selection.Bidders can register in the SSC P2P portal in order to:a.
+  - submit a response to a solicitation;c.
+  - be awarded contracts and receive contract amendments;
+  - submit invoices and receive payment status updates.To register, please go to https://supplier-fournisseur-sscp2pspc.ssc-spc.gc.ca/page.aspx/en/usr/login and click Register Now.
+
 ### GCITSM NextGen - What We Heard Report - BPM025298  —  _Strong fit_
 - **Closes:** 2027-01-08T00:00:00
 - **Buyer:** Shared Services Canada
@@ -205,6 +288,24 @@ _CanadaBuys open tender notices · generated 2026-11-24_
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
+### PR26646 W8474-27DS30 Department of National Defence Red Hat subscription licenses  —  _Unlikely_
+- **Closes:** 2026-12-01T14:00:00
+- **Published:** 2026-11-23
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Software
+- **Category:** *GD
+- **Contact:** michael.macdonald@tpsgc-pwgsc.gc.ca
+- **Reference:** WS6000474812-Doc6003378623
+- **Why IT:** UNSPSC/category *Software
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - _See full notice / attachments._
+
+**Business requirements (extracted):**
+  - All prices quoted in the RFQ must be provided in CAD.
+  - All Bid submissions must be received no later than December 1st  2026 @ 2:00PM EST.
+
 ### Local Internet Access Services (LIAS)  —  _Unlikely_
 - **Closes:** 2065-04-27T09:15:00
 - **Buyer:** Shared Services Canada
@@ -251,61 +352,6 @@ _CanadaBuys open tender notices · generated 2026-11-24_
 
 
 ## Software licensing
-### Red Hat OpenShift Bare Metal Node  —  _Strong fit_
-- **Closes:** 2026-11-23T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *N7030
-- **Category:** *GD
-- **Contact:** John Ford,Robert
-- **Reference:** SSC-26-00035500:T
-- **Why IT:** Software licensing: adp software, software licensing; GSIN *N7030
-- **Claude-fit signals:** + document, + evaluation
-
-**Technical requirements (extracted):**
-  - This Request for Quote is issued pursuant to Software Licensing Supply Arrangement (SLSA) # EN578-232335/078/SMS.Tendering Procedure:
-  - Unilogik Systems Inc.
-  - 1&nbsp;Security RequirementNoneContracting AuthorityName:
-  - Software Licensing Supply Arrangement (SLSA) RFSA [L&#39;arrangement en mati&#232;re d&#39;approvisionnement portant sur l&#39;achat de licences de logiciels]
-
-**Business requirements (extracted):**
-  - The following Supply Arrangement Holders and Class-1 Resellers have been invited to submit a proposal:
-  - Only suppliers who are pre-qualified and have been issued a supply arrangement are eligible to bid.
-  - Non-SA holders cannot be awarded a contract unless and until the Supply Arrangement Authority (SAA) has issued a Supply Arrangement to that supplier for the products and/or services contained in the bid.
-  - Canada is not required to delay the award of a resulting contract pending the evaluation of an arrangement and issuance of a Supply Arrangement by the Supply Arrangement Authority.Requirement Details&nbsp;:Product:
-  - &nbsp;&nbsp;&nbsp;&nbsp;6Contract duration:
-  - 12 monthsPlanned number of contracts:
-  - InquiriesInquiries regarding this requirement must be directed to the Contracting Authority named above.The RFQ document will be sent directly to the eligible SLSA SA Holder and Class 1 Resellers listed for the product in Annex G of the SLSA Catalogue.Canada retains the right to negotiate with any supplier on any procurement.
-  - Bidders may submit their responses in either official language.NOTE:
-
-### BPM026880 - RFQ-DDP - Red Hat  - DND-MDN  —  _Possible fit_
-- **Closes:** 2026-11-23T14:00:00
-- **Buyer:** Shared Services Canada
-- **GSIN:** *N7030
-- **Category:** *GD
-- **Contact:** Cosnele,Bishikanyi
-- **Reference:** SSC-26-00035383:T
-- **Why IT:** Software licensing: adp software, software licensing; GSIN *N7030
-- **Claude-fit signals:** + document, + evaluation, - supply of
-
-**Technical requirements (extracted):**
-  - NOTICE OF PROPOSED PROCUREMENT (NPP)For Software Licensing Supply Arrangement (SLSA)
-  - This Request for Quote is issued pursuant to Software Licensing Supply Arrangements (SLSA)#EN578-232335/078/SMS.Tendering Procedure:
-  - Unilogik Systems Inc
-  - 1&nbsp;Security Requirement
-  - Software Licensing Supply Arrangement (SLSA) RFSA [L&#39;arrangement en mati&#232;re d&#39;approvisionnement portant sur l&#39;achat de licences de logiciels]
-
-**Business requirements (extracted):**
-  - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BPM026880&nbsp;Organization Name:Department of National Defence.Solicitation Date:2026-11-13Closing Date:2026-11-23 at 14:00 Eastern Daylight Time (EDT)
-  - Selective TenderingThe following Supply Arrangement Holders and Class 1 Resellers have been invited to submit a proposal:
-  - Only suppliers who are pre-qualified and have been issued a supply arrangement are eligible to bid.
-  - Non-SA holders cannot be awarded a contract unless and until the Supply Arrangement Authority (SAA) has issued a Supply Arrangement to that supplier for the products and/or services contained in the bid.
-  - Canada is not required to delay the award of a resulting contract pending the evaluation of an arrangement and issuance of a Supply Arrangement by the Supply Arrangement Authority.Requirement Details:
-  - Contract duration:
-  - 12 monthsPlanned number of contracts:
-  - Contracting Authority
-  - Inquiries regarding this requirement must be directed to the Contracting Authority named above.The RFQ document will be sent directly to the eligible SLSA SA Holder and Class 1 Resellers listed for the product in Annex G of the SLSA Catalogue.Canada retains the right to negotiate with any supplier on any procurement.
-  - Bidders may submit their responses in either official language.NOTE:
-
 ### Proxmox VE Basic Subscription for SSC  —  _Possible fit_
 - **Closes:** 2026-11-26T14:00:00
 - **Buyer:** Shared Services Canada
