@@ -1,5 +1,5 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-11-22_
+_CanadaBuys open tender notices · generated 2026-11-24_
 
 **16** open IT opportunities published in the last 1 day(s). Scanned 937 open notices (174 strict IT matches).
 
