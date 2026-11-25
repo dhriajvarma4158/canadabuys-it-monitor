@@ -1,7 +1,7 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-11-24_
+_CanadaBuys open tender notices · generated 2026-11-25_
 
-**19** open IT opportunities published in the last 1 day(s). Scanned 916 open notices (165 strict IT matches).
+**17** open IT opportunities published in the last 1 day(s). Scanned 914 open notices (161 strict IT matches).
 
 ## Cloud, data and analytics
 ### Nutanix Cloud Manager for CMHC  —  _Strong fit_
@@ -34,48 +34,26 @@ _CanadaBuys open tender notices · generated 2026-11-24_
   - &nbsp;343-990-2676InquiriesInquiries regarding this requirement must be directed to the Contracting Authority named above.The RFQ document will be sent directly to the eligible SLSA SA Holder and Class 1 Resellers listed for the product in Annex G of the SLSA Catalogue.Canada retains the right to negotiate with any supplier on any procurement.
   - Bidders may submit their responses in either official language.NOTE:
 
-### Digital Twin Workplace Inventory and Asset Management Solution  —  _Possible fit_
-- **Closes:** 2027-01-06T14:00:00
-- **Published:** 2026-11-23
-- **Buyer:** Canada Revenue Agency (CRA)
-- **UNSPSC:** *Inventory management software
-*Information technology consultation services
-*Cloud-based software as a service
+### BPM026968 - Containerized HPC and AI Module for the NRC  —  _Possible fit_
+- **Closes:** 2026-12-21T14:00:00
+- **Buyer:** Shared Services Canada
+- **GSIN:** *N7025
 - **Category:** *GD
-- **Contact:** Shawn.Woods@cra-arc.gc.ca
-- **Reference:** cb-156-78591963
-- **Why IT:** Cloud, data and analytics: artificial intelligence, cloud; UNSPSC/category *Inventory management software
-*Information technology consultation services
-*Cl
-- **Claude-fit signals:** + metadata
+- **Contact:** Eric,Lavigne
+- **Reference:** SSC-26-00035565:T
+- **Why IT:** Cloud, data and analytics: artificial intelligence; GSIN *N7025
+- **Claude-fit signals:** + research
 
 **Technical requirements (extracted):**
-  - The Canada Revenue Agency (CRA) is seeking information from industry regarding Digital Twin, Reality Capture, Inventory Management, Asset Metadata Management, and Artificial Intelligence-assisted inventory technologies.
-  - The objective of this RFI is to better understand current market capabilities, implementation approaches, technology maturity, pricing models, integration capabilities, security considerations, and future scalability options related to Digital Twin-enabled workplace inventory and asset management solutions.
+  - Containerized High-Performance Computing (HPC) and Artificial Intelligence (AI) Modulefor the National Research Council of CanadaDescription:
+  - Canada is seeking offers from Offerors to design, supply, deliver, install, integrate, test, commission, and provide ongoing support for a containerized High-Performance Computing (HPC) and Artificial Intelligence (AI) Module for the National Research Council of Canada.
+  - The period of the Contract is for five (5) years from date of Contract Award.Security Requirement:
+  - There is a security requirement applicable to this solicitation.Trade Agreements:
 
 **Business requirements (extracted):**
-  - _See full notice / attachments._
-
-### Emergency Alert SaaS Solution  —  _Unlikely_
-- **Closes:** 2026-12-14T14:00:00
-- **Published:** 2026-11-23
-- **Buyer:** Department of Agriculture and Agri-Food (AAFC)
-- **UNSPSC:** *Software
-- **Category:** *SRVTGD
-- **Contact:** jake.lachance@agr.gc.ca
-- **Reference:** cb-794-96635747
-- **Why IT:** Cloud, data and analytics: cloud, saas; UNSPSC/category *Software
-- **Claude-fit signals:** —
-
-**Technical requirements (extracted):**
-  - The objective of this requirement is to procure a cloud-based Software as a Service (SaaS)
-  - Emergency Notification System (ENS) to support Agriculture and Agri-Food Canada's emergency
-  - The system must enable authorized users to rapidly communicate emergency notifications and
-  - severe weather events, security incidents, and other emergencies.
-
-**Business requirements (extracted):**
-  - operational alerts to employees, contractors, visitors, emergency management personnel, and
-  - AAFC personnel.
+  - Canadian Free Trade Agreement (CFTA), Canada–Chile Free Trade Agreement, Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP), Canada–Colombia Free Trade Agreement, Canada-European Union Comprehensive Economic and Trade Agreement (CETA), Canada–Honduras Free Trade Agreement, Canada–Korea Free Trade Agreement, Canada–Panama Free Trade Agreement, Canada–Peru Free Trade Agreement, Canada–Ukraine Free Trade Agreement, Canada-United Kingdom Trade Continuity Agreement, World Trade Organization–Agreement on Government Procurement (WTO-GPA)Procurement Strategy for Indigenous Business (PSIB):
+  - Open competitive process.Solicitation Closing Date and Time:
+  - December 21, 2026, 2:00 PM EST.Contracting Authority:
 
 
 ## IT infrastructure and operations
@@ -95,35 +73,6 @@ _CanadaBuys open tender notices · generated 2026-11-24_
 
 **Business requirements (extracted):**
   - _See full notice / attachments._
-
-### Fuel Systems Replacement, Gwaii Haanas National Marine Conservation Area  —  _Possible fit (with caveats)_
-- **Closes:** 2026-12-08T15:00:00
-- **Published:** 2026-11-23
-- **Buyer:** Parks Canada Agency (PC)
-- **UNSPSC:** *Fuel tanks and systems
-*Fuel tanks
-- **Category:** *CNST
-- **Contact:** sheryl.champagne@pc.gc.ca
-- **Reference:** cb-910-31177689
-- **Why IT:** IT infrastructure and operations: storage
-- **Claude-fit signals:** + writing, - in-person, - installation
-
-**Technical requirements (extracted):**
-  - 5P468-26-0312/A 	Fuel Systems Replacement, Gwaii Haanas National Marine Conservation Area
-
-**Business requirements (extracted):**
-  - BIDS RECEIVED BY FAX AND EMAIL WILL BE ACCEPTED AS OFFICIAL.
-  - PARKS CANADA IS NOT CURRENTLY ACCEPTING BIDS VIA SAP ARIBA, YOU MUST SUBMIT YOUR BID VIA FAX OR EMAIL AS INDICATED IN THE SOLICITATION DOCUMENT.
-  - BIDS RECEIVED IN-PERSON OR BY COURIER WILL NOT BE ACCEPTED.
-  - The only acceptable email address for responses to the bid solicitation is soumissionsami-bidsrpc@pc.gc.ca.
-  - Bids submitted by email directly to the Contracting Authority or to any email address other than soumissionsami-bidsrpc@pc.gc.ca will not be accepted.
-  - The only acceptable facsimile for responses to bid solicitations is 1-855-983-1808.
-  - The Bidder is responsible for any failure attributable to the transmission or receipt of the emailed bid due to file size.
-  - The Bidder should be cognisant of the size of the email as a whole, and not only the attachments.
-  - If the email size is too large, the Bidder should send the bid in multiple emails properly labeled with the solicitation number, project name, and indicate how many emails are included (ex.
-  - Emails with links to bid documents will not be accepted.
-  - Bid documents must be sent as email attachments.
-  - TWO-SUBMISSION BID
 
 ### Purchase and Install two server racks in five sheds in southern Manitoba  or equivalent, for the ROYAL CANADIReq. 2026-07-30  —  _Unlikely_
 - **Closes:** 2026-11-30T14:00:00
@@ -156,24 +105,6 @@ _CanadaBuys open tender notices · generated 2026-11-24_
 
 **Business requirements (extracted):**
   - _See full notice / attachments._
-
-### Procurement of quantity of 6 ISU90EO  Weapons Storage Container  —  _Unlikely_
-- **Closes:** 2027-01-01T14:00:00
-- **Published:** 2026-11-23
-- **Buyer:** Department of National Defence (DND)
-- **UNSPSC:** *Armored weapons storage container
-- **Category:** *GD
-- **Contact:** cassandra.caron@forces.gc.ca
-- **Reference:** cb-448-49356205
-- **Why IT:** IT infrastructure and operations: storage
-- **Claude-fit signals:** —
-
-**Technical requirements (extracted):**
-  - _See full notice / attachments._
-
-**Business requirements (extracted):**
-  - Bidders proposing an Equivalent or a Substitute Product must indicate the Part Number and  NSCM/CAGE they are offering, and provide a Certificate of Conformance from the OEM.
-  - Documents may be submitted in either official language of Canada.
 
 
 ## Other IT
@@ -288,23 +219,29 @@ _CanadaBuys open tender notices · generated 2026-11-24_
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
-### PR26646 W8474-27DS30 Department of National Defence Red Hat subscription licenses  —  _Unlikely_
-- **Closes:** 2026-12-01T14:00:00
-- **Published:** 2026-11-23
-- **Buyer:** Department of Public Works and Government Services (PSPC)
-- **UNSPSC:** *Software
-- **Category:** *GD
-- **Contact:** michael.macdonald@tpsgc-pwgsc.gc.ca
-- **Reference:** WS6000474812-Doc6003378623
-- **Why IT:** UNSPSC/category *Software
-- **Claude-fit signals:** —
+### RFP for Information Technology Professional Services  —  _Unlikely_
+- **Closes:** 2026-12-21T12:00:00
+- **Published:** 2026-11-24
+- **Buyer:** House of Commons
+- **UNSPSC:** *Surveillance and detection equipment
+*Surveillance video or audio recorders
+*Software or hardware engineering
+- **Category:** *SRV
+- **Contact:** contractingserv@parl.gc.ca
+- **Reference:** cb-116-27866
+- **Why IT:** UNSPSC/category *Surveillance and detection equipment
+*Surveillance video or audio recorders
+*So
+- **Claude-fit signals:** - physical
 
 **Technical requirements (extracted):**
-  - _See full notice / attachments._
+  - RFP for Information Technology Professional Services for Digital Media, and Physical Security, Integrated Security Systems (ISS), and Internet of Things (IoT).
+  - The House of Commons operates a complex, mission critical technical environment typical of a modern legislative body, enabling parliamentary proceedings, public and internal broadcasting, interpretation services, secure meetings, and the coordinated operation of digitally and physically integrated systems that support parliamentary proceedings.
 
 **Business requirements (extracted):**
-  - All prices quoted in the RFQ must be provided in CAD.
-  - All Bid submissions must be received no later than December 1st  2026 @ 2:00PM EST.
+  - Please be advised that all bids shall be submitted electronically through the Bonfire procurement portal.
+  - Bidders are requested to submit their proposals using the following Bonfire opportunity link:
+  - Bidders are responsible for ensuring that their submissions are uploaded and successfully received in Bonfire prior to the solicitation closing date and time.
 
 ### Local Internet Access Services (LIAS)  —  _Unlikely_
 - **Closes:** 2065-04-27T09:15:00
@@ -349,6 +286,23 @@ _CanadaBuys open tender notices · generated 2026-11-24_
   - 30 federal government working days from contract award.
   - N/AThe Crown retains the right to negotiate with suppliers on any procurement.The responsive bid with the lowest evaluated price will be recommended for award of a contract.To access the solicitation and submit your bid click the following link:
   - https://supplier-fournisseur-sscp2pspc.ssc-spc.gc.ca/page.aspx/en/usr/login&nbsp;Documents may be submitted in either official language of Canada.All enquiries related to this solicitation must be addressed in writing to:Rashawn GriffithProcurement Officer Shared Services Canada 270 Albert Street, 9th floorOttawa, Ontario K1P 5G8Telephone:
+
+### Hearing Room Audiovisual System  —  _Possible fit (with caveats)_
+- **Closes:** 2026-12-18T14:00:00
+- **Published:** 2026-11-24
+- **Buyer:** Administrative Tribunals Support Service of Canada (ATSSC)
+- **UNSPSC:** *Audio and visual presentation and composing equipment
+- **Category:** *SRVTGD
+- **Contact:** procurements-achats@tribunal.gc.ca
+- **Reference:** cb-578-80234027
+- **Why IT:** Software and application development: programming
+- **Claude-fit signals:** + documentation, - installation
+
+**Technical requirements (extracted):**
+  - equipment, engineering, design, project management, fabrication, assembly, software programming, installation, documentation, training, and warranty of the audiovisual systems for a Hearing Room in Ottawa
+
+**Business requirements (extracted):**
+  - _See full notice / attachments._
 
 
 ## Software licensing
