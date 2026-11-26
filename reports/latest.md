@@ -1,7 +1,7 @@
 # Government of Canada — daily IT bid opportunities
-_CanadaBuys open tender notices · generated 2026-11-25_
+_CanadaBuys open tender notices · generated 2026-11-26_
 
-**17** open IT opportunities published in the last 1 day(s). Scanned 914 open notices (161 strict IT matches).
+**23** open IT opportunities published in the last 1 day(s). Scanned 914 open notices (164 strict IT matches).
 
 ## Cloud, data and analytics
 ### Nutanix Cloud Manager for CMHC  —  _Strong fit_
@@ -55,6 +55,84 @@ _CanadaBuys open tender notices · generated 2026-11-25_
   - Open competitive process.Solicitation Closing Date and Time:
   - December 21, 2026, 2:00 PM EST.Contracting Authority:
 
+### Partner Relationship Management Solution  —  _Unlikely_
+[Full notice](https://www.merx.com/public/solicitations/4219587607/abstract?language=EN)
+- **Closes:** 2026-12-20T11:00:00
+- **Published:** 2026-11-25
+- **Buyer:** Business Development Bank of Canada
+- **Category:** *GD
+*SRV
+- **Contact:** sean.patterson@bdc.ca
+- **Reference:** MX-243100891265
+- **Why IT:** Cloud, data and analytics: saas
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - BDC wishes to acquire a Partner Relationship Management (PRM) solution to support the management of partner relationships across multiple business units and teams, including the implementation of the solution and related professional services.&nbsp;The solution must be offered in Software as a Service (SaaS) mode.
+  - See https://www.merx.com/public/pricing for more information.
+
+**Business requirements (extracted):**
+  - &nbsp;Bidding and Documents are available on http://www.merx.com.
+
+### COMMON OPEN RECONFIGURABLE ENVIRONMENT MULTI PURPOSE RECONFIGURABLE TRAINER NAVY SIMULATOR V3  —  _Unlikely_
+[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110032433?anId=ANONYMOUS)
+- **Closes:** 2027-01-11T02:00:00
+- **Published:** 2026-11-25
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Professional engineering services
+*Computer programmers
+*Computer generated design services
+- **Category:** *SRV
+- **Contact:** stefanie.green@tpsgc-pwgsc.gc.ca
+- **Reference:** WS5915405812-Doc6007156060
+- **Why IT:** Cloud, data and analytics: cloud, dashboard
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - Public Services and Procurement Canada (PSPC) and the Department of National Defence, collectively referred to as Canada, are issuing this Request for Proposal for the purchase of simulation development and support services in the field of reconfigurable training systems.
+  - https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110032433?anId=ANONYMOUS
+
+**Business requirements (extracted):**
+  - _See full notice / attachments._
+
+
+## Cybersecurity and identity
+### AI and Cyber KSAO Analysis  —  _Possible fit_
+- **Closes:** 2026-12-11T14:00:00
+- **Published:** 2026-11-25
+- **Buyer:** Office of the Superintendent of Financial Institutions (OSFI)
+- **UNSPSC:** *Human resource development
+- **Category:** *SRV
+- **Contact:** contracting-approvisionnement@osfi-bsif.gc.ca
+- **Reference:** cb-473-68852614
+- **Why IT:** Cybersecurity and identity: cyber, cybersecurity
+- **Claude-fit signals:** + analysis
+
+**Technical requirements (extracted):**
+  - _See full notice / attachments._
+
+**Business requirements (extracted):**
+  - The Chief Human Resources Officer (CHRO) of the Office of the Superintendent of Financial Institutions (OSFI) requires a focused analysis of the knowledge, skills, abilities, and other attributes (KSAOs) such as attitudes, values, and ethics required for expertise in artificial intelligence (AI) and cybersecurity (Cyber), including a labour market assessment (LMA) to inform recruitment and talent sourcing strategies.
+
+### Expansion and Operationalizing EDC’s Data Protection Program  —  _Unlikely_
+[Full notice](https://www.merx.com/public/solicitations/4219338653/abstract?language=EN)
+- **Closes:** 2026-12-23T13:00:00
+- **Published:** 2026-11-25
+- **Buyer:** Export Development Canada - EDC
+- **Category:** *SRV
+- **Contact:** solicitations@edc.ca
+- **Reference:** MX-243100889325
+- **Why IT:** Cybersecurity and identity: encryption
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - The objective of this Work Package is to mature and expand EDC&rsquo;s existing Data Protection Program by implementing secure collaboration, information governance, and encryption capabilities and extending protection to approved platforms and repositories beyond Microsoft 365.
+  - The respondent will validate and transition these capabilities into sustainable operations through an integrated Data Protection Target Operating Model, with clear ownership, governance, runbooks, and measurable risk-reduction outcomes.Bidding and Documents are available on http://www.merx.com.
+  - See https://www.merx.com/public/pricing for more information.
+
+**Business requirements (extracted):**
+  - _See full notice / attachments._
+
 
 ## IT infrastructure and operations
 ### Splunk Maintenance and Support                                      Request for Quotation (RFQ)  —  _Possible fit_
@@ -73,6 +151,25 @@ _CanadaBuys open tender notices · generated 2026-11-25_
 
 **Business requirements (extracted):**
   - _See full notice / attachments._
+
+### Notice of Proposed Procurement  Articulating Boom Lift  —  _Possible fit_
+- **Closes:** 2026-12-10T10:00:00
+- **Published:** 2026-11-25
+- **Buyer:** Department of National Defence (DND)
+- **UNSPSC:** *Articulating boom lift
+- **Category:** *GD
+- **Contact:** Shane.Elson@forces.gc.ca
+- **Reference:** cb-751-26379903
+- **Why IT:** IT infrastructure and operations: network
+- **Claude-fit signals:** + writing
+
+**Technical requirements (extracted):**
+  - SAP Business Network.
+
+**Business requirements (extracted):**
+  - This bid solicitation process is open only to suppliers holding a Supply Arrangement (SA) under the Request (RFSA) E60HS-18LIFT/A.
+  - Bidders may request a debriefing on the results of the bid solicitation.
+  - Bidders should make the request to the Contracting Authority within fifteen (15) working days from receipt of notification that their bid was unsuccessful.
 
 ### Purchase and Install two server racks in five sheds in southern Manitoba  or equivalent, for the ROYAL CANADIReq. 2026-07-30  —  _Unlikely_
 - **Closes:** 2026-11-30T14:00:00
@@ -102,6 +199,25 @@ _CanadaBuys open tender notices · generated 2026-11-25_
 
 **Technical requirements (extracted):**
   - _See full notice / attachments._
+
+**Business requirements (extracted):**
+  - _See full notice / attachments._
+
+### ACAN - SENSITIVE COMPARTMENTED INFORMATION FACILITIES (SCIF) COMBINED JOINT INTELLIGENCE MODERNIZATION (CJIM) PROJECT  —  _Unlikely_
+[Full notice](https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110032446?anId=ANONYMOUS)
+- **Closes:** 2026-12-18T16:00:00
+- **Published:** 2026-11-25
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Shielded containers for radiation protection
+- **Category:** *GD
+- **Contact:** mathieu.briere-provost@tpsgc-pwgsc.gc.ca
+- **Reference:** WS6007139885-Doc6007152663
+- **Why IT:** IT infrastructure and operations: storage
+- **Claude-fit signals:** - supply and deliver
+
+**Technical requirements (extracted):**
+  - The Department of National Defence (DND) has a requirement for the supply and delivery of rapidly deployable, transportable and certified temporary workspaces (shelters), capable of processing information at a Top-Secret (TS) level and above.
+  - These shelters will be accredited as Temporary Sensitive Compartmented Information Facility (TSCIF), enabling the discussion, processing and storage of Top Secret and above information.
 
 **Business requirements (extracted):**
   - _See full notice / attachments._
@@ -219,29 +335,41 @@ _CanadaBuys open tender notices · generated 2026-11-25_
 **Business requirements (extracted):**
   - _See full notice / attachments._
 
-### RFP for Information Technology Professional Services  —  _Unlikely_
-- **Closes:** 2026-12-21T12:00:00
-- **Published:** 2026-11-24
-- **Buyer:** House of Commons
-- **UNSPSC:** *Surveillance and detection equipment
-*Surveillance video or audio recorders
-*Software or hardware engineering
-- **Category:** *SRV
-- **Contact:** contractingserv@parl.gc.ca
-- **Reference:** cb-116-27866
-- **Why IT:** UNSPSC/category *Surveillance and detection equipment
-*Surveillance video or audio recorders
-*So
-- **Claude-fit signals:** - physical
+### PR26881 - UT862-278282 JIRA, Subscription licenses for Innovation, Science and Economic Development Canada  —  _Unlikely_
+- **Closes:** 2026-12-09T14:00:00
+- **Published:** 2026-11-25
+- **Buyer:** Department of Public Works and Government Services (PSPC)
+- **UNSPSC:** *Software
+- **Category:** *GD
+- **Contact:** john.rankin@tpsgc-pwgsc.gc.ca
+- **Reference:** WS6007254810-Doc6007269289
+- **Why IT:** UNSPSC/category *Software
+- **Claude-fit signals:** —
 
 **Technical requirements (extracted):**
-  - RFP for Information Technology Professional Services for Digital Media, and Physical Security, Integrated Security Systems (ISS), and Internet of Things (IoT).
-  - The House of Commons operates a complex, mission critical technical environment typical of a modern legislative body, enabling parliamentary proceedings, public and internal broadcasting, interpretation services, secure meetings, and the coordinated operation of digitally and physically integrated systems that support parliamentary proceedings.
+  - _See full notice / attachments._
 
 **Business requirements (extracted):**
-  - Please be advised that all bids shall be submitted electronically through the Bonfire procurement portal.
-  - Bidders are requested to submit their proposals using the following Bonfire opportunity link:
-  - Bidders are responsible for ensuring that their submissions are uploaded and successfully received in Bonfire prior to the solicitation closing date and time.
+  - All prices quoted in the RFQ must be provided in CAD.
+  - All Bid submissions must be received no later than December 9 2026 @ 2:00PM EST.
+
+### Software for CCGS Science vessel Naalak Nappaaluk  —  _Unlikely_
+- **Closes:** 2026-12-11T14:00:00
+- **Published:** 2026-11-25
+- **Buyer:** Department of National Defence (DND)
+- **UNSPSC:** *Software
+- **Category:** *GD
+- **Contact:** Taylor.komery@forces.gc.ca
+- **Reference:** cb-122-56186569
+- **Why IT:** UNSPSC/category *Software
+- **Claude-fit signals:** —
+
+**Technical requirements (extracted):**
+  - The Department of National Defense/Canadian Coast Guard requires Commercial Off-The-Shelf (COTS) software capable of post-processing data acquired from Kongsberg Seapath GNSS/Inertial Navigation Systems to produce high-accuracy navigation and attitude solutions suitable for hydrographic, engineering, and geospatial survey operations.
+  - The software will be used to process raw GNSS observations and inertial measurement data collected by Seapath systems and generate post-processed trajectories and attitude solutions for vessel-mounted multibeam echosounders to be imported into CARIS HIPS sonar processing software.
+
+**Business requirements (extracted):**
+  - _See full notice / attachments._
 
 ### Local Internet Access Services (LIAS)  —  _Unlikely_
 - **Closes:** 2065-04-27T09:15:00
@@ -286,23 +414,6 @@ _CanadaBuys open tender notices · generated 2026-11-25_
   - 30 federal government working days from contract award.
   - N/AThe Crown retains the right to negotiate with suppliers on any procurement.The responsive bid with the lowest evaluated price will be recommended for award of a contract.To access the solicitation and submit your bid click the following link:
   - https://supplier-fournisseur-sscp2pspc.ssc-spc.gc.ca/page.aspx/en/usr/login&nbsp;Documents may be submitted in either official language of Canada.All enquiries related to this solicitation must be addressed in writing to:Rashawn GriffithProcurement Officer Shared Services Canada 270 Albert Street, 9th floorOttawa, Ontario K1P 5G8Telephone:
-
-### Hearing Room Audiovisual System  —  _Possible fit (with caveats)_
-- **Closes:** 2026-12-18T14:00:00
-- **Published:** 2026-11-24
-- **Buyer:** Administrative Tribunals Support Service of Canada (ATSSC)
-- **UNSPSC:** *Audio and visual presentation and composing equipment
-- **Category:** *SRVTGD
-- **Contact:** procurements-achats@tribunal.gc.ca
-- **Reference:** cb-578-80234027
-- **Why IT:** Software and application development: programming
-- **Claude-fit signals:** + documentation, - installation
-
-**Technical requirements (extracted):**
-  - equipment, engineering, design, project management, fabrication, assembly, software programming, installation, documentation, training, and warranty of the audiovisual systems for a Hearing Room in Ottawa
-
-**Business requirements (extracted):**
-  - _See full notice / attachments._
 
 
 ## Software licensing
