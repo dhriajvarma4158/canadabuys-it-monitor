@@ -1,0 +1,35 @@
+it_category,claude_tier,title,close_date,pub_date,buyer,gsin,unspsc,category,contact_email,notice_url,why_it
+"Cloud, data and analytics",Strong fit,Nutanix Cloud Manager for CMHC,2026-11-30T14:00:00,,Shared Services Canada,*N7030AG,,*GD,,,"Cloud, data and analytics: cloud; GSIN *N7030AG"
+"Cloud, data and analytics",Possible fit,TBIPS: Department of Foreign Affaires Trade and Development - Professional Services for IT Security Design Specialist and Business Analyst Level 3,2026-12-15T14:00:00,2026-11-26,"Department of Foreign Affairs, Trade and Development (GAC)",,*Information technology consultation services,*SRV,blondy.balewula@International.gc.ca,,"Cloud, data and analytics: dashboard; UNSPSC/category *Information technology consultation services"
+"Cloud, data and analytics",Possible fit,BPM026968 - Containerized HPC and AI Module for the NRC,2026-12-21T14:00:00,,Shared Services Canada,*N7025,,*GD,,,"Cloud, data and analytics: artificial intelligence; GSIN *N7025"
+Cybersecurity and identity,Possible fit,EP897-271077 – Potable Water Assessment – New Brunswick,2026-12-16T14:00:00,2026-11-26,Department of Public Works and Government Services (PSPC),,"*Toxic and hazardous waste cleanup
+*Environmental Services",*SRV,dylon.leonard@tpsgc-pwgsc.gc.ca,,Cybersecurity and identity: vulnerability
+Cybersecurity and identity,Unlikely,22-EIS-750-4-14: Secure Collaboration and Advanced Data Protection Expansion,2027-01-04T13:00:00,2026-11-26,Export Development Canada - EDC,,,*SRV,solicitations@edc.ca,https://www.merx.com/public/solicitations/4221406625/abstract?language=EN,Cybersecurity and identity: encryption
+Enterprise platforms,Possible fit,Digital Registry Solution (DRS) for ISED and Corporations Canada,2026-12-22T14:00:00,2026-11-26,Department of Public Works and Government Services (PSPC),,"*Information Technology Broadcasting and Telecommunications
+*Software
+*Business function specific software
+*Finance accounting and enterprise resource planning ERP software
+*Content management software
+*Data management and query software
+*Security and protection software",*SRV,sidi-mohammed.belcaid@tpsgc-pwgsc.gc.ca,,"Enterprise platforms: erp; UNSPSC/category *Information Technology Broadcasting and Telecommunications
+*Software
+*Business "
+IT infrastructure and operations,Possible fit,Splunk Maintenance and Support                                      Request for Quotation (RFQ),2026-12-01T15:00:00,,Shared Services Canada,*JX7025EA,,*SRVTGD,,,IT infrastructure and operations: network
+IT infrastructure and operations,Possible fit,Waveform Generator for Quantum Network Signal Control,2026-12-21T14:00:00,2026-11-26,National Research Council of Canada (NRC),,*Laboratory and scientific equipment,*GD,daniel.rusthoven@nrc-cnrc.gc.ca,,IT infrastructure and operations: network
+IT infrastructure and operations,Possible fit (with caveats),21C11-265297B Flatbed Trailer,2026-12-17T14:00:00,2026-11-26,Department of Public Works and Government Services (PSPC),,"*Transportation components and systems
+*Transportation related equipment and instruments
+*Transportation engineering",*GD,robert.berends@tpsgc-pwgsc.gc.ca,https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110032581?anId=ANONYMOUS,IT infrastructure and operations: help desk
+IT infrastructure and operations,Unlikely,"Purchase and Install two server racks in five sheds in southern Manitoba  or equivalent, for the ROYAL CANADIReq. 2026-07-30",2026-11-30T14:00:00,,Shared Services Canada,*N5895,,*GD,,,IT infrastructure and operations: server
+IT infrastructure and operations,Unlikely,SNUC Bravo Canyon Intel Atom x7425E for DND,2026-12-03T14:00:00,,Shared Services Canada,*N7025405,,*GD,,,IT infrastructure and operations: network; GSIN *N7025405
+Other IT,Strong fit,RFQ – NVIDIA OEM (CAI-GPU-H200 NVL) hardware for RCMP,2026-12-04T14:00:00,,Shared Services Canada,*N7020,,*GD,,,GSIN *N7020
+Other IT,Strong fit,GCITSM NextGen - What We Heard Report - BPM025298,2027-01-08T00:00:00,,Shared Services Canada,*D302A,,*SRV,,,GSIN *D302A
+Other IT,Possible fit,2BH6216607/A NVIDIA DGX SPARK AI MINI PC GB10 AI workstation or equivalent for ISED,2026-12-01T14:00:00,,Shared Services Canada,*N7010,,*GD,,,GSIN *N7010
+Other IT,Possible fit (with caveats),16” & 24” Touch Screen Monitors,2026-12-03T14:00:00,,Shared Services Canada,"*N7010
+*N7025150",,*GD,,,"GSIN *N7010
+*N7025150"
+Other IT,Unlikely,PR26646 W8474-27DS30 Department of National Defence Red Hat subscription licenses,2026-12-04T14:00:00,2026-11-26,Department of Public Works and Government Services (PSPC),,*Software,*GD,michael.macdonald@tpsgc-pwgsc.gc.ca,https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110032548?anId=ANONYMOUS,UNSPSC/category *Software
+Other IT,Unlikely,UP Xtreme ARL.Intel Core Ultra 7 for DND,2026-12-07T14:00:00,,Shared Services Canada,*N7035,,*GD,,,GSIN *N7035
+Other IT,Unlikely,Local Internet Access Services (LIAS),2065-04-27T09:15:00,,Shared Services Canada,*D304A,,*SRV,,,GSIN *D304A
+Software and application development,Strong fit,Lunar Surface Logistics Architecture Study,2026-12-22T14:00:00,2026-11-26,Canadian Space Agency (CSA),,*Application or technology research and development service,*SRV,kacendra.dion@asc-csa.gc.ca,,Software and application development: technology research and development; UNSPSC/category *Application or technology research and development service
+Software and application development,Possible fit,NVIDIA Sparks and Developer Kit for the Department of National Defence,2026-12-02T14:00:00,,Shared Services Canada,*N7010,,*GD,,,Software and application development: developer; GSIN *N7010
+Software licensing,Unlikely,Blockchain RFP for CRA,2026-12-18T16:00:00,,Shared Services Canada,*N7030,,*GD,,,Software licensing: adp software; GSIN *N7030
